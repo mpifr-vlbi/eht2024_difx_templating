@@ -2,7 +2,7 @@
 ## Get global settings; TRACKS_230G TRACKS_345G (e23...,) REV (FRINGE, v0), REL (0), SITE (mpifr), EXPROOT (/Exps)
 include Makefile.inc
 
-## Derived set of v2d,vex in both conventional zoom setup and outputband setup
+## Derived set of v2d,vex for DiFX outputbands correlation
 DIFX_TARGETS_230G := $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b4_230,$(TRACKS_230G))
 DIFX_TARGETS_345G := $(addsuffix _b1_345,$(TRACKS_345G)) $(addsuffix _b2_345,$(TRACKS_345G)) $(addsuffix _b3_345,$(TRACKS_345G)) $(addsuffix _b4_345,$(TRACKS_345G))
 DIFX_TARGETS_ALL := $(DIFX_TARGETS_230G) $(DIFX_TARGETS_345G)
@@ -26,8 +26,6 @@ b4: $(addsuffix _b4_230,$(TRACKS_230G)) $(addsuffix _b4_345,$(TRACKS_345G))
 ##  - create standard ALMA and NOEMA freq setup VEX chan_def's
 prerequisites:
 	mkdir -p out
-	mkdir -p out/
-	mkdir -p out/outputbands/
 	. scripts/extract_vex_portions.sh
 	. scripts/create_vex_EOPs.sh
 	. scripts/make_initial_clocks.sh
@@ -102,17 +100,15 @@ diff: b1_diff b2_diff b3_diff b4_diff
 %_install:
 	for exptname in $(TRACKS_ALL); do \
 		mkdir -p $(EXPROOT)/$${exptname}/$(REV)/$*/ ; \
-		mkdir -p $(EXPROOT)/$${exptname}/$(REV)/$*_outputbands/ ; \
 		cp -av out/$${exptname}-${REL}-$*.{v2d,vex.obs} $(EXPROOT)/$${exptname}/$(REV)/$*/ ; \
-		cp -av out/outputbands/$${exptname}-${REL}-$*.{v2d,vex.obs} $(EXPROOT)/$${exptname}/$(REV)/$*_outputbands/ ; \
 	done
 
 %_diff:
 	for exptname in $(TRACKS_ALL); do \
-		diff -u out/outputbands/$${exptname}-$(REL)-$*.vex.obs $(EXPROOT)/$${exptname}/$(REV)/$*_outputbands/$${exptname}-$(REL)-$*.vex.obs && true ; \
+		diff -u out/$${exptname}-$(REL)-$*.vex.obs $(EXPROOT)/$${exptname}/$(REV)/$*/$${exptname}-$(REL)-$*.vex.obs && true ; \
 	done ; \
 	for exptname in $(TRACKS_ALL); do \
-		diff -u out/outputbands/$${exptname}-$(REL)-$*.v2d $(EXPROOT)/$${exptname}/$(REV)/$*_outputbands/$${exptname}-$(REL)-$*.v2d && true ; \
+		diff -u out/$${exptname}-$(REL)-$*.v2d $(EXPROOT)/$${exptname}/$(REV)/$*/$${exptname}-$(REL)-$*.v2d && true ; \
 	done ; exit 0
 
 
