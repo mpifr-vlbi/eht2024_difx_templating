@@ -405,7 +405,7 @@ enddef;
 $SCHED;
 * schedule section for experiment e24j25  
 * ALMA+EHT VLBI January 2024 Dress Rehearsal                              
-scan No0001;
+scan 025-0020;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
 * intent = "ALMA:PROJECT_FIRST_SCAN:dr2024"
@@ -418,7 +418,7 @@ scan No0001;
      station=Aa:    0 sec:  300 sec:    0.000 GB:   :       : 1;
      station=Lm:    0 sec:  300 sec:    0.000 GB:   :       : 1;
 endscan;
-scan No0002;
+scan 025-0028;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
      start=2024y025d00h28m00s; mode=band6-260; source=3C120;
@@ -428,7 +428,7 @@ scan No0002;
      station=Aa:    0 sec:  300 sec:  307.692 GB:   :       : 1;
      station=Lm:    0 sec:  300 sec:  307.692 GB:   :       : 1;
 endscan;
-scan No0003;
+scan 025-0042;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
      start=2024y025d00h42m00s; mode=band6-260; source=3C84;
@@ -440,7 +440,7 @@ scan No0003;
      station=Mm:    0 sec:  300 sec:    0.000 GB:   :       : 1;
      station=Sw:    0 sec:  300 sec:    0.000 GB:   :       : 1;
 endscan;
-scan No0004;
+scan 025-0050;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
      start=2024y025d00h50m00s; mode=band6-260; source=3C84;
@@ -452,7 +452,7 @@ scan No0004;
      station=Mm:    0 sec:  300 sec:  307.692 GB:   :       : 1;
      station=Sw:    0 sec:  300 sec:  307.692 GB:   :       : 1;
 endscan;
-scan No0005;
+scan 025-0103;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
      start=2024y025d01h03m00s; mode=band6-260; source=3C84;
@@ -464,7 +464,7 @@ scan No0005;
      station=Mm:    0 sec:  300 sec:  615.383 GB:   :       : 1;
      station=Sw:    0 sec:  300 sec:  615.383 GB:   :       : 1;
 endscan;
-scan No0006;
+scan 025-0111;
 * intent = "apsmode = fast-abs"
 * intent = "ALMA:AUTOPHASE_DETERMINE"
 * intent = "ALMA:PROJECT_FINAL_SCAN:dr2024"
@@ -477,14 +477,14 @@ scan No0006;
      station=Mm:    0 sec:  300 sec:  923.075 GB:   :       : 1;
      station=Sw:    0 sec:  300 sec:  923.075 GB:   :       : 1;
 endscan;
-scan No0007;
+scan 025-0127;
      start=2024y025d01h27m00s; mode=band6-260; source=BLLAC;
      station=Gl:    0 sec:  300 sec: 1846.149 GB:   :       : 1;
      station=Lm:    0 sec:  300 sec: 1846.149 GB:   :       : 1;
      station=Mm:    0 sec:  300 sec: 1230.766 GB:   :       : 1;
      station=Sw:    0 sec:  300 sec: 1230.766 GB:   :       : 1;
 endscan;
-scan No0008;
+scan 025-0137;
      start=2024y025d01h37m00s; mode=band6-260; source=3C454.3;
      station=Gl:    0 sec:  300 sec: 2153.841 GB:   :       : 1;
      station=Lm:    0 sec:  300 sec: 2153.841 GB:   :       : 1;
