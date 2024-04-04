@@ -27,6 +27,7 @@ class ehtTrackList:
 		self.tracks = {}
 		#
 		self.tracks['e24j25'] = ['exper_nominal_start=2024y025d00h20m00s;', 'exper_nominal_stop=2024y025d01h42m00s;']
+		self.tracks['e24b04'] = ['exper_nominal_start=2024y094d22h32m00s;', 'exper_nominal_stop=2024y095d16h15m00s;']
 		#
 		self.tracks['e23a22'] = ['exper_nominal_start=2023y111d15h18m00s;', 'exper_nominal_stop=2023y112d07h48m00s;']
 		self.tracks['e23e19'] = ['exper_nominal_start=2023y109d04h34m00s;', 'exper_nominal_stop=2023y109d19h41m00s;']
@@ -74,7 +75,7 @@ class ehtTrackList:
 		tracklist = []
 
 		if year==2024 or year<=0:
-			tracklist += ['e24j25']
+			tracklist += ['e24j25', 'e24b04']
 		if year==2023 or year<=0:
 			tracklist += ['e23a22', 'e23c16', 'e23c18', 'e23d15', 'e23e19', 'e23g17']
 		if year==2022 or year<=0:
