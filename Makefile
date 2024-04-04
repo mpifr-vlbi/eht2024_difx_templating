@@ -4,18 +4,19 @@ include Makefile.inc
 
 ## Derived set of v2d,vex for DiFX outputbands correlation
 DIFX_TARGETS_230G := $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b4_230,$(TRACKS_230G))
+DIFX_TARGETS_260G := $(addsuffix _b1_260,$(TRACKS_260G)) $(addsuffix _b2_260,$(TRACKS_260G)) $(addsuffix _b3_260,$(TRACKS_260G)) $(addsuffix _b4_260,$(TRACKS_260G))
 DIFX_TARGETS_345G := $(addsuffix _b1_345,$(TRACKS_345G)) $(addsuffix _b2_345,$(TRACKS_345G)) $(addsuffix _b3_345,$(TRACKS_345G)) $(addsuffix _b4_345,$(TRACKS_345G))
-DIFX_TARGETS_ALL := $(DIFX_TARGETS_230G) $(DIFX_TARGETS_345G)
-TRACKS_ALL := $(TRACKS_230G) $(TRACKS_345G)
+DIFX_TARGETS_ALL := $(DIFX_TARGETS_230G) $(DIFX_TRACKS_260G) $(DIFX_TARGETS_345G)
+TRACKS_ALL := $(TRACKS_230G) $(TRACKS_260G) $(TRACKS_345G)
 
 # .NOTPARALLEL:  # note: quite slow build, commented out again; but be careful to do 'make all' and then 'make install' as separate steps, not 'make all install'
 
 default: all
 
-b1: $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b1_345,$(TRACKS_345G))
-b2: $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b2_345,$(TRACKS_345G))
-b3: $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b3_345,$(TRACKS_345G))
-b4: $(addsuffix _b4_230,$(TRACKS_230G)) $(addsuffix _b4_345,$(TRACKS_345G))
+b1: $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b1_260,$(TRACKS_260G)) $(addsuffix _b1_345,$(TRACKS_345G))
+b2: $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b2_260,$(TRACKS_260G)) $(addsuffix _b2_345,$(TRACKS_345G))
+b3: $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b3_260,$(TRACKS_260G)) $(addsuffix _b3_345,$(TRACKS_345G))
+b4: $(addsuffix _b4_230,$(TRACKS_230G)) $(addsuffix _b4_260,$(TRACKS_260G)) $(addsuffix _b4_345,$(TRACKS_345G))
 
 ## Target 'prerequisites' for the first run only:
 ##  - split observed VEX into shared file fragments common to all bands and setups
@@ -49,6 +50,15 @@ prerequisites:
 	./scripts/alma-vex-defs.py --lo1 221.100 -r 2 > templates/230G/band2/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 221.100 -r 3 > templates/230G/band3/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 221.100 -r 4 > templates/230G/band4/freqs_ALMA.vex
+	## 260G
+	./scripts/noema-vex-defs.py --lo1 259.500 --lo2 7.744 -r 1   > templates/260G/band1/freqs_NOEMA.vex
+	./scripts/noema-vex-defs.py --lo1 259.500 --lo2 7.744 -r 2   > templates/260G/band2/freqs_NOEMA.vex
+	./scripts/noema-vex-defs.py --lo1 259.500 --lo2 7.744 -r 4   > templates/260G/band3/freqs_NOEMA.vex
+	./scripts/noema-vex-defs.py --lo1 259.500 --lo2 7.744 -r 3   > templates/260G/band4/freqs_NOEMA.vex
+	./scripts/alma-vex-defs.py --lo1 259.500 -r 1 > templates/260G/band1/freqs_ALMA.vex
+	./scripts/alma-vex-defs.py --lo1 259.500 -r 2 > templates/260G/band2/freqs_ALMA.vex
+	./scripts/alma-vex-defs.py --lo1 259.500 -r 3 > templates/260G/band3/freqs_ALMA.vex
+	./scripts/alma-vex-defs.py --lo1 259.500 -r 4 > templates/260G/band4/freqs_ALMA.vex
 	#
 	## 345G
 	./scripts/noema-vex-defs.py -c "4-8" --lo1 342.600 --lo2 7.744 -r 1   > templates/345G/band1/freqs_NOEMA.vex
@@ -121,19 +131,16 @@ diff: b1_diff b2_diff b3_diff b4_diff
 	@ ./tvex2vex.py -I./templates/230G/band1/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b1.vex.obs
 	@ ./tvex2vex.py -I./templates/230G/band1/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b1.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b1.vex.obs/g" out/$*-$(REL)-b1.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b1.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b1.v2d
-	# ...
+
+%_b1_260:
+	@ ./tvex2vex.py -I./templates/260G/band1/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b1.vex.obs
+	@ ./tvex2vex.py -I./templates/260G/band1/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b1.v2d
+	@ sed -i "s/vexfilename/$*-${REL}-b1.vex.obs/g" out/$*-$(REL)-b1.v2d
 
 %_b1_345:
 	@ ./tvex2vex.py -I./templates/345G/band1/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b1.vex.obs
 	@ ./tvex2vex.py -I./templates/345G/band1/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b1.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b1.vex.obs/g" out/$*-$(REL)-b1.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b1.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b1.v2d
-	# ...
 
 # Custom-fiddled band 1 builds
 # (none)
@@ -147,19 +154,16 @@ diff: b1_diff b2_diff b3_diff b4_diff
 	@ ./tvex2vex.py -I./templates/230G/band2/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b2.vex.obs
 	@ ./tvex2vex.py -I./templates/230G/band2/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b2.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b2.vex.obs/g" out/$*-$(REL)-b2.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b2.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b2.v2d
-	# ...
+
+%_b2_260:
+	@ ./tvex2vex.py -I./templates/260G/band2/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b2.vex.obs
+	@ ./tvex2vex.py -I./templates/260G/band2/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b2.v2d
+	@ sed -i "s/vexfilename/$*-${REL}-b2.vex.obs/g" out/$*-$(REL)-b2.v2d
 
 %_b2_345:
 	@ ./tvex2vex.py -I./templates/345G/band2/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b2.vex.obs
 	@ ./tvex2vex.py -I./templates/345G/band2/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b2.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b2.vex.obs/g" out/$*-$(REL)-b2.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b2.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b2.v2d
-	# ...
 
 # Custom-fiddled band 2 builds
 # (none)
@@ -173,19 +177,16 @@ diff: b1_diff b2_diff b3_diff b4_diff
 	@ ./tvex2vex.py -I./templates/230G/band3/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b3.vex.obs
 	@ ./tvex2vex.py -I./templates/230G/band3/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b3.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b3.vex.obs/g" out/$*-$(REL)-b3.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b3.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b3.v2d
-	# ...
+
+%_b3_260:
+	@ ./tvex2vex.py -I./templates/260G/band3/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b3.vex.obs
+	@ ./tvex2vex.py -I./templates/260G/band3/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b3.v2d
+	@ sed -i "s/vexfilename/$*-${REL}-b3.vex.obs/g" out/$*-$(REL)-b3.v2d
 
 %_b3_345:
 	@ ./tvex2vex.py -I./templates/345G/band3/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b3.vex.obs
 	@ ./tvex2vex.py -I./templates/345G/band3/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b3.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b3.vex.obs/g" out/$*-$(REL)-b3.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b3.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b3.v2d
-	# ...
 
 # Custom-fiddled band 3 builds
 # (none)
@@ -199,19 +200,16 @@ diff: b1_diff b2_diff b3_diff b4_diff
 	@ ./tvex2vex.py -I./templates/230G/band4/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b4.vex.obs
 	@ ./tvex2vex.py -I./templates/230G/band4/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b4.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b4.vex.obs/g" out/$*-$(REL)-b4.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b4.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b4.v2d
-	# ...
+
+%_b4_260:
+	@ ./tvex2vex.py -I./templates/260G/band4/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b4.vex.obs
+	@ ./tvex2vex.py -I./templates/260G/band4/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b4.v2d
+	@ sed -i "s/vexfilename/$*-${REL}-b4.vex.obs/g" out/$*-$(REL)-b4.v2d
 
 %_b4_345:
 	@ ./tvex2vex.py -I./templates/345G/band4/ -I./templates/common_sections/ templates/$*.vext out/$*-$(REL)-b4.vex.obs
 	@ ./tvex2vex.py -I./templates/345G/band4/ -I./templates/common_sections/ templates/$*.v2dt out/$*-$(REL)-b4.v2d
 	@ sed -i "s/vexfilename/$*-${REL}-b4.vex.obs/g" out/$*-$(REL)-b4.v2d
-	# sed -i "s/deltaClock = 0 # LMT extra offsets/deltaClock = 0.0 # LMT extra offsets/g" out/e23d15-$(REL)-b4.v2d
-	# ...
-	# sed -i "s/deltaClock = 0 # SMA extra offsets/deltaClock = 0.0 # SMA extra offsets/g" out/e23d15-$(REL)-b4.v2d
-	# ...
 
 # Custom-fiddled band 3 builds
 # (none)
