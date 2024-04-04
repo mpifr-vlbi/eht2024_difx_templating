@@ -1,0 +1,46 @@
+VEX_rev = 1.5;
+*    SCHED vers: Development version 11.5. Started Apr. 2
+*    VEX/SCHED:  1.5.87
+*    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
+*------------------------------------------------------------------------------
+$GLOBAL;
+     ref $EXPER = e24b04;
+*                         PI revision number:          |    4.0000  |
+$EXPER;
+*
+def e24b04;
+     exper_name = e24b04;
+     exper_description = "ALMA+EHT VLBI April 2024 M87 + Sgr A* 260 GHz";
+     PI_name = "EHTC";
+     PI_email = not@an.address;
+*    year, doy: 2024,  94
+*    date     : Wed  3 Apr 2024
+*    MJD      : 60403
+*    Sub-bands 1 and 4 to MPIfR, 2 and 3 to Haystack
+     exper_nominal_start=2024y094d22h32m00s;
+     exper_nominal_stop=2024y095d16h15m00s;
+     target_correlator = ANY;
+enddef;
+*------------------------------------------------------------------------------
+** include <clocks_initial.vex>
+** include <clocks_SMA.vex>
+** include <mode_proc_das.vex>
+** include <stations.vex>
+** include <antennas.vex>
+** include <sites_consistent.vex>
+** include <sites_NOEMA_e24b04.vex>
+** include <tracks.vex>
+** include <if.vex>
+** include <bbc.vex>
+** include <freqs.vex>
+** include <freqs_NOEMA.vex>
+** include <freqs_ALMA.vex>
+** include <phasecal.vex>
+** include <tape.vex>
+*------------------------------------------------------------------------------
+** include <sources_e24b04.vex>
+** include <sched_e24b04.vex>
+*------------------------------------------------------------------------------
+** include <eop_e24b04.vex>
+** loaddata <clocks_e24b04.dat>
+*------------------------------------------------------------------------------
