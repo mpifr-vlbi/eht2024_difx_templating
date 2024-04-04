@@ -24,4 +24,34 @@ for expt in $expts; do
 	done
 done
 
+# 260G
+for expt in $expts; do
+	for band in band1 band2 band3 band4; do
+		clockfile=../templates/260G/$band/clocks_$expt.dat
+		if [[ ! -f $clockfile ]]; then
+			echo "Making empty $clockfile"
+			echo "CLOCK" > $clockfile
+			echo "# Station ID    Delay (usec)    Rate (sec/sec)" >> $clockfile
+		else
+			echo "Keeping existing $clockfile"
+		fi
+	done
+done
+
+
+# 345G
+for expt in $expts; do
+	for band in band1 band2 band3 band4; do
+		clockfile=../templates/345G/$band/clocks_$expt.dat
+		if [[ ! -f $clockfile ]]; then
+			echo "Making empty $clockfile"
+			echo "CLOCK" > $clockfile
+			echo "# Station ID    Delay (usec)    Rate (sec/sec)" >> $clockfile
+		else
+			echo "Keeping existing $clockfile"
+		fi
+	done
+done
+
+
 popd 2>&1 > /dev/null
