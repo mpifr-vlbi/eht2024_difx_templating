@@ -1,0 +1,8 @@
+def NOEMA;
+     site_name = NOEMA;
+     site_ID = Nn;
+     site_type = fixed;
+     site_velocity =  0.0 m/yr : 0.0 m/yr : 0.0 m/yr;
+     site_position_epoch = 0;
+     site_position = 4523937.18596 m: 468033.66037 m: 4460376.32500 m; * N011
+enddef;
