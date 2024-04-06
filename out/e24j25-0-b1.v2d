@@ -1,4 +1,7 @@
 #==================================================================
+# DiFX version 2.8.1 default, or
+# DiFX version 2.8.3/2.9.x when using LMT 'deltaClockAccel'
+#
 # Track e24j25 band 1
 # Notes: ...
 #==================================================================
@@ -107,7 +110,6 @@ DATASTREAM Nn_ds4 {
 #==================================================================
 
 OUTPUTBAND outputbands {
-  # DiFX 2.8.x
   addOutputBand = freq@212162.796875/bw@58.0
   addOutputBand = freq@212221.390625/bw@58.0
   addOutputBand = freq@212279.984375/bw@58.0
