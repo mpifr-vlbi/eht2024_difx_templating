@@ -6,7 +6,7 @@ include Makefile.inc
 DIFX_TARGETS_230G := $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b4_230,$(TRACKS_230G))
 DIFX_TARGETS_260G := $(addsuffix _b1_260,$(TRACKS_260G)) $(addsuffix _b2_260,$(TRACKS_260G)) $(addsuffix _b3_260,$(TRACKS_260G)) $(addsuffix _b4_260,$(TRACKS_260G))
 DIFX_TARGETS_345G := $(addsuffix _b1_345,$(TRACKS_345G)) $(addsuffix _b2_345,$(TRACKS_345G)) $(addsuffix _b3_345,$(TRACKS_345G)) $(addsuffix _b4_345,$(TRACKS_345G))
-DIFX_TARGETS_ALL := $(DIFX_TARGETS_230G) $(DIFX_TRACKS_260G) $(DIFX_TARGETS_345G)
+DIFX_TARGETS_ALL := $(DIFX_TARGETS_230G) $(DIFX_TARGETS_260G) $(DIFX_TARGETS_345G)
 TRACKS_ALL := $(TRACKS_230G) $(TRACKS_260G) $(TRACKS_345G)
 
 # .NOTPARALLEL:  # note: quite slow build, commented out again; but be careful to do 'make all' and then 'make install' as separate steps, not 'make all install'
