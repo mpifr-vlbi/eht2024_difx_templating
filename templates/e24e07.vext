@@ -4,25 +4,24 @@ VEX_rev = 1.5;
 *    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
 *------------------------------------------------------------------------------
 $GLOBAL;
-     ref $EXPER = e24j25;
+     ref $EXPER = e24e07;
 *                                                      +------------+
-*                         PI revision number:          |    1.0000  |
+*                         PI revision number:          |    6.0000  |
 *                                                      +------------+
-*------------------------------------------------------------------------------
 $EXPER;
 *
-def e24j25;
-     exper_name = e24j25;
-     exper_description = "ALMA+EHT VLBI January 2024 Dress Rehearsal";
-     exper_num = 1000; ** to be determined
+def e24e07;
+     exper_name = e24e07;
+     exper_description = "ALMA+EHT VLBI April 2024 Survey Project";
      PI_name = "EHTC";
      PI_email = not@an.address;
-*    year, doy: 2024,  25
-*    date     : Thu 25 Jan 2024
-*    MJD      : 60334
-     exper_nominal_start=2024y025d00h20m00s;
-     exper_nominal_stop=2024y025d01h42m00s;
-     target_correlator = difx;
+*    year, doy: 2024,  98
+*    date     : Sun  7 Apr 2024
+*    MJD      : 60407
+*    Sub-bands 1 and 4 to MPIfR, 2 and 3 to Haystack
+     exper_nominal_start=2024y098d00h59m00s;
+     exper_nominal_stop=2024y098d16h08m00s;
+     target_correlator = ANY;
 enddef;
 *------------------------------------------------------------------------------
 ** include <clocks_initial.vex>
@@ -31,7 +30,7 @@ enddef;
 ** include <stations.vex>
 ** include <antennas.vex>
 ** include <sites_consistent.vex>
-** include <sites_NOEMA_e24j25.vex>
+** include <sites_NOEMA_e24e07.vex>
 ** include <tracks.vex>
 ** include <if.vex>
 ** include <bbc.vex>
@@ -41,9 +40,9 @@ enddef;
 ** include <phasecal.vex>
 ** include <tape.vex>
 *------------------------------------------------------------------------------
-** include <sources_e24j25.vex>
-** include <sched_e24j25.vex>
+** include <sources_e24e07.vex>
+** include <sched_e24e07.vex>
 *------------------------------------------------------------------------------
-** include <eop_e24j25.vex>
-** loaddata <clocks_e24j25.dat>
+** include <eop_e24e07.vex>
+** loaddata <clocks_e24e07.dat>
 *------------------------------------------------------------------------------
