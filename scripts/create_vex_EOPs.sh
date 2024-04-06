@@ -5,9 +5,13 @@ OUTDIR=../templates/common_sections/
 
 pushd $SCRIPT_DIR  2>&1 > /dev/null
 
-# e24j25.vex:*    year, doy: 2024, 025
+# e24j25.vex:    year, doy: 2024, 025
+# e24b04.vex:    year, doy: 2024,  94
+# e24e07.vex:    year, doy: 2024,  98
 
 ./geteop.pl 2024-023  5 $OUTDIR/eop_e24j25.vex
+./geteop.pl 2024-093  5 $OUTDIR/eop_e24b04.vex
+./geteop.pl 2024-097  5 $OUTDIR/eop_e24e07.vex
 
 popd  2>&1 > /dev/null
 
