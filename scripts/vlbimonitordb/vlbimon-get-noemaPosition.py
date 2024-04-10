@@ -60,7 +60,7 @@ def main():
 	ehtTracks = ehtTrackList()
 	sites = ['NOEMA']
 
-	tracks = ehtTracks.listTracks()
+	tracks = ehtTracks.listTracks(2024)
 	doVex = False
 
 	if len(sys.argv) >= 2:
@@ -83,6 +83,7 @@ def main():
 		print('     site_position_epoch = 0;')
 
 	for track in tracks:
+		print('Inspecting database entries for %s' % (track))
 		timebracket = ehtTracks.getTrackTimerange(track)
 		list_positions(dbsession, timebracket, track, sites, doVex)
 
