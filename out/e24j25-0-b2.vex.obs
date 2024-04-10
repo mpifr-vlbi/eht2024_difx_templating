@@ -8,7 +8,6 @@ $GLOBAL;
 *                                                      +------------+
 *                         PI revision number:          |    1.0000  |
 *                                                      +------------+
-*    mode:       R2DBE
 *------------------------------------------------------------------------------
 $EXPER;
 *
@@ -538,6 +537,7 @@ def VDIF8032;
      fanout_def =   : &CH64 : sign : 1: 128;
      fanout_def =   : &CH64 :  mag : 1: 129;
 enddef;
+*
 def VDIF8224;
      track_frame_format = VDIF/8224/2;
      fanout_def =   : &CH01 : sign : 1:  2;
@@ -545,6 +545,7 @@ def VDIF8224;
      fanout_def =   : &CH02 : sign : 1:  4;
      fanout_def =   : &CH02 :  mag : 1:  5;
 enddef;
+*
 def VDIFILACED;
      track_frame_format = INTERLACEDVDIF;
      fanout_def =   : &CH01 : sign : 1:  2;
