@@ -1,0 +1,48 @@
+VEX_rev = 1.5;
+*    SCHED vers: Development version 11.5. Started Apr. 2
+*    VEX/SCHED:  1.5.87
+*    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
+*------------------------------------------------------------------------------
+$GLOBAL;
+     ref $EXPER = e24d10;
+*                                                      +------------+
+*                         PI revision number:          |    3.0000  |
+*                                                      +------------+
+$EXPER;
+*
+def e24d10;
+     exper_name = e24d10;
+     exper_num = 1000; ** to be determined
+     exper_description = "ALMA+EHT VLBI April 2024 M84 + EHT-only Sombrero";
+     PI_name = "EHTC";
+     PI_email = not@an.address;
+*    year, doy: 2024, 100
+*    date     : Tue  9 Apr 2024
+*    MJD      : 60409
+     exper_nominal_start=2024y100d22h59m00s;
+     exper_nominal_stop=2024y101d10h42m00s;
+     target_correlator = ANY;
+enddef;
+*------------------------------------------------------------------------------
+** include <clocks_initial.vex>
+** include <clocks_SMA.vex>
+** include <mode_proc_das.vex>
+** include <stations.vex>
+** include <antennas.vex>
+** include <sites_consistent.vex>
+** include <sites_NOEMA_e24d10.vex>
+** include <tracks.vex>
+** include <if.vex>
+** include <bbc.vex>
+** include <freqs.vex>
+** include <freqs_NOEMA.vex>
+** include <freqs_ALMA.vex>
+** include <phasecal.vex>
+** include <tape.vex>
+*------------------------------------------------------------------------------
+** include <sources_e24d10.vex>
+** include <sched_e24d10.vex>
+*------------------------------------------------------------------------------
+** include <eop_e24d10.vex>
+** loaddata <clocks_e24d10.dat>
+*------------------------------------------------------------------------------
