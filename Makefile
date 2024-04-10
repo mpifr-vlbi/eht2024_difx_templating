@@ -59,6 +59,11 @@ prerequisites:
 	./scripts/alma-vex-defs.py --lo1 259.500 -r 2 > templates/260G/band2/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 259.500 -r 3 > templates/260G/band3/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 259.500 -r 4 > templates/260G/band4/freqs_ALMA.vex
+	#same as
+	# $ehtc/alma-vex-defs.py -ralma -f251500.0 -sL -w58.0  # band 1
+	# $ehtc/alma-vex-defs.py -ralma -f253500.0 -sL -w58.0  # band 2
+	# $ehtc/alma-vex-defs.py -ralma -f265500.0 -sU -w58.0  # band 3
+	# $ehtc/alma-vex-defs.py -ralma -f267500.0 -sU -w58.0  # band 4
 	#
 	## 345G
 	./scripts/noema-vex-defs.py -c "4-8" --lo1 342.600 --lo2 7.744 -r 1   > templates/345G/band1/freqs_NOEMA.vex
