@@ -13,5 +13,9 @@ pushd $SCRIPT_DIR  2>&1 > /dev/null
 ./geteop.pl 2024-093  5 $OUTDIR/eop_e24b04.vex
 ./geteop.pl 2024-097  5 $OUTDIR/eop_e24e07.vex
 
+./geteop.pl 2024-097  5 $OUTDIR/eop_e24a08.vex
+./geteop.pl 2024-098  5 $OUTDIR/eop_e24c09.vex
+./geteop.pl 2024-099  5 $OUTDIR/eop_e24d10.vex
+
 popd  2>&1 > /dev/null
 
