@@ -12,6 +12,7 @@ $EXPER;
 *
 def e24e07;
      exper_name = e24e07;
+     exper_num = 1000; ** to be determined
      exper_description = "ALMA+EHT VLBI April 2024 Survey Project";
      PI_name = "EHTC";
      PI_email = not@an.address;
