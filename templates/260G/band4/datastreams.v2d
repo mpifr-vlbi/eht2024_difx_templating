@@ -36,3 +36,5 @@ DATASTREAM Nn_ds4 {
   format = INTERLACEDVDIF/0:1:2:3/8224/2
   nBand = 16
 }
+DATASTREAM Pv_ds12 { filelist = Pico_b4.12.filelist }
+DATASTREAM Pv_ds34 { filelist = Pico_b4.34.filelist }
