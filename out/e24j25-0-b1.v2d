@@ -57,6 +57,10 @@ ANTENNA Nn {
   datastreams = Nn_ds1,Nn_ds2,Nn_ds3,Nn_ds4
 }
 
+ANTENNA Pv {
+  datastreams = Pv_ds12,Pv_ds34
+}
+
 ANTENNA Sw { # SMA APHIDS
   datastreams = SmaAphids_ds12,SmaAphids_ds34
   deltaClock = 0 # SMA extra offsets
@@ -103,6 +107,8 @@ DATASTREAM Nn_ds4 {
   format = INTERLACEDVDIF/0:1:2:3/8224/2
   nBand = 16
 }
+DATASTREAM Pv_ds12 { filelist = Pico_b1.12.filelist }
+DATASTREAM Pv_ds34 { filelist = Pico_b1.34.filelist }
 
 
 #==================================================================
