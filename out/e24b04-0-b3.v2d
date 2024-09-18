@@ -2,11 +2,11 @@
 # DiFX version 2.8.1 default, or
 # DiFX version 2.8.3/2.9.x when using LMT 'deltaClockAccel'
 #
-# Track e24j25 band 3
+# Track e24b04 band 3
 # Notes: ...
 #==================================================================
 
-vex = e24j25-0-b3.vex.obs
+vex = e24b04-0-b3.vex.obs
 
 dataBufferFactor = 24
 visBufferLength = 40
@@ -29,7 +29,7 @@ ANTENNA Aa {
 
 ANTENNA Ax {
   datastreams = Ax_ds12,Ax_ds34
-  loOffsets = +15.022,+15.022
+  loOffsets = -56.86,-56.86
 }
 
 ANTENNA Gl {
@@ -116,38 +116,39 @@ DATASTREAM Pv_ds34 { filelist = Pico_b3.34.filelist }
 #==================================================================
 
 OUTPUTBAND outputbands {
-  addOutputBand = freq@226162.796875/bw@58.0
-  addOutputBand = freq@226221.390625/bw@58.0
-  addOutputBand = freq@226279.984375/bw@58.0
-  addOutputBand = freq@226338.578125/bw@58.0
-  addOutputBand = freq@226397.171875/bw@58.0
-  addOutputBand = freq@226455.765625/bw@58.0
-  addOutputBand = freq@226514.359375/bw@58.0
-  addOutputBand = freq@226572.953125/bw@58.0
-  addOutputBand = freq@226631.546875/bw@58.0
-  addOutputBand = freq@226690.140625/bw@58.0
-  addOutputBand = freq@226748.734375/bw@58.0
-  addOutputBand = freq@226807.328125/bw@58.0
-  addOutputBand = freq@226865.921875/bw@58.0
-  addOutputBand = freq@226924.515625/bw@58.0
-  addOutputBand = freq@226983.109375/bw@58.0
-  addOutputBand = freq@227041.703125/bw@58.0
-  addOutputBand = freq@227100.296875/bw@58.0
-  addOutputBand = freq@227158.890625/bw@58.0
-  addOutputBand = freq@227217.484375/bw@58.0
-  addOutputBand = freq@227276.078125/bw@58.0
-  addOutputBand = freq@227334.671875/bw@58.0
-  addOutputBand = freq@227393.265625/bw@58.0
-  addOutputBand = freq@227451.859375/bw@58.0
-  addOutputBand = freq@227510.453125/bw@58.0
-  addOutputBand = freq@227569.046875/bw@58.0
-  addOutputBand = freq@227627.640625/bw@58.0
-  addOutputBand = freq@227686.234375/bw@58.0
-  addOutputBand = freq@227744.828125/bw@58.0
-  addOutputBand = freq@227803.421875/bw@58.0
-  addOutputBand = freq@227862.015625/bw@58.0
-  addOutputBand = freq@227920.609375/bw@58.0
-  addOutputBand = freq@227979.203125/bw@58.0
+  # $ehtc/alma-vex-defs.py -rzoom -f265500.0 -sU -w58.0
+  addOutputBand = freq@264562.796875/bw@58.0
+  addOutputBand = freq@264621.390625/bw@58.0
+  addOutputBand = freq@264679.984375/bw@58.0
+  addOutputBand = freq@264738.578125/bw@58.0
+  addOutputBand = freq@264797.171875/bw@58.0
+  addOutputBand = freq@264855.765625/bw@58.0
+  addOutputBand = freq@264914.359375/bw@58.0
+  addOutputBand = freq@264972.953125/bw@58.0
+  addOutputBand = freq@265031.546875/bw@58.0
+  addOutputBand = freq@265090.140625/bw@58.0
+  addOutputBand = freq@265148.734375/bw@58.0
+  addOutputBand = freq@265207.328125/bw@58.0
+  addOutputBand = freq@265265.921875/bw@58.0
+  addOutputBand = freq@265324.515625/bw@58.0
+  addOutputBand = freq@265383.109375/bw@58.0
+  addOutputBand = freq@265441.703125/bw@58.0
+  addOutputBand = freq@265500.296875/bw@58.0
+  addOutputBand = freq@265558.890625/bw@58.0
+  addOutputBand = freq@265617.484375/bw@58.0
+  addOutputBand = freq@265676.078125/bw@58.0
+  addOutputBand = freq@265734.671875/bw@58.0
+  addOutputBand = freq@265793.265625/bw@58.0
+  addOutputBand = freq@265851.859375/bw@58.0
+  addOutputBand = freq@265910.453125/bw@58.0
+  addOutputBand = freq@265969.046875/bw@58.0
+  addOutputBand = freq@266027.640625/bw@58.0
+  addOutputBand = freq@266086.234375/bw@58.0
+  addOutputBand = freq@266144.828125/bw@58.0
+  addOutputBand = freq@266203.421875/bw@58.0
+  addOutputBand = freq@266262.015625/bw@58.0
+  addOutputBand = freq@266320.609375/bw@58.0
+  addOutputBand = freq@266379.203125/bw@58.0
 }
 
 SETUP zoomSetup {

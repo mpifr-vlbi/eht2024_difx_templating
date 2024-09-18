@@ -2,11 +2,11 @@
 # DiFX version 2.8.1 default, or
 # DiFX version 2.8.3/2.9.x when using LMT 'deltaClockAccel'
 #
-# Track e24j25 band 4
+# Track e24d10 band 4
 # Notes: ...
 #==================================================================
 
-vex = e24j25-0-b4.vex.obs
+vex = e24d10-0-b4.vex.obs
 
 dataBufferFactor = 24
 visBufferLength = 40

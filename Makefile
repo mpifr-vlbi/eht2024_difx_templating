@@ -1,5 +1,5 @@
 
-## Get global settings; TRACKS_230G TRACKS_345G (e23...,) REV (FRINGE, v0), REL (0), SITE (mpifr), EXPROOT (/Exps)
+## Get global settings; TRACKS_230G TRACKS_345G (e24...,) REV (FRINGE, v0), REL (0), SITE (mpifr), EXPROOT (/Exps)
 include Makefile.inc
 
 ## Derived set of v2d,vex for DiFX outputbands correlation
@@ -17,6 +17,12 @@ b1: $(addsuffix _b1_230,$(TRACKS_230G)) $(addsuffix _b1_260,$(TRACKS_260G)) $(ad
 b2: $(addsuffix _b2_230,$(TRACKS_230G)) $(addsuffix _b2_260,$(TRACKS_260G)) $(addsuffix _b2_345,$(TRACKS_345G))
 b3: $(addsuffix _b3_230,$(TRACKS_230G)) $(addsuffix _b3_260,$(TRACKS_260G)) $(addsuffix _b3_345,$(TRACKS_345G))
 b4: $(addsuffix _b4_230,$(TRACKS_230G)) $(addsuffix _b4_260,$(TRACKS_260G)) $(addsuffix _b4_345,$(TRACKS_345G))
+
+hey:
+	## NOEMA Array Reference Positions
+	for exptname in $(TRACKS_ALL); do \
+		./scripts/vlbimonitordb/vlbimon-get-noemaPosition.py $${exptname} > ./templates/common_sections/sites_NOEMA_$${exptname}.vex ; \
+	done
 
 ## Target 'prerequisites' for the first run only:
 ##  - split observed VEX into shared file fragments common to all bands and setups

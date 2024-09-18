@@ -2,11 +2,11 @@
 # DiFX version 2.8.1 default, or
 # DiFX version 2.8.3/2.9.x when using LMT 'deltaClockAccel'
 #
-# Track e24j25 band 4
+# Track e24c09 band 4
 # Notes: ...
 #==================================================================
 
-vex = e24j25-0-b4.vex.obs
+vex = e24c09-0-b4.vex.obs
 
 dataBufferFactor = 24
 visBufferLength = 40
@@ -29,7 +29,6 @@ ANTENNA Aa {
 
 ANTENNA Ax {
   datastreams = Ax_ds12,Ax_ds34
-  loOffsets = +15.022,+15.022
 }
 
 ANTENNA Gl {
@@ -116,38 +115,38 @@ DATASTREAM Pv_ds34 { filelist = Pico_b4.34.filelist }
 #==================================================================
 
 OUTPUTBAND outputbands {
-  addOutputBand = freq@228162.796875/bw@58.0
-  addOutputBand = freq@228221.390625/bw@58.0
-  addOutputBand = freq@228279.984375/bw@58.0
-  addOutputBand = freq@228338.578125/bw@58.0
-  addOutputBand = freq@228397.171875/bw@58.0
-  addOutputBand = freq@228455.765625/bw@58.0
-  addOutputBand = freq@228514.359375/bw@58.0
-  addOutputBand = freq@228572.953125/bw@58.0
-  addOutputBand = freq@228631.546875/bw@58.0
-  addOutputBand = freq@228690.140625/bw@58.0
-  addOutputBand = freq@228748.734375/bw@58.0
-  addOutputBand = freq@228807.328125/bw@58.0
-  addOutputBand = freq@228865.921875/bw@58.0
-  addOutputBand = freq@228924.515625/bw@58.0
-  addOutputBand = freq@228983.109375/bw@58.0
-  addOutputBand = freq@229041.703125/bw@58.0
-  addOutputBand = freq@229100.296875/bw@58.0
-  addOutputBand = freq@229158.890625/bw@58.0
-  addOutputBand = freq@229217.484375/bw@58.0
-  addOutputBand = freq@229276.078125/bw@58.0
-  addOutputBand = freq@229334.671875/bw@58.0
-  addOutputBand = freq@229393.265625/bw@58.0
-  addOutputBand = freq@229451.859375/bw@58.0
-  addOutputBand = freq@229510.453125/bw@58.0
-  addOutputBand = freq@229569.046875/bw@58.0
-  addOutputBand = freq@229627.640625/bw@58.0
-  addOutputBand = freq@229686.234375/bw@58.0
-  addOutputBand = freq@229744.828125/bw@58.0
-  addOutputBand = freq@229803.421875/bw@58.0
-  addOutputBand = freq@229862.015625/bw@58.0
-  addOutputBand = freq@229920.609375/bw@58.0
-  addOutputBand = freq@229979.203125/bw@58.0
+  addOutputBand = freq@348662.796875/bw@58.0
+  addOutputBand = freq@348721.390625/bw@58.0
+  addOutputBand = freq@348779.984375/bw@58.0
+  addOutputBand = freq@348838.578125/bw@58.0
+  addOutputBand = freq@348897.171875/bw@58.0
+  addOutputBand = freq@348955.765625/bw@58.0
+  addOutputBand = freq@349014.359375/bw@58.0
+  addOutputBand = freq@349072.953125/bw@58.0
+  addOutputBand = freq@349131.546875/bw@58.0
+  addOutputBand = freq@349190.140625/bw@58.0
+  addOutputBand = freq@349248.734375/bw@58.0
+  addOutputBand = freq@349307.328125/bw@58.0
+  addOutputBand = freq@349365.921875/bw@58.0
+  addOutputBand = freq@349424.515625/bw@58.0
+  addOutputBand = freq@349483.109375/bw@58.0
+  addOutputBand = freq@349541.703125/bw@58.0
+  addOutputBand = freq@349600.296875/bw@58.0
+  addOutputBand = freq@349658.890625/bw@58.0
+  addOutputBand = freq@349717.484375/bw@58.0
+  addOutputBand = freq@349776.078125/bw@58.0
+  addOutputBand = freq@349834.671875/bw@58.0
+  addOutputBand = freq@349893.265625/bw@58.0
+  addOutputBand = freq@349951.859375/bw@58.0
+  addOutputBand = freq@350010.453125/bw@58.0
+  addOutputBand = freq@350069.046875/bw@58.0
+  addOutputBand = freq@350127.640625/bw@58.0
+  addOutputBand = freq@350186.234375/bw@58.0
+  addOutputBand = freq@350244.828125/bw@58.0
+  addOutputBand = freq@350303.421875/bw@58.0
+  addOutputBand = freq@350362.015625/bw@58.0
+  addOutputBand = freq@350420.609375/bw@58.0
+  addOutputBand = freq@350479.203125/bw@58.0
 }
 
 SETUP zoomSetup {
