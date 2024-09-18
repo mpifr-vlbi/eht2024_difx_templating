@@ -60,6 +60,7 @@ def main():
 	ehtTracks = ehtTrackList()
 	sites = ['NOEMA']
 
+	# tracks = ehtTracks.listTracks(2023)
 	tracks = ehtTracks.listTracks(2024)
 	doVex = False
 
