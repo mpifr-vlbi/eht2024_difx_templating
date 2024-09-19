@@ -1,0 +1,23 @@
+=== VLBIMon1 ===
+
+From Radboud VLBIMon1 database https://vlbimon1.science.ru.nl/
+via script ./scripts/vlbimonitordb/report_clock_model.py
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y101d12h01m01s --band 1 --sites KP
+  KP band 1: rate = +0.679 +/- 0.001 ps/s, offset = +593.906 ns @ 2024y093d01h01m48s [7543 pts]
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y102d01h01m01s --band 1 --sites JCMT
+  JCMT band 1: rate = -0.208 +/- 0.001 ps/s, offset = -5.507 ns @ 2024y093d06h27m41s [12470 pts]
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y102d01h01m01s --band 1 --sites SMTO
+  SMT band 1: rate = -1.735 +/- 0.000 ps/s, offset = +22.180 ns @ 2024y093d01h01m47s [12942 pts]
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y102d01h01m01s --band 1 --sites GLT
+  GLT band 1: rate = -0.107 +/- 0.000 ps/s, offset = -30.713 ns @ 2024y093d01h01m44s [12600 pts]
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y102d01h01m01s --band 1 --sites SPT
+  SPT band 1: rate = -0.498 +/- 0.000 ps/s, offset = -27.645 ns @ 2024y093d01h01m20s [13118 pts]
+
+  $ report_clock_model.py --start-time=2024y093d01h01m01s --stop-time 2024y102d01h01m01s --band 1 --sites LMT
+  LMT band 1: rate = +0.641 +/- 0.002 ps/s, offset = +0.265 ns @ 2024y098d08h36m47s [5300 pts]
+
