@@ -30,8 +30,8 @@ ax_b1:
 	$(call mk6dir2filelist,mark6-09,34,MPI%8044,APEX_b1.34.filelist)
 
 ax_b4:
-	$(call mk6dir2filelist,mark6-10,12,ALMA%041,APEX_b1.12.filelist)
-	$(call mk6dir2filelist,mark6-10,34,ALMA%043,APEX_b1.34.filelist)
+	$(call mk6dir2filelist,mark6-10,12,ALMA%041,APEX_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-10,34,ALMA%043,APEX_b4.34.filelist)
 
 ## GLT
 
