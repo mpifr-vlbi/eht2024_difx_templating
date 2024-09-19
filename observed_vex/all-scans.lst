@@ -1,0 +1,695 @@
+094-2232 3C273        band6-260      NN  PV  
+094-2238 M87          band6-260      NN  PV  GL  
+094-2245 M87          band6-260      NN  PV  GL  
+094-2252 3C279        band6-260      NN  PV  --  
+094-2305 3C273        band6-260      NN  PV  --  AX  
+094-2311 M87          band6-260      NN  PV  GL  AX  
+094-2318 M87          band6-260      NN  PV  GL  AX  
+094-2325 3C279        band6-260      NN  PV  --  AX  
+094-2338 3C273        band6-260      NN  PV  GL  AX  
+094-2344 M87          band6-260      NN  PV  GL  AX  
+094-2351 3C279        band6-260      NN  PV  --  AX  
+094-2358 OJ287        band6-260      NN  PV  GL  AX  KT  LM  
+095-0010 OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0017 3C273        band6-260      NN  PV  GL  AX  --  --  AA  
+095-0023 M87          band6-260      NN  PV  GL  AX  --  --  AA  
+095-0030 3C279        band6-260      NN  PV  --  AX  --  --  AA  
+095-0041 3C273        band6-260      NN  PV  GL  AX  --  --  AA  
+095-0047 M87          band6-260      NN  PV  GL  AX  --  LM  AA  
+095-0055 OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0107 3C273        band6-260      NN  PV  GL  AX  --  LM  AA  
+095-0113 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0120 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0127 3C279        band6-260      NN  PV  --  AX  --  LM  AA  
+095-0138 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0144 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0152 OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0204 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0210 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0217 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0224 3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0235 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+095-0241 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0250 OJ287        band6-260      --  --  GL  AX  KT  LM  AA  MG  
+095-0301 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  --  
+095-0307 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0314 3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  --  
+095-0323 OJ287        band6-260      --  --  GL  AX  KT  LM  AA  MG  
+095-0332 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0338 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0345 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0358 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0404 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0411 3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0422 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+095-0428 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  
+095-0445 3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  
+095-0451 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0458 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0510 3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0516 M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0523 3C279        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  --  
+095-0535 SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0554 J1751+0939   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0601 SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0617 J1924-2914   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0534 3C273        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0540 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0547 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0555 3C279        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0602 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0609 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0618 3C273        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0624 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0631 M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0639 3C279        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+095-0645 SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0703 J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  --  --  --  
+095-0711 3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0717 M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0724 M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0731 3C279        band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-0709 SGRA         band6-260      NN  PV  --  --  --  --  --  --  --  --  
+095-0729 J1924-2914   band6-260      NN  PV  --  --  --  --  --  --  --  --  
+095-0743 3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0749 M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0756 M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-0803 3C279        band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-0811 J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+095-0817 SGRA         band6-260      --  PV  --  AX  KT  LM  AA  --  --  --  
+095-0830 J1924-2914   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+095-0843 J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+095-0849 SGRA         band6-260      --  --  --  AX  KT  LM  AA  --  --  --  
+095-0905 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+095-0925 J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+095-0932 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+095-0949 J1924-2914   band6-260      --  PV  --  AX  KT  LM  AA  --  --  --  
+095-1002 J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  --  
+095-1008 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+095-1026 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+095-1041 J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+095-1049 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  --  
+095-1107 J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-1120 J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-1126 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1144 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1159 J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+095-1207 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1225 J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  --  
+095-1238 J1751+0939   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1244 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1302 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1315 J1751+0939   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1321 J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1327 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1352 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1410 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1423 J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1429 SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1442 J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+095-1450 SGRA         band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+095-1510 J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+095-1520 SGRA         band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+095-1540 J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+095-1552 SGRA         band6-260      --  --  --  --  KT  --  --  --  MM  SW  
+095-1610 J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+098-0059 J0741+3112   band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  
+098-0111 J1159+2914   band6          AX  GL  KT  LM  MG  --  NN  --  --  
+098-0119 J0956+2515   band6          AX  GL  KT  LM  MG  MM  NN  PV  --  
+098-0132 J0741+3112   band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  
+098-0142 J0741+3112   band6          AX  GL  --  LM  --  MM  --  --  SW  
+098-0152 J0909+0121   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  
+098-0202 3C279        band6          AX  --  KT  LM  --  --  NN  PV  --  AA  SZ  
+098-0211 J1159+2914   band6          AX  GL  KT  LM  MG  --  NN  --  --  AA  --  
+098-0220 J0956+2515   band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  --  --  
+098-0227 J0909+0121   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  --  
+098-0237 J1159+2914   band6          AX  GL  KT  LM  MG  --  NN  PV  --  AA  --  
+098-0247 3C279        band6          AX  --  KT  LM  --  --  NN  --  --  AA  SZ  
+098-0256 J1504+1029   band6          AX  GL  --  --  --  --  NN  PV  --  AA  --  
+098-0310 J0909+0121   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  --  
+098-0320 J1159+2914   band6          AX  GL  KT  LM  MG  MM  NN  PV  --  AA  --  
+098-0330 3C279        band6          AX  GL  KT  LM  MG  --  NN  --  --  AA  SZ  
+098-0339 J1504+1029   band6          AX  GL  KT  LM  --  --  NN  PV  --  AA  --  
+098-0353 3C279        band6          AX  GL  KT  LM  MG  --  NN  PV  --  AA  SZ  
+098-0402 J0909+0121   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  --  
+098-0412 J1159+2914   band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  AA  --  
+098-0422 J1504+1029   band6          AX  GL  KT  LM  --  --  NN  --  --  AA  --  
+098-0432 3C279        band6          AX  GL  KT  LM  MG  --  NN  PV  --  AA  SZ  
+098-0441 J1743-0350   band6          AX  --  --  --  --  --  NN  PV  --  AA  SZ  
+098-0454 3C273        band6          AX  GL  KT  LM  MG  MM  --  PV  SW  --  --  
+098-0502 M87          band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  --  --  
+098-0510 3C279        band6          AX  GL  KT  LM  MG  MM  --  --  --  --  SZ  
+098-0520 J0741+3112   band6          --  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0530 J1014+2301   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-0532 J0956+2515   band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0540 J1159+2914   band6          AX  GL  KT  LM  MG  MM  --  PV  SW  --  --  
+098-0550 M87          band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0558 3C279        band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-0611 J1427+2348   band6          --  --  --  --  --  --  NN  --  --  --  --  
+098-0613 J1407+2827   band6          AX  GL  KT  LM  MG  MM  NN  PV  --  --  --  
+098-0621 J1014+2301   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-0623 J0956+2515   band6          --  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0631 J1159+2914   band6          AX  GL  --  LM  --  MM  --  --  SW  --  --  
+098-0641 J1427+2348   band6          --  --  --  --  --  --  NN  --  SW  --  --  
+098-0643 J1407+2827   band6          AX  GL  KT  LM  MG  MM  NN  PV  SW  --  --  
+098-0652 J1504+1029   band6          AX  GL  KT  LM  MG  MM  NN  PV  --  --  --  
+098-0701 J1751+0939   band6          --  --  --  --  --  --  NN  --  --  --  --  
+098-0703 J1755+1820   band6          AX  GL  KT  LM  --  --  NN  PV  --  --  --  
+098-0712 J1743-0350   band6          AX  GL  KT  LM  --  --  NN  PV  --  --  SZ  
+098-0724 M87          band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0732 3C279        band6          AX  --  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-0742 J1014+2301   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-0744 J0956+2515   band6          --  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0752 J1427+2348   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-0754 J1407+2827   band6          AX  GL  KT  LM  MG  MM  --  PV  SW  --  --  
+098-0803 J1504+1029   band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0812 J1751+0939   band6          --  --  --  --  --  --  NN  --  --  --  --  
+098-0814 J1755+1820   band6          AX  GL  KT  LM  MG  --  NN  PV  --  --  --  
+098-0823 J1743-0350   band6          AX  GL  KT  LM  MG  --  NN  PV  --  --  SZ  
+098-0835 M87          band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0843 3C279        band6          AX  --  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-0855 J2025-0735   band6          AX  --  --  LM  --  --  NN  PV  --  --  SZ  
+098-0903 M87          band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  --  
+098-0918 J1924-2914   band6          AX  --  --  LM  --  --  --  PV  --  AA  SZ  
+098-0926 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-0928 J2129-1538   band6          AX  --  --  --  --  --  NN  PV  --  AA  SZ  
+098-0932 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-0934 J2129-1538   band6          AX  --  --  --  --  --  NN  PV  --  AA  SZ  
+098-0938 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-0947 J2131-1207   band6          AX  --  --  --  --  --  NN  PV  --  AA  SZ  
+098-0955 J2000-1748   band6          --  --  --  --  --  --  NN  --  --  AA  --  
+098-0957 J1939-1525   band6          AX  --  KT  LM  --  --  NN  --  --  AA  SZ  
+098-1001 J2000-1748   band6          --  --  --  --  --  --  NN  --  --  AA  --  
+098-1003 J1939-1525   band6          AX  --  KT  LM  --  --  NN  PV  --  AA  SZ  
+098-1007 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1013 J1924-2914   band6          AX  --  KT  LM  --  --  --  --  --  AA  SZ  
+098-1022 J1743-0350   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1032 J1504+1029   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  --  
+098-1046 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1048 J2129-1538   band6          AX  --  --  LM  --  --  NN  PV  --  AA  SZ  
+098-1052 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1054 J2129-1538   band6          AX  --  --  LM  --  --  NN  PV  --  AA  SZ  
+098-1058 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1104 J2131-1207   band6          AX  --  KT  LM  --  --  NN  PV  --  AA  SZ  
+098-1114 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1116 J1939-1525   band6          AX  --  KT  LM  MG  --  --  --  --  AA  SZ  
+098-1120 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1122 J1939-1525   band6          AX  --  KT  LM  MG  --  --  --  --  AA  SZ  
+098-1126 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1132 J1924-2914   band6          AX  --  KT  LM  MG  --  --  --  --  AA  SZ  
+098-1119 BLLAC        band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1131 J2015+3710   band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1141 J1743-0350   band6          AX  GL  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1155 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1157 J1939-1525   band6          AX  --  KT  LM  MG  MM  --  --  --  AA  SZ  
+098-1201 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1203 J1939-1525   band6          AX  --  KT  LM  MG  MM  --  --  --  AA  SZ  
+098-1207 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1213 J1924-2914   band6          AX  --  KT  LM  MG  MM  --  --  --  AA  SZ  
+098-1156 BLLAC        band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1210 J2015+3710   band6          --  GL  --  --  --  --  NN  PV  SW  --  --  
+098-1222 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1224 J2129-1538   band6          AX  --  KT  LM  MG  --  --  PV  --  AA  SZ  
+098-1228 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1230 J2129-1538   band6          AX  --  KT  LM  MG  --  --  PV  --  AA  SZ  
+098-1234 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1219 BLLAC        band6          --  GL  --  --  --  --  NN  --  --  --  --  
+098-1233 J2015+3710   band6          --  GL  --  --  --  MM  NN  --  SW  --  --  
+098-1240 J2131-1207   band6          AX  --  KT  LM  MG  --  --  PV  --  AA  SZ  
+098-1250 J1743-0350   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1300 J1924-2914   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1252 BLLAC        band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1302 J2015+3710   band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1307 J2000-1325   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-1309 J2025-0735   band6          AX  GL  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-1314 J2000-1748   band6          --  --  --  --  --  --  --  --  SW  AA  --  
+098-1316 J1939-1525   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1320 J2000-1748   band6          --  --  --  --  --  --  --  --  SW  AA  --  
+098-1322 J1939-1525   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1326 J2000-1748   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1332 J1924-2914   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1341 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1343 J2129-1538   band6          AX  --  KT  LM  MG  --  --  --  --  AA  SZ  
+098-1347 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1349 J2129-1538   band6          AX  --  KT  LM  MG  MM  --  --  --  AA  SZ  
+098-1353 J2146-1525   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1328 J2015+3710   band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1339 BLLAC        band6          --  GL  --  --  --  --  NN  PV  --  --  --  
+098-1350 J2015+3710   band6          --  GL  --  --  --  --  NN  PV  SW  --  --  
+098-1359 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1401 J2346+0930   band6          --  GL  KT  --  --  --  --  --  --  AA  --  
+098-1405 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1407 J2346+0930   band6          --  GL  KT  --  --  --  --  PV  --  AA  --  
+098-1411 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1400 BLLAC        band6          AX  --  --  LM  MG  MM  NN  --  SW  --  --  
+098-1408 J2015+3710   band6          AX  --  --  LM  MG  MM  NN  --  SW  --  --  
+098-1421 J1924-2914   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1428 J0112+3208   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1430 J0057+3021   band6          --  GL  KT  --  --  --  --  PV  --  AA  --  
+098-1434 J0112+3208   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1436 J0057+3021   band6          --  GL  KT  --  --  --  --  PV  --  AA  --  
+098-1440 J0112+3208   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1444 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1446 J2346+0930   band6          --  GL  KT  --  --  --  --  PV  --  AA  --  
+098-1450 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1452 J2346+0930   band6          --  GL  KT  --  --  --  --  PV  --  AA  --  
+098-1456 J2349+0534   band6          --  --  --  --  --  --  --  --  --  AA  --  
+098-1433 BLLAC        band6          AX  --  --  LM  MG  MM  NN  --  SW  --  --  
+098-1441 J2015+3710   band6          AX  --  --  LM  MG  MM  NN  --  SW  --  --  
+098-1449 BLLAC        band6          AX  --  --  LM  MG  MM  NN  --  SW  --  --  
+098-1501 J1924-2914   band6          AX  --  KT  LM  MG  MM  --  --  SW  AA  SZ  
+098-1509 J2236+2828   band6          --  --  --  --  --  --  NN  --  SW  --  --  
+098-1511 J2225+2118   band6          AX  GL  KT  LM  --  MM  NN  PV  SW  --  --  
+098-1519 J2000-1325   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-1521 J2025-0735   band6          AX  --  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-1529 J2257-3627   band6          AX  --  KT  LM  MG  --  --  --  --  --  SZ  
+098-1536 J2236+2828   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-1538 J2225+2118   band6          AX  GL  KT  --  --  MM  --  PV  SW  --  --  
+098-1548 J2346+0930   band6          --  GL  KT  --  --  MM  --  PV  --  --  --  
+098-1553 J2000-1325   band6          --  --  --  --  --  --  --  --  SW  --  --  
+098-1555 J2025-0735   band6          AX  --  KT  LM  MG  MM  --  --  SW  --  SZ  
+098-1603 J2257-3627   band6          AX  --  KT  LM  MG  --  --  --  --  --  SZ  
+098-1831 3C273        band6          KY  NN  PV  
+098-1837 M87          band6          KY  NN  PV  
+098-1844 M87          band6          KY  NN  PV  
+098-1858 3C273        band6          KY  NN  PV  
+098-1904 M87          band6          KY  NN  PV  
+098-1911 M87          band6          KY  NN  PV  
+098-1918 3C279        band6          KY  NN  PV  SZ  
+098-1931 3C273        band6          KY  NN  PV  --  
+098-1937 M87          band6          KY  NN  PV  --  
+098-1944 M87          band6          KY  NN  PV  --  
+098-1951 3C279        band6          KY  NN  PV  SZ  
+098-2004 3C273        band6          KY  NN  PV  --  
+098-2010 M87          band6          KY  NN  PV  --  GL  
+098-2017 M87          band6          KY  NN  PV  --  GL  
+098-2024 3C279        band6          KY  NN  PV  SZ  --  
+098-2037 3C273        band6          --  NN  PV  --  --  
+098-2043 M87          band6          KY  NN  PV  --  GL  
+098-2050 M87          band6          KY  NN  PV  --  GL  
+098-2057 3C279        band6          --  NN  PV  SZ  --  
+098-2110 3C273        band6          --  NN  PV  --  --  
+098-2116 M87          band6          --  NN  PV  --  GL  
+098-2123 M87          band6          --  NN  PV  --  GL  
+098-2130 3C279        band6          --  NN  PV  SZ  --  
+098-2143 3C273        band6          --  NN  PV  --  --  
+098-2149 M87          band6          --  NN  PV  --  GL  
+098-2156 M87          band6          --  NN  PV  --  GL  
+098-2203 3C279        band6          --  NN  PV  SZ  --  
+098-2216 3C273        band6          --  NN  PV  --  --  
+098-2222 M87          band6          --  NN  PV  --  GL  
+098-2229 M87          band6          --  NN  PV  --  GL  
+098-2236 3C279        band6          --  NN  PV  SZ  --  
+098-2249 3C273        band6          --  NN  PV  --  --  AX  
+098-2255 M87          band6          --  NN  PV  --  GL  AX  
+098-2302 M87          band6          --  NN  PV  --  GL  AX  
+098-2309 3C279        band6          --  NN  PV  SZ  --  AX  
+098-2322 3C273        band6          --  NN  PV  --  GL  AX  
+098-2328 M87          band6          --  NN  PV  --  GL  AX  
+098-2335 3C279        band6          --  NN  PV  SZ  --  AX  
+098-2342 OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  
+098-2354 OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0001 3C273        band6          --  NN  PV  --  GL  AX  --  --  AA  
+099-0007 M87          band6          --  NN  PV  --  GL  AX  --  --  AA  
+099-0014 3C279        band6          --  NN  PV  SZ  --  AX  --  --  AA  
+099-0025 3C273        band6          --  NN  PV  --  GL  AX  --  --  AA  
+099-0031 M87          band6          --  NN  PV  --  GL  AX  --  LM  AA  
+099-0039 OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0051 3C273        band6          --  NN  PV  --  GL  AX  --  LM  AA  
+099-0057 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0104 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0111 3C279        band6          --  NN  PV  SZ  --  AX  --  LM  AA  
+099-0122 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0128 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0136 OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0148 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0154 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0201 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0208 3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  
+099-0219 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+099-0225 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0234 OJ287        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  
+099-0245 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  --  
+099-0251 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0258 3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  --  
+099-0307 OJ287        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  
+099-0316 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0322 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0329 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0342 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0348 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0355 3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  MG  
+099-0406 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+099-0412 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  
+099-0429 3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  
+099-0435 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0442 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0454 3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0500 M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0507 3C279        band6          --  --  --  SZ  GL  AX  KT  LM  AA  MG  MM  --  
+099-0519 SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+099-0538 J1751+0939   band6          --  NN  PV  --  --  AX  --  --  AA  --  --  --  
+099-0545 SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+099-0601 J1924-2914   band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+099-0518 3C273        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0524 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0531 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0539 3C279        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0546 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0553 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0602 3C273        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0608 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0615 M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0623 3C279        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+099-0629 SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+099-0647 J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  --  --  --  
+099-0655 3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0701 M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0708 M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0715 3C279        band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+099-0653 SGRA         band6          --  NN  PV  SZ  --  --  --  --  --  --  --  --  
+099-0713 J1924-2914   band6          --  NN  PV  SZ  --  --  --  --  --  --  --  --  
+099-0727 3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0733 M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0740 M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-0747 3C279        band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-0755 J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+099-0801 SGRA         band6          --  --  PV  SZ  --  AX  KT  LM  AA  --  --  --  
+099-0814 J1924-2914   band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+099-0827 J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+099-0833 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  --  --  --  
+099-0849 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+099-0909 J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+099-0916 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+099-0933 J1924-2914   band6          --  --  PV  SZ  --  AX  KT  LM  AA  --  --  --  
+099-0946 J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  --  
+099-0952 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+099-1010 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+099-1025 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+099-1033 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  --  
+099-1051 J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-1104 J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-1110 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1128 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1143 J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+099-1151 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1209 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  --  
+099-1222 J1751+0939   band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+099-1228 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1246 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1259 J1751+0939   band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+099-1305 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1311 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1336 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1354 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1407 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1413 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1426 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+099-1434 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+099-1454 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+099-1504 SGRA         band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+099-1524 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+099-1536 SGRA         band6          --  --  --  SZ  --  --  KT  --  --  --  MM  SW  
+099-1554 J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+099-1614 SGRA         band6          --  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1632 J1751+0939   band6          KY  --  --  --  --  --  KT  LM  --  MG  MM  SW  
+099-1644 SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1702 J1924-2914   band6          --  --  --  SZ  --  --  KT  --  --  MG  MM  SW  
+099-1714 SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1732 J1751+0939   band6          KY  --  --  --  --  --  KT  --  --  --  MM  SW  
+099-1744 SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1814 SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1832 J1924-2914   band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1844 SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-1857 J1924-2914   band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+099-2212 3C273        band7          NN  PV  
+099-2218 M87          band7          NN  PV  GL  
+099-2225 M87          band7          NN  PV  GL  
+099-2234 OJ287        band7          NN  PV  GL  
+099-2248 3C273        band7          NN  PV  --  AX  
+099-2254 M87          band7          NN  PV  GL  AX  
+099-2301 M87          band7          NN  PV  GL  AX  
+099-2308 3C279        band7          NN  PV  --  AX  
+099-2320 3C273        band7          NN  PV  GL  AX  
+099-2326 M87          band7          NN  PV  GL  AX  
+099-2333 M87          band7          NN  PV  GL  AX  
+099-2340 3C279        band7          NN  PV  --  AX  
+099-2352 3C273        band7          NN  PV  GL  AX  AA  
+099-2358 M87          band7          NN  PV  GL  AX  AA  
+100-0005 M87          band7          NN  PV  GL  AX  AA  
+100-0012 3C279        band7          NN  PV  --  AX  AA  
+100-0023 3C273        band7          NN  PV  GL  AX  AA  
+100-0029 M87          band7          NN  PV  GL  AX  AA  
+100-0037 OJ287        band7          NN  PV  GL  AX  AA  MG  
+100-0051 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0057 M87          band7          NN  PV  GL  AX  AA  --  
+100-0104 M87          band7          NN  PV  GL  AX  AA  --  
+100-0111 3C279        band7          NN  PV  --  AX  AA  --  
+100-0122 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0128 M87          band7          NN  PV  GL  AX  AA  --  
+100-0136 OJ287        band7          NN  PV  GL  AX  AA  MG  
+100-0150 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0156 M87          band7          NN  PV  GL  AX  AA  --  
+100-0203 M87          band7          NN  PV  GL  AX  AA  --  
+100-0210 3C279        band7          NN  PV  GL  AX  AA  --  
+100-0221 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0227 M87          band7          NN  PV  GL  AX  AA  MG  
+100-0236 OJ287        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0249 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0255 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0302 3C279        band7          NN  PV  GL  AX  AA  --  --  --  
+100-0311 OJ287        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0318 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0324 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0339 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0345 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0352 3C279        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0403 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0409 M87          band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0424 3C273        band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0430 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0437 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0449 3C273        band7          --  PV  GL  AX  AA  MG  MM  SW  
+100-0455 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0502 3C279        band7          --  --  GL  AX  AA  MG  MM  --  
+100-0517 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0535 J1751+0939   band7          NN  PV  --  AX  AA  --  --  --  
+100-0542 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0603 J1924-2914   band7          NN  PV  --  AX  AA  --  --  --  
+100-0613 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0631 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0515 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0525 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0532 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0539 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0550 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0556 3C279        band7          --  --  GL  --  --  MG  MM  SW  
+100-0602 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0614 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0620 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0632 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0642 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0648 J1751+0939   band7          NN  PV  GL  AX  AA  --  --  --  
+100-0702 3C273        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0701 J1924-2914   band7          NN  PV  --  --  --  --  --  --  
+100-0708 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0717 3C279        band7          --  --  --  AX  AA  MG  MM  SW  
+100-0716 J1751+0939   band7          NN  PV  GL  --  --  --  --  --  
+100-0723 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0732 SGRA         band7          --  PV  --  AX  AA  --  --  --  
+100-0734 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0747 J1924-2914   band7          NN  PV  --  --  --  --  --  --  
+100-0749 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0759 SGRA         band7          --  PV  --  AX  AA  --  --  --  
+100-0808 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0814 M87          band7          --  --  GL  AX  --  MG  MM  SW  
+100-0815 J1751+0939   band7          NN  PV  --  --  --  --  --  --  
+100-0821 M87          band7          --  --  GL  AX  --  MG  MM  SW  
+100-0832 J1924-2914   band7          NN  PV  --  AX  AA  --  --  --  
+100-0840 J1751+0939   band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0848 3C279        band7          --  --  --  AX  AA  MG  MM  SW  
+100-0855 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-0856 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0916 J1751+0939   band7          NN  PV  --  AX  AA  MG  --  --  
+100-0924 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0925 OJ287        band7          --  --  GL  --  --  --  MM  SW  
+100-0934 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-0950 J1751+0939   band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0958 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0959 OJ287        band7          --  --  GL  --  --  --  MM  SW  
+100-1008 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-1018 J1924-2914   band7          --  --  --  AX  AA  MG  --  --  
+100-1026 J1751+0939   band7          --  PV  GL  AX  AA  MG  MM  SW  
+100-1034 SGRA         band7          --  --  --  AX  AA  MG  MM  --  
+100-1100 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1108 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1126 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1146 J1924-2914   band7          --  --  --  AX  AA  MG  --  --  
+100-1154 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1220 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1228 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1246 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1306 J1924-2914   band7          --  --  --  AX  AA  MG  MM  SW  
+100-1320 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1328 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1354 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1412 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1425 J1924-2914   band7          --  --  --  AX  AA  MG  MM  SW  
+100-1439 J1751+0939   band7          --  --  GL  --  --  MG  MM  SW  
+100-1447 SGRA         band7          --  --  --  AX  --  MG  MM  SW  
+100-1505 SGRA         band7          --  --  --  AX  --  MG  MM  SW  
+100-1525 J1924-2914   band7          --  --  --  AX  --  MG  MM  SW  
+100-2259 3C279        band6          AX  NN  PV  SZ  
+100-2305 SOMBRERO     band6          AX  NN  PV  SZ  
+100-2311 3C273        band6          AX  NN  PV  --  GL  
+100-2317 M87          band6          AX  NN  PV  --  GL  
+100-2319 M84          band6          AX  NN  PV  --  GL  
+100-2323 M87          band6          --  NN  --  --  --  
+100-2325 M84          band6          AX  NN  PV  --  GL  
+100-2331 3C279        band6          AX  NN  PV  SZ  --  
+100-2337 SOMBRERO     band6          AX  NN  PV  SZ  --  
+100-2350 3C273        band6          AX  NN  PV  --  GL  AA  
+100-2356 M87          band6          AX  NN  PV  --  GL  AA  
+100-2358 M84          band6          AX  NN  PV  --  GL  AA  
+101-0002 M87          band6          --  NN  --  --  --  AA  
+101-0004 M84          band6          AX  NN  PV  --  GL  AA  
+101-0008 M87          band6          --  --  --  --  --  AA  
+101-0012 3C279        band6          AX  --  --  SZ  --  AA  
+101-0016 SOMBRERO     band6          AX  NN  PV  SZ  --  --  
+101-0017 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+101-0028 3C273        band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0034 M87          band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0036 M84          band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0040 M87          band6          --  NN  --  --  --  AA  --  --  
+101-0042 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0046 M87          band6          --  --  --  --  --  AA  --  --  
+101-0050 3C279        band6          AX  --  --  SZ  --  AA  --  --  
+101-0054 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  --  
+101-0055 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+101-0106 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0112 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0114 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0118 M87          band6          --  NN  --  --  --  AA  --  --  
+101-0120 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0124 M87          band6          --  --  --  --  --  AA  --  --  
+101-0128 3C279        band6          AX  --  --  SZ  --  AA  --  LM  
+101-0132 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  LM  
+101-0133 OJ287        band6          --  --  --  --  GL  AA  KT  --  MG  
+101-0144 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0150 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0152 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0156 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0158 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0202 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0206 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+101-0210 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+101-0211 OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+101-0222 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0228 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0230 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0234 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0236 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0240 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0244 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+101-0248 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+101-0249 OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+101-0300 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0306 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0308 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0312 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0314 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0318 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0322 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  
+101-0326 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  MG  
+101-0327 OJ287        band6          --  --  --  --  GL  AA  --  --  --  MM  SW  
+101-0338 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0344 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0346 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0350 M87          band6          --  NN  --  --  --  AA  --  --  --  --  --  
+101-0352 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0356 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0400 3C279        band6          AX  NN  --  SZ  GL  AA  KT  LM  MG  --  --  
+101-0404 SOMBRERO     band6          AX  --  PV  SZ  --  --  KT  LM  MG  --  --  
+101-0414 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0420 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0422 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0426 M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+101-0428 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0432 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0436 3C279        band6          AX  --  PV  SZ  GL  AA  KT  LM  MG  --  --  
+101-0440 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  --  
+101-0448 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0454 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0456 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0500 M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+101-0502 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0506 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0510 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  --  
+101-0514 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0522 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0528 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0530 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0534 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0536 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0540 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0544 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+101-0548 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0556 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0602 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0604 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0608 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0610 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0614 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0618 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+101-0622 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0630 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0636 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0638 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0642 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0644 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0648 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0652 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+101-0656 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0704 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0710 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0712 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0716 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0718 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0722 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0726 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+101-0730 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0743 3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0749 M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0751 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0755 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0757 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0803 3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0807 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0820 3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0826 M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0828 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0832 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0834 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0841 3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0845 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0858 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-0904 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0906 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0910 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0912 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0919 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0923 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0936 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-0942 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0944 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0948 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0950 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0957 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1001 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1014 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-1020 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1022 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1026 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-1028 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1035 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1039 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
