@@ -56,7 +56,7 @@ def Mg; * SMT
 enddef;
 *
 def Nn; * NOEMA
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0028e-12; * todo
+  clock_early = 2024y094d22h00m00s : 12.710 usec : 2024y094d22h00m00s : +0.0028e-12; * todo
 enddef;
 *
 def Pv;
@@ -68,7 +68,7 @@ def Sz;
 enddef;
 *
 def Sw;
-  clock_early = 2024y105d00h00m00s: 0.0 usec : 2024y105d00h00m00s : -7e-15;
+  clock_early = 2024y094d22h00m00s: 0.0 usec : 2024y094d22h00m00s : -7e-15;
 enddef;
 *------------------------------------------------------------------------------
 $MODE;
