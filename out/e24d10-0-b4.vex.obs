@@ -42,6 +42,10 @@ def Kt;
   clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.679e-12;
 enddef;
 *
+def Ky;
+  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0e-12; * todo
+enddef;
+*
 def Lm;
   clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.641e-12;
 enddef;
@@ -146,6 +150,12 @@ def Kt;
      ref $DAS = 2NONE<;
 enddef;
 *
+def Ky;
+     ref $SITE = KVNYS;
+     ref $ANTENNA = KVNYS;
+     ref $DAS = 2NONE+MARK5B<;
+enddef;
+*
 def Lm;
      ref $SITE = LMT;
      ref $ANTENNA = LMT;
@@ -218,6 +228,13 @@ def KITTPEAK;
      axis_type = az : el;
      antenna_motion = el :  60.0 deg/min : 30 sec;  *    9.000 deg/sec/sec
      antenna_motion = az :  60.0 deg/min : 30 sec;  *   18.000 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def KVNYS;
+     axis_type = az : el;
+     antenna_motion = el : 177.0 deg/min :  2 sec;  *    3.000 deg/sec/sec
+     antenna_motion = az : 177.0 deg/min :  2 sec;  *    3.000 deg/sec/sec
      axis_offset =    0.00000 m;
 enddef;
 *
@@ -300,6 +317,19 @@ def KITTPEAK;
      site_position = -1995957.256267 m:-5037391.224871 m: 3357045.200233 m;
      site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
      site_position_epoch =   55646;
+enddef;
+*
+def KVNYS;
+     site_type = fixed;
+     site_name = KVNYS;
+     site_ID = Ky;
+     site_position =-3042280.90350 m: 4045902.65640 m: 3867374.30870 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+     site_position_epoch =   56685;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 45.0: 65.0: 75.0:
+                                85.0:110.0:112.0:175.0:180.0:200.0:245.0:250.0;
+     horizon_map_el =  3.0 deg:  5.0:  7.0:  9.0:  8.0:  6.0:  7.0:  5.0:  4.0:
+                                 3.0:  6.0:  3.0:  6.0:  7.0:  3.0:  4.0:  3.0;
 enddef;
 *
 def LMT;
