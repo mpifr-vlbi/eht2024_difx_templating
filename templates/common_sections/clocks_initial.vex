@@ -16,6 +16,10 @@ def Kt;
   clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.679e-12;
 enddef;
 *
+def Ky;
+  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0e-12; * todo
+enddef;
+*
 def Lm;
   clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.641e-12;
 enddef;

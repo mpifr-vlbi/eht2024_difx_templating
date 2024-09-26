@@ -31,6 +31,13 @@ def KITTPEAK;
      axis_offset =    0.00000 m;
 enddef;
 *
+def KVNYS;
+     axis_type = az : el;
+     antenna_motion = el : 177.0 deg/min :  2 sec;  *    3.000 deg/sec/sec
+     antenna_motion = az : 177.0 deg/min :  2 sec;  *    3.000 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
 def LMT;
      axis_type = az : el;
      antenna_motion = el :  60.0 deg/min : 30 sec;  *    1.000 deg/sec/sec

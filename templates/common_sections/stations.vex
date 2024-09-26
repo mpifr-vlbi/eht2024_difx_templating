@@ -24,6 +24,12 @@ def Kt;
      ref $DAS = 2NONE<;
 enddef;
 *
+def Ky;
+     ref $SITE = KVNYS;
+     ref $ANTENNA = KVNYS;
+     ref $DAS = 2NONE+MARK5B<;
+enddef;
+*
 def Lm;
      ref $SITE = LMT;
      ref $ANTENNA = LMT;
