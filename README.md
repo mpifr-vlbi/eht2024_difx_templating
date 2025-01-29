@@ -10,6 +10,8 @@ meaning b1 b4 are without Ky.
 In the 260G track, only NOEMA--Pico has fringes (so far),
 no fringes for ALMA APEX JCMT SMT KP.
 
+Choose SPT coordinates for a mid-session day from ./priors/SPT.txt
+
 # Tracks
 
 e24b04  260G  Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw
