@@ -66,12 +66,12 @@ kt_b4:
 ## LMT
 
 lm_b1:
-	#$(call mk6dir2filelist,mark6-07,12,...,LMT_b1.12.filelist)
-	#$(call mk6dir2filelist,mark6-07,34,...,LMT_b1.34.filelist)
+	$(call mk6dir2filelist,mark6-07,12,SHAO%036,LMT_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-07,34,SHAO%039,LMT_b4.34.filelist)
 
 lm_b4:
-	#$(call mk6dir2filelist,mark6-07,12,...,LMT_b4.12.filelist)
-	#$(call mk6dir2filelist,mark6-07,34,...,LMT_b4.34.filelist)
+	$(call mk6dir2filelist,mark6-07,12,SHAO%002,LMT_b1.12.filelist)
+	$(call mk6dir2filelist,mark6-07,34,SHAO%004,LMT_b1.34.filelist)
 
 ## NOEMA
 	
