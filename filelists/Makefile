@@ -56,12 +56,12 @@ mm_b4:
 ## Kitt Peak
 
 kt_b1:
-	#$(call mk6dir2filelist,mark6-02,12,...,KT_b1.12.filelist)
-	#$(call mk6dir2filelist,mark6-02,34,...,KT_b1.34.filelist)
+	$(call mk6dir2filelist,mark6-02,12,ALMA%045,KT_b1.12.filelist)
+	$(call mk6dir2filelist,mark6-02,34,ALMA%047,KT_b1.34.filelist)
 
 kt_b4:
-	#$(call mk6dir2filelist,mark6-02,12,...,KT_b4.12.filelist)
-	#$(call mk6dir2filelist,mark6-02,34,...,KT_b4.34.filelist)
+	$(call mk6dir2filelist,mark6-02,12,SAO%0032,KT_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-02,34,SAO%0034,KT_b4.34.filelist)
 
 ## LMT
 
