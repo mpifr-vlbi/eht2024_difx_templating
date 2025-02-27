@@ -109,13 +109,13 @@ sw_b4: # todo, not shipped yet (as of 10/2024)
 
 ## SMT
 
-mg_b1: # todo, not shipped yet (as of 10/2024)
-	#$(call mk6dir2filelist,mark6-04,12,SHAO%015,SMT_b1.12.filelist)
-	#$(call mk6dir2filelist,mark6-04,34,SHAO%017,SMT_b1.34.filelist)
+mg_b1:
+	$(call mk6dir2filelist,mark6-04,12,SHAO%015,SMT_b1.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,SHAO%017,SMT_b1.34.filelist)
 
-mg_b4: # todo, not shipped yet (as of 10/2024)
-	#$(call mk6dir2filelist,mark6-04,12,SHAO%034,SMT_b4.12.filelist)
-	#$(call mk6dir2filelist,mark6-04,34,SHAO%041,SMT_b4.34.filelist)
+mg_b4:
+	$(call mk6dir2filelist,mark6-04,12,SHAO%034,SMT_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,SHAO%041,SMT_b4.34.filelist)
 
 ## SPT
 
