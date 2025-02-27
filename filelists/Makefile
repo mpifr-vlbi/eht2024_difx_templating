@@ -19,9 +19,9 @@ aa_b1:
 	$(call mk6dir2filelist,mark6-10,12,ALMA%009,ALMA_b1.12.filelist)
 	$(call mk6dir2filelist,mark6-10,34,ALMA%011,ALMA_b1.34.filelist)
 
-aa_b4: # todo, not shipped yet (as of 10/2024)
-	#$(call mk6dir2filelist,mark6-10,12,...,ALMA_b4.12.filelist)
-	#$(call mk6dir2filelist,mark6-10,34,...,ALMA_b4.34.filelist)
+aa_b4:
+	$(call mk6dir2filelist,mark6-10,12,ALMA%021,ALMA_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-10,34,ALMA%023,ALMA_b4.34.filelist)
 
 ## APEX
 
