@@ -14,7 +14,7 @@ Choose SPT coordinates for a mid-session day from ./priors/SPT.txt
 
 # Tracks
 
-e24b04  260G  Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw
+e24b04  260G  Aa Ax Gl Mg Mm Nn Pv Sw - scheduled but not obs at Lm Kt
 e24e07  230G  Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw Sz
 e24a08  230G  Aa Ax Gl Ky Kt Lm Mm Mg Nn Pv Sw Sz
 e24c09  345G  Aa Ax Gl Mg Mm Nn Pv Sw
