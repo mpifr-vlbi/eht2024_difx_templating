@@ -24,6 +24,11 @@ The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+
 
 In e24b04 ALMA observed offset by +500 MHz from nominal EHT 260G tuning.
 
+In e24f11 ALMA line observations the ALMA tunings were "HW BB Centers: [215591140500.0, 215091140500.0, 214088540000.0, 214385741000.0]".
+These do not adhere to the 15625 Hz granularity of the PFBs (and of the ALMA EHT tunings) hence the DiFX frequency grids of EHT vs ALMA
+do not align. To re-align with EHT, must derive VEX freqs from rounded LOs of [215591140625.0, 215091140625.0, 214088546875.0, 214385734375.0] Hz
+with LO offsets of [-125, -125, -6875, 6625] Hz.
+
 
 # TODO
 
@@ -43,9 +48,11 @@ e24e07  230G  tbd   Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw Sz
 e24a08  230G  tbd   Aa Ax Gl Ky Kt Lm Mm Mg Nn Pv Sw Sz
 e24c09  345G  tbd   Aa Ax Gl Mg Mm Nn Pv Sw
 e24d10  230G  tbd   Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw Sz
+e24f11  230G  tbd   Aa Kt ...
 
 Notes
 Aa : observed e24b04 offset by +500 MHz from rest of array,
      mutual freq coverage is reduced
+     observed e24f11 with poor frequency grid choice
 Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 ```
