@@ -1,4 +1,4 @@
-def FREQ_AA; * derived for on lo1=223.591 lo2=1.875 GHz
+def FREQ_AA; * derived for on lo1=223.5911406 lo2=1.875 GHz
    sample_rate = 125.0 Ms/sec;  * (2bits/sample)
    * Recorder 1, slots 1+2, LSB around LO1-8 GHz, X-pol, subbands 0-31
    chan_def = &B: 216530.593750 MHz : L : 62.50 MHz : &CH01 : &BBC01 : &NoCal; *  X
