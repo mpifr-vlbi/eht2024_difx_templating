@@ -141,7 +141,7 @@ class ALMAVexFreqGenerator:
 		self.lo1_GHz, self.lo2_GHz = lo1_GHz, lo2_GHz
 		self.nvexchannels = 1
 
-		print('def FREQ_AA; * derived for on lo1=%.3f lo2=%.3f GHz' % (lo1_GHz, lo2_GHz))
+		print('def FREQ_AA; * derived for on lo1=%.7f lo2=%.3f GHz' % (lo1_GHz, lo2_GHz))
 		print('%ssample_rate = %.1f Ms/sec;  * (2bits/sample)' % (self.indent, 2*self.bw_MHz))
 
 		if 1 in recorders:
