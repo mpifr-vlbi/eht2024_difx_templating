@@ -96,7 +96,7 @@ prerequisites:
 	# $ehtc/alma-vex-defs.py -f347600.00000 -w58.0 -sU -ralma # b3
 	# $ehtc/alma-vex-defs.py -f349600.00000 -w58.0 -sU -ralma # b4
 	#
-	## 230G ALMA in Spectral Line track e23g11(/f11/d11)
+	## 230G ALMA in Spectral Line track e24g11(/f11/d11)
 	#
 	# Logfile indicates all VLBI scans used these LO settings
 	#   StandardVLBI HW FS[BB_1] useUSB:false 12GHz:false sbPrf:LSB CFreq: 215591140500.0 (HW)
@@ -112,10 +112,10 @@ prerequisites:
 	#$ehtc/alma-vex-defs.py -f214088.540000 -w58.0 -sL -ralma
 	#$ehtc/alma-vex-defs.py -f214385.741000 -w58.0 -sL -ralma
 	# with +8000 MHz becomes
-	#./scripts/alma-vex-defs.py --lo1 223.591140500 -r 1 > templates/230G/band1/freqs_ALMA_e23g11.vex
-	#./scripts/alma-vex-defs.py --lo1 223.091140500 -r 1 > templates/230G/band2/freqs_ALMA_e23g11.vex
-	#./scripts/alma-vex-defs.py --lo1 222.088540000 -r 1 > templates/230G/band3/freqs_ALMA_e23g11.vex
-	#./scripts/alma-vex-defs.py --lo1 222.385741000 -r 1 > templates/230G/band4/freqs_ALMA_e23g11.vex
+	#./scripts/alma-vex-defs.py --lo1 223.591140500 -r 1 > templates/230G/band1/freqs_ALMA_e24g11.vex
+	#./scripts/alma-vex-defs.py --lo1 223.091140500 -r 1 > templates/230G/band2/freqs_ALMA_e24g11.vex
+	#./scripts/alma-vex-defs.py --lo1 222.088540000 -r 1 > templates/230G/band3/freqs_ALMA_e24g11.vex
+	#./scripts/alma-vex-defs.py --lo1 222.385741000 -r 1 > templates/230G/band4/freqs_ALMA_e24g11.vex
 	#
 	# However! The LO choice failed to stick to a 15625 Hz grid - unlike all other EHT/ALMA observations.
 	# Hence DiFX cannot correlate "off-grid" ALMA against "on-grid" EHT stations with the above.
@@ -126,10 +126,10 @@ prerequisites:
 	#$ehtc/alma-vex-defs.py -f215091.140625 -w58.0 -sL -ralma
 	#$ehtc/alma-vex-defs.py -f214088.546875 -w58.0 -sL -ralma
 	#$ehtc/alma-vex-defs.py -f214385.734375 -w58.0 -sL -ralma
-	./scripts/alma-vex-defs.py --lo1 223.591140625 -r 1 > templates/230G/band1/freqs_ALMA_e23g11.vex
-	./scripts/alma-vex-defs.py --lo1 223.091140625 -r 1 > templates/230G/band2/freqs_ALMA_e23g11.vex
-	./scripts/alma-vex-defs.py --lo1 222.088546875 -r 1 > templates/230G/band3/freqs_ALMA_e23g11.vex
-	./scripts/alma-vex-defs.py --lo1 222.385734375 -r 1 > templates/230G/band4/freqs_ALMA_e23g11.vex
+	./scripts/alma-vex-defs.py --lo1 223.591140625 -r 1 > templates/230G/band1/freqs_ALMA_e24g11.vex
+	./scripts/alma-vex-defs.py --lo1 223.091140625 -r 1 > templates/230G/band2/freqs_ALMA_e24g11.vex
+	./scripts/alma-vex-defs.py --lo1 222.088546875 -r 1 > templates/230G/band3/freqs_ALMA_e24g11.vex
+	./scripts/alma-vex-defs.py --lo1 222.385734375 -r 1 > templates/230G/band4/freqs_ALMA_e24g11.vex
 	#
 	## Note: DiFX $ehtc/alma-vex-defs.py would be more direct, but its chan_defs are not useable as-is,
 	##       vs own ./scripts/alma-vex-defs.py usable for that but is not 4-8/5-9 aware plus b2 offset trickyness
