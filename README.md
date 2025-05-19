@@ -20,7 +20,7 @@ Channel definitions are sorted in numerically increasing order in the DiFX v2d f
 
 The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+b4).
 
-In e24b04 ALMA had a deliberate offset of +500 MHz away from nominal EHT 260G tunings.
+In e24b04 ALMA had a deliberate offset of +500 MHz away from nominal EHT 260G tunings. Fringes Nn-Pv, Aa-Ax, Aa-Mg.
 
 In e24f11 ALMA line observations the ALMA tunings were "HW BB Centers: [215591140500.0, 215091140500.0, 214088540000.0, 214385741000.0]".
 These do not adhere to the 15625 Hz granularity of the PFBs (and of the ALMA EHT tunings) hence the DiFX frequency grids of EHT vs ALMA
@@ -30,12 +30,10 @@ with LO offsets to be used in v2d files of [-125, -125, -6875, 6625] Hz.
 
 # TODO
 
-In the 260G track, fringes NN-PV and AA-AX so far, todo other stations.
-
-Also in the 260G track, add addOutputBand's to fill 250500--251060 MHz which other stations observed,
-and which are lost at ALMA due to their 500 MHz offset.
-
 Choose SPT coordinates for a mid-session day from ./priors/SPT.txt
+
+In 260G e24b04, should add addOutputBand's to fill 250500--251060 MHz which other stations observed,
+and which are lost at ALMA due to their 500 MHz offset.
 
 
 # Tracks
