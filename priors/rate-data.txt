@@ -1,8 +1,8 @@
 
 === Station-provided ===
 
-APEX   -0.7641e-12 s/s  https://eventhorizontelescope.mywikis.wiki/wiki/APEX_setup_2024
-NOEMA  tbd
+APEX   -0.7641e-12 s/s             https://eventhorizontelescope.mywikis.wiki/wiki/APEX_setup_2024
+NOEMA  +0.0079e-12 s/s 20-day fit  https://eventhorizontelescope.mywikis.wiki/wiki/NOEMA_setup_2024
 ALMA   tbd
 
 === VLBIMon1 ===

@@ -5,7 +5,7 @@ def Aa;
 enddef;
 *
 def Ax;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.460e-12; * todo
+  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.7641e-12; * sign?
 enddef;
 *
 def Gl;
@@ -33,7 +33,7 @@ def Mg; * SMT
 enddef;
 *
 def Nn; * NOEMA
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0028e-12; * todo
+  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0079e-12;
 enddef;
 *
 def Pv;
