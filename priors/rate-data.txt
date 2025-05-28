@@ -1,3 +1,10 @@
+
+=== Station-provided ===
+
+APEX   -0.7641e-12 s/s  https://eventhorizontelescope.mywikis.wiki/wiki/APEX_setup_2024
+NOEMA  tbd
+ALMA   tbd
+
 === VLBIMon1 ===
 
 From Radboud VLBIMon1 database https://vlbimon1.science.ru.nl/
