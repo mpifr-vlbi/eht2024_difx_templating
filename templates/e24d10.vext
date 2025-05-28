@@ -8,11 +8,12 @@ $GLOBAL;
 *                                                      +------------+
 *                         PI revision number:          |    3.0000  |
 *                                                      +------------+
+*------------------------------------------------------------------------------
 $EXPER;
 *
 def e24d10;
      exper_name = e24d10;
-     exper_num = 1000; ** to be determined
+     exper_num = 3845;
      exper_description = "ALMA+EHT VLBI April 2024 M84 + EHT-only Sombrero";
      PI_name = "EHTC";
      PI_email = not@an.address;
