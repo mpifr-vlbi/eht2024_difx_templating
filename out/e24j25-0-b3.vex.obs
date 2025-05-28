@@ -13,7 +13,7 @@ $EXPER;
 *
 def e24j25;
      exper_name = e24j25;
-     exper_num = 1000; ** to be determined
+     exper_num = 3840;
      exper_description = "ALMA+EHT VLBI January 2024 Dress Rehearsal";
      PI_name = "EHTC";
      PI_email = not@an.address;
