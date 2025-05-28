@@ -119,13 +119,21 @@ mg_b4:
 
 ## SPT
 
-sz_b1: # todo, not shipped yet (as of 10/2024)
-	#$(call mk6dir2filelist,mark6-04,12,ALMA%029,SPT_b1.12.filelist)
-	#$(call mk6dir2filelist,mark6-04,34,ALMA%031,SPT_b1.34.filelist)
+sz_b1:
+	$(call mk6dir2filelist,mark6-04,12,ALMA%029,SPT_b1.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,ALMA%031,SPT_b1.34.filelist)
 
-sz_b4: # todo, not shipped yet (as of 10/2024)
-	#$(call mk6dir2filelist,mark6-04,12,MPI%8051,SPT_b4.34.filelist)
-	#$(call mk6dir2filelist,mark6-04,34,MPI%8053,SPT_b4.12.filelist)
+sz_b2:
+	$(call mk6dir2filelist,mark6-04,12,MPI%8038,SPT_b2.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,MPI%8041,SPT_b2.34.filelist)
+
+sz_b3:
+	$(call mk6dir2filelist,mark6-04,12,ALMA%037,SPT_b3.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,ALMA%039,SPT_b3.34.filelist)
+
+sz_b4:
+	$(call mk6dir2filelist,mark6-04,12,MPI%8051,SPT_b4.12.filelist)
+	$(call mk6dir2filelist,mark6-04,34,MPI%8054,SPT_b4.34.filelist)
 
 
 ## CHECKING
