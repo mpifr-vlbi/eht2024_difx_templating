@@ -6,7 +6,7 @@ Use DiFX-2.9.1 - to be released 'soon', currently 2.9.0-a release candidate; May
 Possibly DiFX-2.9.2 if that will contain https://github.com/difx/difx/tree/feature-autozoom-improvements
 which gets rid of 'unnecessary' small zooms caused by the edges of overlapped ALMA TFBs.
 
-For correlator model use CALC 11 (difxcalc), not the old default CALC 9.1 (calcif2) model.
+As the correlator model use CALC 11 (difxcalc), not the old default CALC 9.1 (calcif2) model.
 This is done via, e.g.,
 ```
 $ calcifMixed --calc=difxcalc *.calc
