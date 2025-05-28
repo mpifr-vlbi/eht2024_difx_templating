@@ -148,18 +148,10 @@ buglist:
 
 install:
 	for exptname in $(TRACKS_230G) $(TRACKS_260G) $(TRACKS_345G); do \
-		mkdir -p /Exps/$${exptname}/$(REV)/b1/ /Exps/$${exptname}/$(REV)/b1/ ; \
-		mkdir -p /Exps/$${exptname}/$(REV)/b4/ /Exps/$${exptname}/$(REV)/b4/ ; \
+		mkdir -p /Exps/$${exptname}/$(REV)/b1/ ; \
+		mkdir -p /Exps/$${exptname}/$(REV)/b4/ ; \
 	done
-	#
-	# Outputband correlation subdirs
 	for exptname in $(TRACKS_230G) $(TRACKS_260G) $(TRACKS_345G); do \
-		cp -a *_b1.* /Exps/$${exptname}/$(REV)/b1/ ;	\
-		cp -a *_b4.* /Exps/$${exptname}/$(REV)/b4/;		\
-	done
-	#
-	# Zoom correlation subdirs
-	for exptname in $(TRACKS_230G) $(TRACKS_260G) $(TRACKS_345G); do \
-		cp -a *_b1.* /Exps/$${exptname}/$(REV)/b1/ ;	\
-		cp -a *_b4.* /Exps/$${exptname}/$(REV)/b4/;		\
+		cp -a *_b1.* /Exps/$${exptname}/$(REV)/b1/ ; \
+		cp -a *_b4.* /Exps/$${exptname}/$(REV)/b4/ ; \
 	done
