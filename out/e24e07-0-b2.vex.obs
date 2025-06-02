@@ -382,7 +382,7 @@ def SPT;
      *
      * position for April 2024
      * site_position = todo : todo : todo ;
-     site_position = 0 m : 0 m : 0 m;
+     site_position =  863.9524 m : -861.8411 m :  -6359567.2822 m; * epoch 20240407 prediction
      site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
      site_position_epoch =   54466;
 enddef;

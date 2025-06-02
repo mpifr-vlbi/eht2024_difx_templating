@@ -69,7 +69,7 @@ def Pv;
 enddef;
 *
 def Sz;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.498e-12;
+  clock_early = 2024y094d22h00m00s : +0.4541 usec : 2024y094d22h00m00s : -0.498e-12;
 enddef;
 *
 def Sw;
@@ -381,7 +381,7 @@ def SPT;
      *
      * position for April 2024
      * site_position = todo : todo : todo ;
-     site_position = 0 m : 0 m : 0 m;
+     site_position =  863.9524 m : -861.8411 m :  -6359567.2822 m; * epoch 20240407 prediction
      site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
      site_position_epoch =   54466;
 enddef;
