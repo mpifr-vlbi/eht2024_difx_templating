@@ -40,9 +40,9 @@ and which are lost at ALMA due to their 500 MHz offset.
 
 ```
 Track   Freq  HOPS  Stations
-e24b04  260G  3841  Aa Ax Gl Mg Mm Nn Pv Sw - scheduled but not obs at Lm Kt
-e24e07  230G  3842  Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw Sz
-e24a08  230G  3843  Aa Ax Gl Ky Kt Lm Mm Mg Nn Pv Sw Sz
+e24b04  260G  3841  Aa Ax Gl Mg Mm Nn Pv Sw [Lm Kt]
+e24e07  230G  3842  Aa Ax Gl Kt Lm Mg Mm Nn Sw Sz [Pv]
+e24a08  230G  3843  Aa Ax Gl Ky Kt Lm Mm Mg Nn Sw Sz [Pv]
 e24c09  345G  3844  Aa Ax Gl Mg Mm Nn Pv Sw
 e24d10  230G  3845  Aa Ax Gl Kt Lm Mg Mm Nn Pv Sw Sz
 e24f11  230G  3846  Aa Ax Gl Kt Lm Mg Mm Bb Pv Sw Sz  aka e24g11
