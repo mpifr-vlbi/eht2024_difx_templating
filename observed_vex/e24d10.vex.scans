@@ -1,0 +1,154 @@
+No0001   3C279        band6          AX  NN  PV  SZ  
+No0002   SOMBRERO     band6          AX  NN  PV  SZ  
+No0003   3C273        band6          AX  NN  PV  --  GL  
+No0004   M87          band6          AX  NN  PV  --  GL  
+No0005   M84          band6          AX  NN  PV  --  GL  
+No0006   M87          band6          --  NN  --  --  --  
+No0007   M84          band6          AX  NN  PV  --  GL  
+No0008   3C279        band6          AX  NN  PV  SZ  --  
+No0009   SOMBRERO     band6          AX  NN  PV  SZ  --  
+No0010   3C273        band6          AX  NN  PV  --  GL  AA  
+No0011   M87          band6          AX  NN  PV  --  GL  AA  
+No0012   M84          band6          AX  NN  PV  --  GL  AA  
+No0013   M87          band6          --  NN  --  --  --  AA  
+No0014   M84          band6          AX  NN  PV  --  GL  AA  
+No0015   M87          band6          --  --  --  --  --  AA  
+No0016   3C279        band6          AX  --  --  SZ  --  AA  
+No0017   SOMBRERO     band6          AX  NN  PV  SZ  --  --  
+No0018   OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+No0019   3C273        band6          AX  NN  PV  --  GL  AA  --  LM  
+No0020   M87          band6          AX  NN  PV  --  GL  AA  --  LM  
+No0021   M84          band6          AX  NN  PV  --  GL  AA  --  LM  
+No0022   M87          band6          --  NN  --  --  --  AA  --  --  
+No0023   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0024   M87          band6          --  --  --  --  --  AA  --  --  
+No0025   3C279        band6          AX  --  --  SZ  --  AA  --  --  
+No0026   SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  --  
+No0027   OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+No0028   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0029   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0030   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0031   M87          band6          --  NN  --  --  --  AA  --  --  
+No0032   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0033   M87          band6          --  --  --  --  --  AA  --  --  
+No0034   3C279        band6          AX  --  --  SZ  --  AA  --  LM  
+No0035   SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  LM  
+No0036   OJ287        band6          --  --  --  --  GL  AA  KT  --  MG  
+No0037   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0038   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0039   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0040   M87          band6          --  NN  --  --  --  AA  --  --  --  
+No0041   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0042   M87          band6          --  --  --  --  --  AA  --  --  --  
+No0043   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+No0044   SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+No0045   OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+No0046   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0047   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0048   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0049   M87          band6          --  NN  --  --  --  AA  --  --  --  
+No0050   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0051   M87          band6          --  --  --  --  --  AA  --  --  --  
+No0052   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+No0053   SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+No0054   OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+No0055   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0056   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0057   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0058   M87          band6          --  NN  --  --  --  AA  --  --  --  
+No0059   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0060   M87          band6          --  --  --  --  --  AA  --  --  --  
+No0061   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  
+No0062   SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  MG  
+No0063   OJ287        band6          --  --  --  --  GL  AA  --  --  --  MM  SW  
+No0064   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+No0065   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+No0066   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+No0067   M87          band6          --  NN  --  --  --  AA  --  --  --  --  --  
+No0068   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+No0069   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0070   3C279        band6          AX  NN  --  SZ  GL  AA  KT  LM  MG  --  --  
+No0071   SOMBRERO     band6          AX  --  PV  SZ  --  --  KT  LM  MG  --  --  
+No0072   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+No0073   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+No0074   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+No0075   M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+No0076   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+No0077   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0078   3C279        band6          AX  --  PV  SZ  GL  AA  KT  LM  MG  --  --  
+No0079   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  --  
+No0080   3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0081   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+No0082   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+No0083   M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+No0084   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+No0085   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0086   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  --  
+No0087   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0088   3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0089   M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0090   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0091   M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+No0092   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0093   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0094   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+No0095   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0096   3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0097   M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0098   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0099   M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+No0100   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0101   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0102   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+No0103   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0104   3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0105   M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0106   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0107   M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+No0108   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0109   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0110   3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0111   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0112   3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0113   M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0114   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0115   M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+No0116   M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0117   M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+No0118   3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0119   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0120   3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0121   M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0122   M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0123   M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+No0124   M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0125   3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0126   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0127   3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0128   M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0129   M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0130   M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+No0131   M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0132   3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0133   SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0134   3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+No0135   M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0136   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0137   M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+No0138   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0139   3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0140   SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0141   3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+No0142   M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0143   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0144   M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+No0145   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0146   3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0147   SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0148   3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+No0149   M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0150   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0151   M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+No0152   M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0153   3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+No0154   SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  

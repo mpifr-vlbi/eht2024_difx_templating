@@ -1,0 +1,115 @@
+No0001   3C273        band6-260      NN  PV  
+No0002   M87          band6-260      NN  PV  GL  
+No0003   M87          band6-260      NN  PV  GL  
+No0004   3C279        band6-260      NN  PV  --  
+No0005   3C273        band6-260      NN  PV  --  AX  
+No0006   M87          band6-260      NN  PV  GL  AX  
+No0007   M87          band6-260      NN  PV  GL  AX  
+No0008   3C279        band6-260      NN  PV  --  AX  
+No0009   3C273        band6-260      NN  PV  GL  AX  
+No0010   M87          band6-260      NN  PV  GL  AX  
+No0011   3C279        band6-260      NN  PV  --  AX  
+No0012   OJ287        band6-260      NN  PV  GL  AX  KT  LM  
+No0013   OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0014   3C273        band6-260      NN  PV  GL  AX  --  --  AA  
+No0015   M87          band6-260      NN  PV  GL  AX  --  --  AA  
+No0016   3C279        band6-260      NN  PV  --  AX  --  --  AA  
+No0017   3C273        band6-260      NN  PV  GL  AX  --  --  AA  
+No0018   M87          band6-260      NN  PV  GL  AX  --  LM  AA  
+No0019   OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0020   3C273        band6-260      NN  PV  GL  AX  --  LM  AA  
+No0021   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0022   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0023   3C279        band6-260      NN  PV  --  AX  --  LM  AA  
+No0024   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0025   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0026   OJ287        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0027   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0028   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0029   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0030   3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0031   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  
+No0032   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0033   OJ287        band6-260      --  --  GL  AX  KT  LM  AA  MG  
+No0034   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  --  
+No0035   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0036   3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  --  
+No0037   OJ287        band6-260      --  --  GL  AX  KT  LM  AA  MG  
+No0038   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0039   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0040   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0041   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0042   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0043   3C279        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0044   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  
+No0045   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  
+No0046   3C273        band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  
+No0047   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+No0048   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+No0049   3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0050   M87          band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  SW  
+No0051   3C279        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  --  
+No0052   SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0053   J1751+0939   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0054   SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0055   J1924-2914   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0056   3C273        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0057   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0058   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0059   3C279        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0060   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0061   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0062   3C273        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0063   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0064   M87          band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0065   3C279        band6-260      --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0066   SGRA         band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0067   J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  --  --  --  
+No0068   3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0069   M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0070   M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0071   3C279        band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0072   SGRA         band6-260      NN  PV  --  --  --  --  --  --  --  --  
+No0073   J1924-2914   band6-260      NN  PV  --  --  --  --  --  --  --  --  
+No0074   3C273        band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0075   M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0076   M87          band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0077   3C279        band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0078   J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+No0079   SGRA         band6-260      --  PV  --  AX  KT  LM  AA  --  --  --  
+No0080   J1924-2914   band6-260      NN  PV  --  AX  --  --  AA  --  --  --  
+No0081   J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+No0082   SGRA         band6-260      --  --  --  AX  KT  LM  AA  --  --  --  
+No0083   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+No0084   J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  --  --  
+No0085   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+No0086   J1924-2914   band6-260      --  PV  --  AX  KT  LM  AA  --  --  --  
+No0087   J1751+0939   band6-260      NN  PV  GL  AX  KT  LM  AA  MG  MM  --  
+No0088   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+No0089   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+No0090   J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  --  --  
+No0091   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  --  
+No0092   J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0093   J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0094   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0095   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0096   J1751+0939   band6-260      --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0097   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0098   J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  --  
+No0099   J1751+0939   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0100   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0101   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0102   J1751+0939   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0103   J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0104   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0105   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0106   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0107   J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0108   SGRA         band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0109   J1924-2914   band6-260      --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0110   SGRA         band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+No0111   J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+No0112   SGRA         band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+No0113   J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  
+No0114   SGRA         band6-260      --  --  --  --  KT  --  --  --  MM  SW  
+No0115   J1924-2914   band6-260      --  --  --  AX  KT  LM  --  MG  MM  SW  

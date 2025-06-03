@@ -1,0 +1,101 @@
+101-2255 3C279        band6          AX  NN  PV  SZ  
+101-2301 SOMBRERO     band6          AX  NN  PV  SZ  
+101-2307 3C273        band6          AX  NN  PV  --  GL  
+101-2313 M87          band6          AX  NN  PV  --  GL  
+101-2315 M84          band6          AX  NN  PV  --  GL  
+101-2319 M87          band6          --  NN  --  --  --  
+101-2321 M84          band6          AX  NN  PV  --  GL  
+101-2327 3C279        band6          AX  NN  PV  SZ  --  
+101-2333 SOMBRERO     band6          AX  NN  PV  SZ  --  
+101-2346 3C273        band6          AX  NN  PV  --  GL  AA  
+101-2352 M87          band6          AX  NN  PV  --  GL  AA  
+101-2354 M84          band6          AX  NN  PV  --  GL  AA  
+101-2358 M87          band6          --  NN  --  --  --  AA  
+102-0000 M84          band6          AX  NN  PV  --  GL  AA  
+102-0004 M87          band6          --  --  --  --  --  AA  
+102-0008 3C279        band6          AX  --  --  SZ  --  AA  
+102-0012 SOMBRERO     band6          AX  NN  PV  SZ  --  --  
+102-0013 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+102-0024 3C273        band6          AX  NN  PV  --  GL  AA  --  LM  
+102-0030 M87          band6          AX  NN  PV  --  GL  AA  --  LM  
+102-0032 M84          band6          AX  NN  PV  --  GL  AA  --  LM  
+102-0036 M87          band6          --  NN  --  --  --  AA  --  --  
+102-0038 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+102-0042 M87          band6          --  --  --  --  --  AA  --  --  
+102-0046 3C279        band6          AX  --  --  SZ  --  AA  --  --  
+102-0050 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  --  
+102-0051 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+102-0102 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  
+102-0108 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  
+102-0110 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+102-0114 M87          band6          --  NN  --  --  --  AA  --  --  
+102-0116 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+102-0120 M87          band6          --  --  --  --  --  AA  --  --  
+102-0124 3C279        band6          AX  --  --  SZ  --  AA  --  LM  
+102-0128 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  LM  
+102-0129 OJ287        band6          --  --  --  --  GL  AA  KT  --  MG  
+102-0140 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+102-0146 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+102-0148 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+102-0152 M87          band6          --  NN  --  --  --  AA  --  --  --  
+102-0154 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+102-0158 M87          band6          --  --  --  --  --  AA  --  --  --  
+102-0202 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+102-0206 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+102-0207 OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+102-0218 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+102-0224 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+102-0226 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+102-0230 M87          band6          --  NN  --  --  --  AA  --  --  --  
+102-0232 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+102-0236 M87          band6          --  --  --  --  --  AA  --  --  --  
+102-0252 VYCMA        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0301 3C279        band6          AX  NN  PV  SZ  GL  AA  KT  LM  MG  --  --  
+102-0309 RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+102-0317 CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+102-0318 VYCMA        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0327 OJ287        band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+102-0328 WHYA         band6          AX  --  PV  SZ  --  AA  --  LM  --  --  --  
+102-0341 3C279        band6          --  --  --  --  GL  AA  KT  LM  MG  --  --  
+102-0342 VXSGR        band6          AX  NN  PV  SZ  --  --  --  --  --  --  --  
+102-0349 RLEO         band6          --  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+102-0358 J1316-3338   band6          AX  --  --  SZ  --  AA  KT  LM  --  --  --  
+102-0400 CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+102-0401 OJ287        band6          --  --  --  --  --  --  --  --  MG  MM  SW  
+102-0404 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  --  --  --  
+102-0417 VYCMA        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+102-0418 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+102-0427 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  --  --  
+102-0436 RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+102-0445 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+102-0453 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+102-0454 OJ287        band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+102-0502 RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+102-0510 CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+102-0515 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0523 J1316-3338   band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+102-0529 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+102-0538 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+102-0539 RLEO         band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+102-0549 3C345        band6          AX  NN  --  --  GL  AA  KT  LM  MG  --  --  
+102-0602 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+102-0610 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+102-0619 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+102-0620 RLEO         band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+102-0630 3C345        band6          AX  NN  --  --  GL  AA  KT  LM  MG  --  --  
+102-0643 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0651 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  --  
+102-0700 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  LM  --  --  --  
+102-0701 RLEO         band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+102-0713 3C345        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+102-0726 3C279        band6          AX  --  --  SZ  --  AA  --  --  MG  MM  SW  
+102-0728 CHICYG       band6          --  NN  PV  --  GL  --  KT  LM  --  --  --  
+102-0738 VXSGR        band6          AX  NN  PV  SZ  --  AA  --  LM  --  --  --  
+102-0739 RLEO         band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+102-0748 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0758 3C345        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+102-0811 CHICYG       band6          AX  NN  --  --  GL  AA  KT  LM  --  --  --  
+102-0820 VXSGR        band6          AX  --  PV  SZ  --  AA  KT  LM  --  --  --  
+102-0829 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0837 WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+102-0848 CHICYG       band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  

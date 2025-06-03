@@ -1,0 +1,101 @@
+No0001   3C279        band6          AX  NN  PV  SZ  
+No0002   SOMBRERO     band6          AX  NN  PV  SZ  
+No0003   3C273        band6          AX  NN  PV  --  GL  
+No0004   M87          band6          AX  NN  PV  --  GL  
+No0005   M84          band6          AX  NN  PV  --  GL  
+No0006   M87          band6          --  NN  --  --  --  
+No0007   M84          band6          AX  NN  PV  --  GL  
+No0008   3C279        band6          AX  NN  PV  SZ  --  
+No0009   SOMBRERO     band6          AX  NN  PV  SZ  --  
+No0010   3C273        band6          AX  NN  PV  --  GL  AA  
+No0011   M87          band6          AX  NN  PV  --  GL  AA  
+No0012   M84          band6          AX  NN  PV  --  GL  AA  
+No0013   M87          band6          --  NN  --  --  --  AA  
+No0014   M84          band6          AX  NN  PV  --  GL  AA  
+No0015   M87          band6          --  --  --  --  --  AA  
+No0016   3C279        band6          AX  --  --  SZ  --  AA  
+No0017   SOMBRERO     band6          AX  NN  PV  SZ  --  --  
+No0018   OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+No0019   3C273        band6          AX  NN  PV  --  GL  AA  --  LM  
+No0020   M87          band6          AX  NN  PV  --  GL  AA  --  LM  
+No0021   M84          band6          AX  NN  PV  --  GL  AA  --  LM  
+No0022   M87          band6          --  NN  --  --  --  AA  --  --  
+No0023   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0024   M87          band6          --  --  --  --  --  AA  --  --  
+No0025   3C279        band6          AX  --  --  SZ  --  AA  --  --  
+No0026   SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  --  
+No0027   OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+No0028   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0029   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0030   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0031   M87          band6          --  NN  --  --  --  AA  --  --  
+No0032   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+No0033   M87          band6          --  --  --  --  --  AA  --  --  
+No0034   3C279        band6          AX  --  --  SZ  --  AA  --  LM  
+No0035   SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  LM  
+No0036   OJ287        band6          --  --  --  --  GL  AA  KT  --  MG  
+No0037   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0038   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0039   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0040   M87          band6          --  NN  --  --  --  AA  --  --  --  
+No0041   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0042   M87          band6          --  --  --  --  --  AA  --  --  --  
+No0043   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+No0044   SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+No0045   OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+No0046   3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+No0047   M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0048   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0049   M87          band6          --  NN  --  --  --  AA  --  --  --  
+No0050   M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+No0051   M87          band6          --  --  --  --  --  AA  --  --  --  
+No0052   VYCMA        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0053   3C279        band6          AX  NN  PV  SZ  GL  AA  KT  LM  MG  --  --  
+No0054   RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0055   CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+No0056   VYCMA        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0057   OJ287        band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+No0058   WHYA         band6          AX  --  PV  SZ  --  AA  --  LM  --  --  --  
+No0059   3C279        band6          --  --  --  --  GL  AA  KT  LM  MG  --  --  
+No0060   VXSGR        band6          AX  NN  PV  SZ  --  --  --  --  --  --  --  
+No0061   RLEO         band6          --  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0062   J1316-3338   band6          AX  --  --  SZ  --  AA  KT  LM  --  --  --  
+No0063   CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+No0064   OJ287        band6          --  --  --  --  --  --  --  --  MG  MM  SW  
+No0065   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  --  --  --  
+No0066   VYCMA        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+No0067   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+No0068   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  --  --  
+No0069   RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0070   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+No0071   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+No0072   OJ287        band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0073   RLEO         band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+No0074   CHICYG       band6          --  NN  PV  --  GL  --  --  --  --  --  --  
+No0075   3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0076   J1316-3338   band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+No0077   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+No0078   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+No0079   RLEO         band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0080   3C345        band6          AX  NN  --  --  GL  AA  KT  LM  MG  --  --  
+No0081   3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+No0082   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  --  --  
+No0083   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  --  --  --  --  
+No0084   RLEO         band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+No0085   3C345        band6          AX  NN  --  --  GL  AA  KT  LM  MG  --  --  
+No0086   3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0087   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  --  
+No0088   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  LM  --  --  --  
+No0089   RLEO         band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+No0090   3C345        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+No0091   3C279        band6          AX  --  --  SZ  --  AA  --  --  MG  MM  SW  
+No0092   CHICYG       band6          --  NN  PV  --  GL  --  KT  LM  --  --  --  
+No0093   VXSGR        band6          AX  NN  PV  SZ  --  AA  --  LM  --  --  --  
+No0094   RLEO         band6          --  --  --  --  GL  --  KT  --  MG  MM  SW  
+No0095   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0096   3C345        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+No0097   CHICYG       band6          AX  NN  --  --  GL  AA  KT  LM  --  --  --  
+No0098   VXSGR        band6          AX  --  PV  SZ  --  AA  KT  LM  --  --  --  
+No0099   3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0100   WHYA         band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+No0101   CHICYG       band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  

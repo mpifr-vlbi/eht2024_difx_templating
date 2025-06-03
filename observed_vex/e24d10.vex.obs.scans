@@ -1,0 +1,154 @@
+100-2259 3C279        band6          AX  NN  PV  SZ  
+100-2305 SOMBRERO     band6          AX  NN  PV  SZ  
+100-2311 3C273        band6          AX  NN  PV  --  GL  
+100-2317 M87          band6          AX  NN  PV  --  GL  
+100-2319 M84          band6          AX  NN  PV  --  GL  
+100-2323 M87          band6          --  NN  --  --  --  
+100-2325 M84          band6          AX  NN  PV  --  GL  
+100-2331 3C279        band6          AX  NN  PV  SZ  --  
+100-2337 SOMBRERO     band6          AX  NN  PV  SZ  --  
+100-2350 3C273        band6          AX  NN  PV  --  GL  AA  
+100-2356 M87          band6          AX  NN  PV  --  GL  AA  
+100-2358 M84          band6          AX  NN  PV  --  GL  AA  
+101-0002 M87          band6          --  NN  --  --  --  AA  
+101-0004 M84          band6          AX  NN  PV  --  GL  AA  
+101-0008 M87          band6          --  --  --  --  --  AA  
+101-0012 3C279        band6          AX  --  --  SZ  --  AA  
+101-0016 SOMBRERO     band6          AX  NN  PV  SZ  --  --  
+101-0017 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+101-0028 3C273        band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0034 M87          band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0036 M84          band6          AX  NN  PV  --  GL  AA  --  LM  
+101-0040 M87          band6          --  NN  --  --  --  AA  --  --  
+101-0042 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0046 M87          band6          --  --  --  --  --  AA  --  --  
+101-0050 3C279        band6          AX  --  --  SZ  --  AA  --  --  
+101-0054 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  --  
+101-0055 OJ287        band6          --  --  --  --  GL  AA  KT  LM  
+101-0106 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0112 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0114 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0118 M87          band6          --  NN  --  --  --  AA  --  --  
+101-0120 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  
+101-0124 M87          band6          --  --  --  --  --  AA  --  --  
+101-0128 3C279        band6          AX  --  --  SZ  --  AA  --  LM  
+101-0132 SOMBRERO     band6          AX  NN  PV  SZ  --  --  --  LM  
+101-0133 OJ287        band6          --  --  --  --  GL  AA  KT  --  MG  
+101-0144 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0150 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0152 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0156 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0158 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0202 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0206 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+101-0210 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+101-0211 OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+101-0222 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  --  
+101-0228 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0230 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0234 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0236 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0240 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0244 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  --  
+101-0248 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  --  
+101-0249 OJ287        band6          --  --  --  --  GL  AA  --  --  MG  
+101-0300 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0306 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0308 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0312 M87          band6          --  NN  --  --  --  AA  --  --  --  
+101-0314 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  
+101-0318 M87          band6          --  --  --  --  --  AA  --  --  --  
+101-0322 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  
+101-0326 SOMBRERO     band6          AX  NN  PV  SZ  --  --  KT  LM  MG  
+101-0327 OJ287        band6          --  --  --  --  GL  AA  --  --  --  MM  SW  
+101-0338 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0344 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0346 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  --  --  
+101-0350 M87          band6          --  NN  --  --  --  AA  --  --  --  --  --  
+101-0352 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0356 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0400 3C279        band6          AX  NN  --  SZ  GL  AA  KT  LM  MG  --  --  
+101-0404 SOMBRERO     band6          AX  --  PV  SZ  --  --  KT  LM  MG  --  --  
+101-0414 3C273        band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0420 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  --  
+101-0422 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0426 M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+101-0428 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0432 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0436 3C279        band6          AX  --  PV  SZ  GL  AA  KT  LM  MG  --  --  
+101-0440 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  --  
+101-0448 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0454 M87          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0456 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0500 M87          band6          --  NN  --  --  --  AA  --  --  --  --  SW  
+101-0502 M84          band6          AX  NN  PV  --  GL  AA  KT  LM  MG  MM  SW  
+101-0506 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0510 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  --  
+101-0514 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0522 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0528 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0530 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0534 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0536 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0540 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0544 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+101-0548 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0556 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0602 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0604 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0608 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0610 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0614 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0618 3C279        band6          AX  --  --  SZ  GL  AA  KT  LM  MG  MM  SW  
+101-0622 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0630 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0636 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0638 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0642 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0644 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0648 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0652 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+101-0656 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0704 3C273        band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0710 M87          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0712 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0716 M87          band6          --  --  --  --  --  AA  --  --  --  --  SW  
+101-0718 M84          band6          AX  --  --  --  GL  AA  KT  LM  MG  MM  SW  
+101-0722 M87          band6          --  --  --  --  --  AA  --  --  --  --  --  
+101-0726 3C279        band6          AX  --  --  SZ  --  AA  KT  LM  MG  MM  SW  
+101-0730 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0743 3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0749 M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0751 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0755 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0757 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0803 3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0807 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0820 3C273        band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0826 M87          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0828 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0832 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0834 M84          band6          AX  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0841 3C279        band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0845 SOMBRERO     band6          AX  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0858 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-0904 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0906 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0910 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0912 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0919 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0923 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-0936 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-0942 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0944 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0948 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-0950 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-0957 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1001 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1014 3C273        band6          --  --  --  --  --  --  KT  LM  MG  MM  SW  
+101-1020 M87          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1022 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1026 M87          band6          --  --  --  --  --  --  --  --  --  --  SW  
+101-1028 M84          band6          --  --  --  --  GL  --  KT  LM  MG  MM  SW  
+101-1035 3C279        band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  
+101-1039 SOMBRERO     band6          --  --  --  SZ  --  --  KT  LM  MG  MM  SW  

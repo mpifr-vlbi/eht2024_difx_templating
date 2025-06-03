@@ -1,0 +1,153 @@
+No0001   3C273        band6          KY  NN  PV  
+No0002   M87          band6          KY  NN  PV  
+No0003   M87          band6          KY  NN  PV  
+No0004   3C273        band6          KY  NN  PV  
+No0005   M87          band6          KY  NN  PV  
+No0006   M87          band6          KY  NN  PV  
+No0007   3C279        band6          KY  NN  PV  SZ  
+No0008   3C273        band6          KY  NN  PV  --  
+No0009   M87          band6          KY  NN  PV  --  
+No0010   M87          band6          KY  NN  PV  --  
+No0011   3C279        band6          KY  NN  PV  SZ  
+No0012   3C273        band6          KY  NN  PV  --  
+No0013   M87          band6          KY  NN  PV  --  GL  
+No0014   M87          band6          KY  NN  PV  --  GL  
+No0015   3C279        band6          KY  NN  PV  SZ  --  
+No0016   3C273        band6          --  NN  PV  --  --  
+No0017   M87          band6          KY  NN  PV  --  GL  
+No0018   M87          band6          KY  NN  PV  --  GL  
+No0019   3C279        band6          --  NN  PV  SZ  --  
+No0020   3C273        band6          --  NN  PV  --  --  
+No0021   M87          band6          --  NN  PV  --  GL  
+No0022   M87          band6          --  NN  PV  --  GL  
+No0023   3C279        band6          --  NN  PV  SZ  --  
+No0024   3C273        band6          --  NN  PV  --  --  
+No0025   M87          band6          --  NN  PV  --  GL  
+No0026   M87          band6          --  NN  PV  --  GL  
+No0027   3C279        band6          --  NN  PV  SZ  --  
+No0028   3C273        band6          --  NN  PV  --  --  
+No0029   M87          band6          --  NN  PV  --  GL  
+No0030   M87          band6          --  NN  PV  --  GL  
+No0031   3C279        band6          --  NN  PV  SZ  --  
+No0032   3C273        band6          --  NN  PV  --  --  AX  
+No0033   M87          band6          --  NN  PV  --  GL  AX  
+No0034   M87          band6          --  NN  PV  --  GL  AX  
+No0035   3C279        band6          --  NN  PV  SZ  --  AX  
+No0036   3C273        band6          --  NN  PV  --  GL  AX  
+No0037   M87          band6          --  NN  PV  --  GL  AX  
+No0038   3C279        band6          --  NN  PV  SZ  --  AX  
+No0039   OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  
+No0040   OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0041   3C273        band6          --  NN  PV  --  GL  AX  --  --  AA  
+No0042   M87          band6          --  NN  PV  --  GL  AX  --  --  AA  
+No0043   3C279        band6          --  NN  PV  SZ  --  AX  --  --  AA  
+No0044   3C273        band6          --  NN  PV  --  GL  AX  --  --  AA  
+No0045   M87          band6          --  NN  PV  --  GL  AX  --  LM  AA  
+No0046   OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0047   3C273        band6          --  NN  PV  --  GL  AX  --  LM  AA  
+No0048   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0049   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0050   3C279        band6          --  NN  PV  SZ  --  AX  --  LM  AA  
+No0051   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0052   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0053   OJ287        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0054   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0055   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0056   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0057   3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  
+No0058   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  
+No0059   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0060   OJ287        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  
+No0061   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  --  
+No0062   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0063   3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  --  
+No0064   OJ287        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  
+No0065   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0066   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0067   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0068   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0069   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0070   3C279        band6          --  NN  PV  SZ  GL  AX  KT  LM  AA  MG  
+No0071   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  
+No0072   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  
+No0073   3C273        band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  
+No0074   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0075   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0076   3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0077   M87          band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0078   3C279        band6          --  --  --  SZ  GL  AX  KT  LM  AA  MG  MM  --  
+No0079   SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+No0080   J1751+0939   band6          --  NN  PV  --  --  AX  --  --  AA  --  --  --  
+No0081   SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+No0082   J1924-2914   band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+No0083   3C273        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0084   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0085   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0086   3C279        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0087   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0088   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0089   3C273        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0090   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0091   M87          band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0092   3C279        band6          --  --  --  --  GL  --  KT  LM  --  MG  MM  SW  
+No0093   SGRA         band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+No0094   J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  --  --  --  
+No0095   3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0096   M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0097   M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0098   3C279        band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0099   SGRA         band6          --  NN  PV  SZ  --  --  --  --  --  --  --  --  
+No0100   J1924-2914   band6          --  NN  PV  SZ  --  --  --  --  --  --  --  --  
+No0101   3C273        band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0102   M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0103   M87          band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0104   3C279        band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0105   J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+No0106   SGRA         band6          --  --  PV  SZ  --  AX  KT  LM  AA  --  --  --  
+No0107   J1924-2914   band6          --  NN  PV  SZ  --  AX  --  --  AA  --  --  --  
+No0108   J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+No0109   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  --  --  --  
+No0110   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+No0111   J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  --  --  
+No0112   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+No0113   J1924-2914   band6          --  --  PV  SZ  --  AX  KT  LM  AA  --  --  --  
+No0114   J1751+0939   band6          --  NN  PV  --  GL  AX  KT  LM  AA  MG  MM  --  
+No0115   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+No0116   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+No0117   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  --  --  
+No0118   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  --  
+No0119   J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0120   J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0121   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0122   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0123   J1751+0939   band6          --  --  --  --  GL  AX  KT  LM  AA  MG  MM  SW  
+No0124   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0125   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  --  
+No0126   J1751+0939   band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0127   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0128   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0129   J1751+0939   band6          --  --  --  --  --  AX  KT  LM  AA  MG  MM  SW  
+No0130   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0131   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0132   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0133   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0134   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0135   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0136   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  AA  MG  MM  SW  
+No0137   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+No0138   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+No0139   SGRA         band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+No0140   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+No0141   SGRA         band6          --  --  --  SZ  --  --  KT  --  --  --  MM  SW  
+No0142   J1924-2914   band6          --  --  --  SZ  --  AX  KT  LM  --  MG  MM  SW  
+No0143   SGRA         band6          --  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0144   J1751+0939   band6          KY  --  --  --  --  --  KT  LM  --  MG  MM  SW  
+No0145   SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0146   J1924-2914   band6          --  --  --  SZ  --  --  KT  --  --  MG  MM  SW  
+No0147   SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0148   J1751+0939   band6          KY  --  --  --  --  --  KT  --  --  --  MM  SW  
+No0149   SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0150   SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0151   J1924-2914   band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0152   SGRA         band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  
+No0153   J1924-2914   band6          KY  --  --  SZ  --  --  --  --  --  --  MM  SW  

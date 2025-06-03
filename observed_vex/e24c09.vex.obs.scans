@@ -1,0 +1,117 @@
+099-2212 3C273        band7          NN  PV  
+099-2218 M87          band7          NN  PV  GL  
+099-2225 M87          band7          NN  PV  GL  
+099-2234 OJ287        band7          NN  PV  GL  
+099-2248 3C273        band7          NN  PV  --  AX  
+099-2254 M87          band7          NN  PV  GL  AX  
+099-2301 M87          band7          NN  PV  GL  AX  
+099-2308 3C279        band7          NN  PV  --  AX  
+099-2320 3C273        band7          NN  PV  GL  AX  
+099-2326 M87          band7          NN  PV  GL  AX  
+099-2333 M87          band7          NN  PV  GL  AX  
+099-2340 3C279        band7          NN  PV  --  AX  
+099-2352 3C273        band7          NN  PV  GL  AX  AA  
+099-2358 M87          band7          NN  PV  GL  AX  AA  
+100-0005 M87          band7          NN  PV  GL  AX  AA  
+100-0012 3C279        band7          NN  PV  --  AX  AA  
+100-0023 3C273        band7          NN  PV  GL  AX  AA  
+100-0029 M87          band7          NN  PV  GL  AX  AA  
+100-0037 OJ287        band7          NN  PV  GL  AX  AA  MG  
+100-0051 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0057 M87          band7          NN  PV  GL  AX  AA  --  
+100-0104 M87          band7          NN  PV  GL  AX  AA  --  
+100-0111 3C279        band7          NN  PV  --  AX  AA  --  
+100-0122 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0128 M87          band7          NN  PV  GL  AX  AA  --  
+100-0136 OJ287        band7          NN  PV  GL  AX  AA  MG  
+100-0150 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0156 M87          band7          NN  PV  GL  AX  AA  --  
+100-0203 M87          band7          NN  PV  GL  AX  AA  --  
+100-0210 3C279        band7          NN  PV  GL  AX  AA  --  
+100-0221 3C273        band7          NN  PV  GL  AX  AA  --  
+100-0227 M87          band7          NN  PV  GL  AX  AA  MG  
+100-0236 OJ287        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0249 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0255 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0302 3C279        band7          NN  PV  GL  AX  AA  --  --  --  
+100-0311 OJ287        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0318 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0324 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0339 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0345 M87          band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0352 3C279        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0403 3C273        band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0409 M87          band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0424 3C273        band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0430 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0437 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0449 3C273        band7          --  PV  GL  AX  AA  MG  MM  SW  
+100-0455 M87          band7          NN  PV  GL  AX  AA  MG  MM  SW  
+100-0502 3C279        band7          --  --  GL  AX  AA  MG  MM  --  
+100-0517 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0535 J1751+0939   band7          NN  PV  --  AX  AA  --  --  --  
+100-0542 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0603 J1924-2914   band7          NN  PV  --  AX  AA  --  --  --  
+100-0613 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0631 SGRA         band7          NN  PV  --  AX  AA  --  --  --  
+100-0515 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0525 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0532 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0539 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0550 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0556 3C279        band7          --  --  GL  --  --  MG  MM  SW  
+100-0602 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0614 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0620 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0632 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0642 M87          band7          --  --  GL  --  --  MG  MM  SW  
+100-0648 J1751+0939   band7          NN  PV  GL  AX  AA  --  --  --  
+100-0702 3C273        band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0701 J1924-2914   band7          NN  PV  --  --  --  --  --  --  
+100-0708 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0717 3C279        band7          --  --  --  AX  AA  MG  MM  SW  
+100-0716 J1751+0939   band7          NN  PV  GL  --  --  --  --  --  
+100-0723 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0732 SGRA         band7          --  PV  --  AX  AA  --  --  --  
+100-0734 OJ287        band7          --  --  GL  --  --  MG  MM  SW  
+100-0747 J1924-2914   band7          NN  PV  --  --  --  --  --  --  
+100-0749 M87          band7          --  --  GL  AX  AA  MG  MM  SW  
+100-0759 SGRA         band7          --  PV  --  AX  AA  --  --  --  
+100-0808 3C273        band7          --  --  GL  --  --  MG  MM  SW  
+100-0814 M87          band7          --  --  GL  AX  --  MG  MM  SW  
+100-0815 J1751+0939   band7          NN  PV  --  --  --  --  --  --  
+100-0821 M87          band7          --  --  GL  AX  --  MG  MM  SW  
+100-0832 J1924-2914   band7          NN  PV  --  AX  AA  --  --  --  
+100-0840 J1751+0939   band7          NN  PV  GL  AX  AA  MG  --  --  
+100-0848 3C279        band7          --  --  --  AX  AA  MG  MM  SW  
+100-0855 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-0856 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0916 J1751+0939   band7          NN  PV  --  AX  AA  MG  --  --  
+100-0924 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0925 OJ287        band7          --  --  GL  --  --  --  MM  SW  
+100-0934 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-0950 J1751+0939   band7          NN  PV  GL  AX  AA  MG  MM  --  
+100-0958 SGRA         band7          --  --  --  AX  AA  MG  --  --  
+100-0959 OJ287        band7          --  --  GL  --  --  --  MM  SW  
+100-1008 M87          band7          --  --  GL  --  --  --  MM  SW  
+100-1018 J1924-2914   band7          --  --  --  AX  AA  MG  --  --  
+100-1026 J1751+0939   band7          --  PV  GL  AX  AA  MG  MM  SW  
+100-1034 SGRA         band7          --  --  --  AX  AA  MG  MM  --  
+100-1100 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1108 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1126 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1146 J1924-2914   band7          --  --  --  AX  AA  MG  --  --  
+100-1154 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1220 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1228 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1246 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1306 J1924-2914   band7          --  --  --  AX  AA  MG  MM  SW  
+100-1320 J1751+0939   band7          --  --  GL  AX  AA  MG  MM  SW  
+100-1328 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1354 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1412 SGRA         band7          --  --  --  AX  AA  MG  MM  SW  
+100-1425 J1924-2914   band7          --  --  --  AX  AA  MG  MM  SW  
+100-1439 J1751+0939   band7          --  --  GL  --  --  MG  MM  SW  
+100-1447 SGRA         band7          --  --  --  AX  --  MG  MM  SW  
+100-1505 SGRA         band7          --  --  --  AX  --  MG  MM  SW  
+100-1525 J1924-2914   band7          --  --  --  AX  --  MG  MM  SW  
