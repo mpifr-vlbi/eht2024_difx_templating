@@ -33,7 +33,7 @@ def Aa;
 enddef;
 *
 def Ax;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.7641e-12; * sign?
+  clock_early = 2024y094d22h00m00s : +0.1768 usec : 2024y094d22h00m00s : +0.7641e-12;
 enddef;
 *
 def Gl;
@@ -49,11 +49,11 @@ def Ky;
 enddef;
 *
 def Lm;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.641e-12;
+  clock_early = 2024y094d22h00m00s : -0.5084 usec : 2024y094d22h00m00s : +0.641e-12;
 enddef;
 *
 def Mm; * JCMT
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.208e-12;
+  clock_early = 2024y094d22h00m00s : +0.3279 usec : 2024y094d22h00m00s : -0.208e-12;
 enddef;
 *
 def Mg; * SMT
