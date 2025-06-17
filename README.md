@@ -30,9 +30,9 @@ with LO offsets to be used in v2d files of [-125, -125, -6875, 6625] Hz.
 
 # TODO
 
-Choose SPT coordinates for a mid-session day from ./priors/SPT.txt
+Choose SPT coordinates for a mid-session day from ./priors/SPT.txt - then figure out revised coordinates by geodetic fitting?
 
-In 260G e24b04, should add addOutputBand's to fill 250500--251060 MHz which other stations observed,
+In 260G e24b04, use addOutputBand's to fill 250500--251060 MHz which other stations observed,
 and which are lost at ALMA due to their 500 MHz offset.
 
 
