@@ -2,7 +2,10 @@
 # DiFX version 2.9.1 as default
 #
 # Track e24a08 band 4
-# Notes: ...
+# Notes:
+# - APEX started at 098-2342
+# - APEX b4 recorder issues, got only 098-2342 and 099-1504 099-1524 099-1554 in b4
+
 #==================================================================
 
 vex = e24a08-0-b4.vex.obs
