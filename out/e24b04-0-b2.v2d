@@ -28,7 +28,7 @@ ANTENNA Aa {
 
 ANTENNA Ax {
   datastreams = Ax_ds12,Ax_ds34
-  loOffsets = -56.86,-56.86  # '-' sign (?) in b2 where Ax net LSB, vs + in b1 where net USB
+  loOffsets = +56.86,+56.86
 }
 
 ANTENNA Gl {
