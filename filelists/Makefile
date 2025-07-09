@@ -165,12 +165,14 @@ pv_b4:
 	$(call mk6dir2filelist,mark6-05,34,MPI%8016,Pico_b4.34.filelist)
 
 ## SMA APHIDS - todo
+## https://eventhorizontelescope.mywikis.wiki/wiki/SMA_setup_2024
+## page says only "Add stuff here." (as of 07/2025)
 
-sw_b1: # todo, not shipped yet (as of 10/2024)
+sw_b1: # todo, not shipped yet (as of 07/2025)
 	#$(call mk6dir2filelist,mark6-05,12,...,SMA_b1.12.filelist)
 	#$(call mk6dir2filelist,mark6-05,34,...,SMA_b1.34.filelist)
 
-sw_b4: # todo, not shipped yet (as of 10/2024)
+sw_b4: # todo, not shipped yet (as of 07/2025)
 	#$(call mk6dir2filelist,mark6-05,12,...,SMA_b4.12.filelist)
 	#$(call mk6dir2filelist,mark6-05,34,...,SMA_b4.34.filelist)
 
