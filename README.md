@@ -45,7 +45,7 @@ e24e07  230G  3842  Aa Ax Gl Kt Lm Mg Mm Nn Sw Sz [Pv]
 e24a08  230G  3843  Aa Ax Gl Ky Kt Lm Mm Mg Nn Sw Sz [Pv]
 e24c09  345G  3844  Aa Ax Gl Mg Mm Nn Pv Sw
 e24d10  230G  3845  Ax Gl Kt Lm Mg Mm Pv Sw Sz [Aa Nn]
-e24f11  230G  3846  Aa Ax Gl Kt Lm Mg Mm Bb Pv Sw Sz  aka e24g11
+e24f11  230G  3846  Aa Gl Kt Lm Mg Mm Pv Sw Sz  aka e24g11 [Ax]
 
 Notes
 Aa : observed e24b04 offset by +500 MHz from rest of array,
