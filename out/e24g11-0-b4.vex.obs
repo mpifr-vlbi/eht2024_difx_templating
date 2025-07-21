@@ -36,7 +36,7 @@ def Ax;
 enddef;
 *
 def Gl;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.107e-12;
+  clock_early = 2024y094d22h00m00s : -0.2808 usec : 2024y094d22h00m00s : -0.107e-12;
 enddef;
 *
 def Kt;
@@ -48,7 +48,7 @@ def Ky;
 enddef;
 *
 def Lm;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.641e-12;
+  clock_early = 2024y094d22h00m00s : -0.1365 usec : 2024y094d22h00m00s : +0.641e-12;
 enddef;
 *
 def Mm; * JCMT
@@ -56,15 +56,15 @@ def Mm; * JCMT
 enddef;
 *
 def Mg; * SMT
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -1.735e-12;
+  clock_early = 2024y094d22h00m00s : +0.4671 usec : 2024y094d22h00m00s : -1.735e-12;
 enddef;
 *
 def Nn; * NOEMA
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.0079e-12;
+  clock_early = 2024y094d22h00m00s : 12.7 usec : 2024y094d22h00m00s : +0.0079e-12;
 enddef;
 *
 def Pv;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.105e-12; * todo
+  clock_early = 2024y094d22h00m00s : +0.2211 usec : 2024y094d22h00m00s : -0.105e-12; * todo
 enddef;
 *
 def Sz;
@@ -762,8 +762,8 @@ enddef;
 *
 def FREQ_GLT;
      sample_rate =  4096.000 Ms/sec;
-     chan_def = &B:227911.000 MHz : U : 2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:227911.000 MHz : U : 2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
 def FREQ_Nn; * derived for on lo1=221.100 lo2=7.744 GHz
