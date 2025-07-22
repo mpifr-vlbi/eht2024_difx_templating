@@ -53,3 +53,15 @@ Aa : observed e24b04 offset by +500 MHz from rest of array,
      observed e24f11 with poor frequency grid choice
 Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 ```
+
+# Clock offsets
+
+Clocks determined on the following scans
+
+```
+Track e24d10
+101-0144 Pv-Kt
+101-0436 Kt-Lm Kt-Gl Ax-Lm
+101-0652 Kt-Mm Kt-Sz
+101-0803 Kt-Mg
+```
