@@ -18,7 +18,7 @@ Channel definitions are sorted in numerically increasing order in the DiFX v2d f
 
 # Notes on Stations
 
-The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+b4).
+The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+b4). Weather there was poor, though, and only one scan has a fringe.
 
 In e24b04 ALMA had a deliberate offset of +500 MHz away from nominal EHT 260G tunings. Fringes Nn-Pv, Aa-Ax, Aa-Mg.
 
@@ -59,9 +59,18 @@ Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 Clocks determined on the following scans
 
 ```
-Track e24d10
+Track e24d10 - Kt as reference
 101-0144 Pv-Kt
 101-0436 Kt-Lm Kt-Gl Ax-Lm
 101-0652 Kt-Mm Kt-Sz
 101-0803 Kt-Mg
+```
+
+```
+Track e24g11[/f11/d11] - Kt as reference
+101-2255 Nn-Pv
+101-2313 Gl-Nn
+102-0129 Gl-Mg
+102-0224 Kt-Mg
+102-0643 Kt-Mm Kt-Sz
 ```
