@@ -62,7 +62,7 @@ Clocks determined on the following scans
 Track e24d10 - Kt as reference
 101-0144 Pv-Kt
 101-0436 Kt-Lm Kt-Gl Ax-Lm
-101-0652 Kt-Mm Kt-Sz
+101-0652 Kt-Mm Kt-Sz Ax-Lm Kt-Ax Kt-Lm
 101-0803 Kt-Mg
 ```
 
