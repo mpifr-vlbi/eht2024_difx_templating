@@ -2,7 +2,8 @@
 # DiFX version 2.9.1 as default
 #
 # Track e24c09 band 4
-# Notes: ...
+# Notes:
+# - NOEMA did not observe, too high pwv
 #==================================================================
 
 vex = e24c09-0-b4.vex.obs
