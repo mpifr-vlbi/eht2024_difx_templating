@@ -2,7 +2,8 @@
 # DiFX version 2.9.1 as default
 #
 # Track e24e07 band 3
-# Notes: ...
+# Notes:
+# - Pico was not able to observe due to the wind
 #==================================================================
 
 vex = e24e07-0-b3.vex.obs
