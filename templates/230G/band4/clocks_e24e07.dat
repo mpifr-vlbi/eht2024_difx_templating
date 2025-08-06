@@ -1,6 +1,8 @@
 CLOCK
 # Station ID    Delay (usec)    Rate (sec/sec)
 Ax              +0.1768
+Gl              -0.7465
+Kt              +0.6586
 Lm              -0.5084
 Mm              +0.3279
 Nn              +13.0485

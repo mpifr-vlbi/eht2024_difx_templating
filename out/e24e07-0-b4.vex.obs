@@ -37,11 +37,11 @@ def Ax;
 enddef;
 *
 def Gl;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.107e-12;
+  clock_early = 2024y094d22h00m00s : -0.7465 usec : 2024y094d22h00m00s : -0.107e-12;
 enddef;
 *
 def Kt;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.679e-12;
+  clock_early = 2024y094d22h00m00s : +0.6586 usec : 2024y094d22h00m00s : +0.679e-12;
 enddef;
 *
 def Ky;
