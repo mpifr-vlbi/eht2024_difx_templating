@@ -64,8 +64,7 @@ Track e24a07 - Aa as reference
 098-0353 Aa-Lm
 098-1433 Aa-Lm-Ax-Mm-Sz
 098-1213 Aa-Sz Aa-Kt
-098-0412 Aa-Gl
-todo Mg
+098-0412 Aa-Gl Aa-Mg
 ```
 
 ```
