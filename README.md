@@ -59,6 +59,11 @@ Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 Clocks determined on the following scans
 
 ```
+Track e24b04 - Aa as reference
+095-0010 Aa-Gl
+```
+
+```
 Track e24a07 - Aa as reference
 098-0247 Aa-Nn
 098-0353 Aa-Lm
