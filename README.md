@@ -60,7 +60,9 @@ Clocks determined on the following scans
 
 ```
 Track e24b04 - Aa as reference
-095-0010 Aa-Gl
+095-0010 Aa-Gl Aa-Nn
+095-0250 Aa-Mg
+095-0314 Aa-Pv Aa-Ax
 ```
 
 ```
