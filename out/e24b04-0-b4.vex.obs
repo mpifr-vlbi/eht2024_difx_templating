@@ -57,15 +57,15 @@ def Mm; * JCMT
 enddef;
 *
 def Mg; * SMT
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -1.735e-12;
+  clock_early = 2024y094d22h00m00s : +0.0159 usec : 2024y094d22h00m00s : -1.735e-12;
 enddef;
 *
 def Nn; * NOEMA
-  clock_early = 2024y094d22h00m00s : 12.710 usec : 2024y094d22h00m00s : +0.0079e-12;
+  clock_early = 2024y094d22h00m00s : +13.0760 usec : 2024y094d22h00m00s : +0.0079e-12;
 enddef;
 *
 def Pv;
-  clock_early = 2024y094d22h00m00s : +0.4827 usec : 2024y094d22h00m00s : -0.105e-12; * todo
+  clock_early = 2024y094d22h00m00s : +0.4827 usec : 2024y094d22h00m00s : -0.105e-12;
 enddef;
 *
 def Sz;
