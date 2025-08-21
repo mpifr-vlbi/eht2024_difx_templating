@@ -82,6 +82,14 @@ Track e24a08 - Aa as reference
 ```
 
 ```
+Track e24c09 - Aa as reference
+100-0210 Aa-Pv
+100-0236 Aa-Mg - the only Mg fringe in the track, faint
+100-0840 Aa-Gl
+100-0848 Aa-Ax Aa-Mm
+```
+
+```
 Track e24d10 - Kt as reference
 101-0144 Pv-Kt
 101-0436 Kt-Lm Kt-Gl Ax-Lm
