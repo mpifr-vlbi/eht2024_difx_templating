@@ -34,6 +34,7 @@ ANTENNA Nn {
 
 ANTENNA Pv {
   datastreams = Pv_ds12,Pv_ds34
+  loOffsets = -1.13,-1.13
 }
 
 ANTENNA Sw { # SMA APHIDS
