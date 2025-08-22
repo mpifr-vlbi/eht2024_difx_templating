@@ -36,7 +36,7 @@ In 260G e24b04, use addOutputBand's to fill 250500--251060 MHz which other stati
 and which are lost at ALMA due to their 500 MHz offset.
 
 Fix NOEMA VEX channel definitions: the 4 orphan channels of past expts are already getting re-routed to the correct Mark6s,
-so can be correlated.
+so can be correlated. Updated 345G b2 b3 so far. Need to check 230G 260G.
 
 
 # Tracks
