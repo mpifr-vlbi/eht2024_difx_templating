@@ -35,6 +35,9 @@ Choose SPT coordinates for a mid-session day from ./priors/SPT.txt - then figure
 In 260G e24b04, use addOutputBand's to fill 250500--251060 MHz which other stations observed,
 and which are lost at ALMA due to their 500 MHz offset.
 
+Fix NOEMA VEX channel definitions: the 4 orphan channels of past expts are already getting re-routed to the correct Mark6s,
+so can be correlated.
+
 
 # Tracks
 
