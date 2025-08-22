@@ -64,7 +64,7 @@ def Nn; * NOEMA
 enddef;
 *
 def Pv;
-  clock_early = 2024y094d22h00m00s : +1.9856 usec : 2024y094d22h00m00s : -0.105e-12;
+  clock_early = 2024y094d22h00m00s : +0.5350 usec : 2024y094d22h00m00s : -0.105e-12;
 enddef;
 *
 def Sz;
