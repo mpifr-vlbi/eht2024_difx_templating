@@ -115,6 +115,16 @@ DATASTREAM Pv_ds34 { filelist = Pico_b4.34.filelist }
 #==================================================================
 
 OUTPUTBAND outputbands {
+  # Additional outputbands preceding the 500 MHz shifted ALMA:
+  addOutputBand = freq@266535.453125/bw@58.0
+  addOutputBand = freq@266594.046875/bw@58.0
+  addOutputBand = freq@266652.640625/bw@58.0
+  addOutputBand = freq@266711.234375/bw@58.0
+  addOutputBand = freq@266769.828125/bw@58.0
+  addOutputBand = freq@266828.421875/bw@58.0
+  addOutputBand = freq@266887.015625/bw@58.0
+  addOutputBand = freq@266945.609375/bw@58.0
+  addOutputBand = freq@267004.203125/bw@58.0
   # Derived from $ehtc/alma-vex-defs.py -rzoom -f268000.0 -sU -w58.0
   addOutputBand = freq@267062.796875/bw@58.0
   addOutputBand = freq@267121.390625/bw@58.0

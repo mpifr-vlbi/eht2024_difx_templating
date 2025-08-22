@@ -1,4 +1,14 @@
 OUTPUTBAND outputbands {
+  # Additional outputbands preceding the 500 MHz shifted ALMA:
+  addOutputBand = freq@252535.453125/bw@58.0
+  addOutputBand = freq@252594.046875/bw@58.0
+  addOutputBand = freq@252652.640625/bw@58.0
+  addOutputBand = freq@252711.234375/bw@58.0
+  addOutputBand = freq@252769.828125/bw@58.0
+  addOutputBand = freq@252828.421875/bw@58.0
+  addOutputBand = freq@252887.015625/bw@58.0
+  addOutputBand = freq@252945.609375/bw@58.0
+  addOutputBand = freq@253004.203125/bw@58.0
   # Derived from $ehtc/alma-vex-defs.py -f254000.00000 -w58.0 -sL -rzoom
   addOutputBand = freq@253062.796875/bw@58.0
   addOutputBand = freq@253121.390625/bw@58.0
