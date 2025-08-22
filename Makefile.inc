@@ -1,5 +1,5 @@
 # Which tracks to generate
-TRACKS_230G := e24j25 e24e07 e24a08 e24d10 e24g11
+TRACKS_230G := e24e07 e24a08 e24d10 e24g11
 TRACKS_260G := e24b04
 TRACKS_345G := e24c09
 
