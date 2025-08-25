@@ -35,12 +35,13 @@ OUTPUTBAND outputbands {
   addOutputBand = freq@266293.265625/bw@58.0
   addOutputBand = freq@266351.859375/bw@58.0
   addOutputBand = freq@266410.453125/bw@58.0
-  addOutputBand = freq@266469.046875/bw@58.0
-  addOutputBand = freq@266527.640625/bw@58.0
-  addOutputBand = freq@266586.234375/bw@58.0
-  addOutputBand = freq@266644.828125/bw@58.0
-  addOutputBand = freq@266703.421875/bw@58.0
-  addOutputBand = freq@266762.015625/bw@58.0
-  addOutputBand = freq@266820.609375/bw@58.0
-  addOutputBand = freq@266879.203125/bw@58.0
+  # Outputbands that'd only have ALMA autocorrelations:
+  # addOutputBand = freq@266469.046875/bw@58.0
+  # addOutputBand = freq@266527.640625/bw@58.0
+  # addOutputBand = freq@266586.234375/bw@58.0
+  # addOutputBand = freq@266644.828125/bw@58.0
+  # addOutputBand = freq@266703.421875/bw@58.0
+  # addOutputBand = freq@266762.015625/bw@58.0
+  # addOutputBand = freq@266820.609375/bw@58.0
+  # addOutputBand = freq@266879.203125/bw@58.0
 }

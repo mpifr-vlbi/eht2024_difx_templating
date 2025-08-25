@@ -151,13 +151,14 @@ OUTPUTBAND outputbands {
   addOutputBand = freq@268351.859375/bw@58.0
   addOutputBand = freq@268410.453125/bw@58.0
   addOutputBand = freq@268469.046875/bw@58.0
-  addOutputBand = freq@268527.640625/bw@58.0
-  addOutputBand = freq@268586.234375/bw@58.0
-  addOutputBand = freq@268644.828125/bw@58.0
-  addOutputBand = freq@268703.421875/bw@58.0
-  addOutputBand = freq@268762.015625/bw@58.0
-  addOutputBand = freq@268820.609375/bw@58.0
-  addOutputBand = freq@268879.203125/bw@58.0
+  # Outputbands that'd only have ALMA autocorrelations:
+  # addOutputBand = freq@268527.640625/bw@58.0
+  # addOutputBand = freq@268586.234375/bw@58.0
+  # addOutputBand = freq@268644.828125/bw@58.0
+  # addOutputBand = freq@268703.421875/bw@58.0
+  # addOutputBand = freq@268762.015625/bw@58.0
+  # addOutputBand = freq@268820.609375/bw@58.0
+  # addOutputBand = freq@268879.203125/bw@58.0
 }
 
 SETUP zoomSetup {
