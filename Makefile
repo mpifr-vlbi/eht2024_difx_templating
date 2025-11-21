@@ -85,14 +85,18 @@ prerequisites:
 	./scripts/noema-vex-defs.py -c "4-8" --lo1 342.600 --lo2 7.744 -r 2   > templates/345G/band2/freqs_NOEMA.vex
 	./scripts/noema-vex-defs.py -c "4-8" --lo1 342.600 --lo2 7.744 -r 4   > templates/345G/band3/freqs_NOEMA.vex
 	./scripts/noema-vex-defs.py -c "4-8" --lo1 342.600 --lo2 7.744 -r 3   > templates/345G/band4/freqs_NOEMA.vex
-	# ALMA : same as EHT 2021 except now exact tuning (0 LO offset), vs EHT 2023 where tunings were coarsely shifted to avoid LO offset
+	# ALMA
+	# - same as EHT 2021 except now exact tuning (0 LO offset), vs EHT 2023 where tunings were coarsely shifted to avoid LO offset?
+	#     eht2021 -f335600.00000 -f337541.40625 -f347600.00000 -f349600.00000
+	# - however b2 turned out different, after all, e24c09-sgra_345-script.log.gz has
+	#     HW BB Centers: [335600000000.0, 337547650000.0, 347600000000.0, 349600000000.0]
 	./scripts/alma-vex-defs.py --lo1 343.600      -r 1 > templates/345G/band1/freqs_ALMA.vex
-	./scripts/alma-vex-defs.py --lo1 343.54140625 -r 2 > templates/345G/band2/freqs_ALMA.vex
+	./scripts/alma-vex-defs.py --lo1 343.547650   -r 2 > templates/345G/band2/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 341.600      -r 3 > templates/345G/band3/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 341.600      -r 4 > templates/345G/band4/freqs_ALMA.vex
 	# equivalent to the not so copy-pasteable output of
 	# $ehtc/alma-vex-defs.py -f335600.00000 -w58.0 -sL -ralma # b1 alt
-	# $ehtc/alma-vex-defs.py -f337541.40625 -w58.0 -sL -ralma # b2, shifted 58.59375 MHz
+	# $ehtc/alma-vex-defs.py -f337547.65000 -w58.0 -sL -ralma # b2, shifted wrt 2021
 	# $ehtc/alma-vex-defs.py -f347600.00000 -w58.0 -sU -ralma # b3
 	# $ehtc/alma-vex-defs.py -f349600.00000 -w58.0 -sU -ralma # b4
 	#
