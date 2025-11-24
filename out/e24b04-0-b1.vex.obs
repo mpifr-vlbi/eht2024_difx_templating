@@ -57,7 +57,7 @@ def Mm; * JCMT
 enddef;
 *
 def Mg; * SMT
-  clock_early = 2024y094d22h00m00s : -0.002 usec : 2024y094d22h00m00s : -1.735e-12;
+  clock_early = 2024y094d22h00m00s : +0.019 usec : 2024y094d22h00m00s : -1.735e-12;
 enddef;
 *
 def Nn; * NOEMA
