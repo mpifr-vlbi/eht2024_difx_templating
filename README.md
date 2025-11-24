@@ -62,10 +62,11 @@ Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 Clocks determined on the following scans
 
 ```
-Track e24b04 - Aa as reference
+Track e24b04 (260G) - Aa as reference
 095-0010 Aa-Gl Aa-Nn
 095-0250 Aa-Mg
 095-0314 Aa-Pv Aa-Ax
+095-0250 Aa-Mg
 ```
 
 ```
@@ -85,7 +86,7 @@ Track e24a08 - Aa as reference
 ```
 
 ```
-Track e24c09 - Aa as reference
+Track e24c09 (345G) - Aa as reference
 100-0210 Aa-Pv
 100-0236 Aa-Mg - the only Mg fringe in the track, faint
 100-0840 Aa-Gl
