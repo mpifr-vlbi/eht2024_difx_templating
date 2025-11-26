@@ -30,6 +30,7 @@ ANTENNA Aa {
 
 ANTENNA Ax {
   datastreams = Ax_ds12,Ax_ds34
+  loOffsets = -0.015,-0.015
 }
 
 ANTENNA Gl {

@@ -38,8 +38,6 @@ and which are lost at ALMA due to their 500 MHz offset.
 Fix NOEMA VEX channel definitions: the 4 orphan channels of past expts are already getting re-routed to the correct Mark6s,
 so can be correlated. Updated 345G b2 b3 so far. Need to check 230G 260G.
 
-Check whether APEX 345G e24c09 is better with an loOffset of +0.015 Hz (vs currently none) noted on the wiki.
-
 
 # Tracks
 
