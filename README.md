@@ -51,6 +51,7 @@ e24d10  230G  3845  Ax Gl Kt Lm Mg Mm Pv Sw Sz [Aa Nn]
 e24f11  230G  3846  Aa Gl Kt Lm Mg Mm Pv Sw Sz  aka e24g11 [Ax]
 
 Notes
+[] : did not observe this track
 Aa : observed e24b04 offset by +500 MHz from rest of array,
      mutual freq coverage is reduced
      observed e24f11 with poor frequency grid choice
@@ -70,7 +71,7 @@ Track e24b04 (260G) - Aa as reference
 ```
 
 ```
-Track e24a07 - Aa as reference
+Track e24e07 - Aa as reference
 098-0247 Aa-Nn
 098-0353 Aa-Lm
 098-1433 Aa-Lm-Ax-Mm-Sz
