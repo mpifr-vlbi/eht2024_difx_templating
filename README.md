@@ -20,13 +20,22 @@ Channel definitions are sorted in numerically increasing order in the DiFX v2d f
 
 The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+b4). Weather there was poor, though, and only one scan has a fringe.
 
-In e24b04 ALMA had a deliberate offset of +500 MHz away from nominal EHT 260G tunings. Fringes Nn-Pv, Aa-Ax, Aa-Mg.
+The ALMA tunings deviated from nominal EHT tunings in several tracks:
+ - e24b04 260G they had a deliberate offset of +500 MHz
+ - e24c09 345G band2 had a HW BB Center of 337.547650 GHz instead of 337.541406250 GHz, breaking compatibility with the N*15.625 kHz sky-freq grid
+ - e24f11 line observations had entirely non-EHT tunings of "HW BB Centers: [215591140500.0, 215091140500.0, 214088540000.0, 214385741000.0]"
 
-In e24f11 ALMA line observations the ALMA tunings were "HW BB Centers: [215591140500.0, 215091140500.0, 214088540000.0, 214385741000.0]".
-These do not adhere to the 15625 Hz granularity of the PFBs (and of the ALMA EHT tunings) hence the DiFX frequency grids of EHT vs ALMA
-do not align. To re-align with EHT, must derive VEX freqs from rounded LOs of [215591140625.0, 215091140625.0, 214088546875.0, 214385734375.0] Hz
-with LO offsets to be used in v2d files of [-125, -125, -6875, 6625] Hz.
+The ALMA 345G band2 data produced fringes with DiFX VEX and v2d settings of
+```
+$ehtc/alma-vex-defs.py -f 337547.656250 -w58.0 -s L -r alma    # 345G b2, nearest 15.625 kHz -aligned tuning, off from actual
+v2d Aa loOffsets = -6250.0,-6250.0,...,-6250.0                 # corrective LO offset to reproduce the actual ALMA (mis)tuning
+```
 
+The ALMA e24f11 data have no fringes so far. Firstly ALMA used tunings that do not match the N*15.625 kHz sky-freq grid,
+secondly ALMA recorded in such a way that only 'band2' modules actually contain b2 in full. The 'band1' modules contain a 500 MHz shifted b2.
+The 'band3' modules contain a mix of b1 b2, the 'band4' modules likewise a mix of b1 b2 (with 11 recorded channels in b1 and the remainder b2).
+The tuning issue could perhaps be solved with DiFX VEX and v2d settings derived for LOs of [215591140625.0, 215091140625.0, 214088546875.0, 214385734375.0] Hz
+paired with v2d LO offsets of [-125, -125, -6875, 6625] Hz.
 
 # TODO
 
@@ -54,6 +63,16 @@ Aa : observed e24b04 offset by +500 MHz from rest of array,
      observed e24f11 with poor frequency grid choice
 Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 ```
+
+Spectral line track e24f11/e24g11 in principle ought to cover
+```
+28SiO v=1, J=5-4, rest freq. 215.596 GHz, band 1 - primary line of interest
+28SiO v=3, J=5-4, rest freq. 212.582 GHz, band 1 - other
+29SiO v=1. J=5-4, rest freq. 212.905 GHz, band 1 - other
+29SiO v=0, J=5-4, rest freq. 214.386 GHz, band 2 - other, perhaps strongest of the above three
+```
+and the track should be correlated at higher spectral resolution of v2d outputSpecRes=0.0625 MHz.
+
 
 # Clock offsets
 
