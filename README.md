@@ -32,9 +32,6 @@ with LO offsets to be used in v2d files of [-125, -125, -6875, 6625] Hz.
 
 Choose SPT coordinates for a mid-session day from ./priors/SPT.txt - then figure out revised coordinates by geodetic fitting?
 
-In 260G e24b04, use addOutputBand's to fill 250500--251060 MHz which other stations observed,
-and which are lost at ALMA due to their 500 MHz offset.
-
 Fix NOEMA VEX channel definitions: the 4 orphan channels of past expts are already getting re-routed to the correct Mark6s,
 so can be correlated. Updated 345G b2 b3 so far. Need to check 230G 260G.
 
@@ -67,16 +64,15 @@ Track e24b04 (260G) - Aa as reference
 095-0010 Aa-Gl Aa-Nn
 095-0250 Aa-Mg
 095-0314 Aa-Pv Aa-Ax
-095-0250 Aa-Mg
 ```
 
 ```
 Track e24e07 - Aa as reference
 098-0247 Aa-Nn
 098-0353 Aa-Lm
-098-1433 Aa-Lm-Ax-Mm-Sz
-098-1213 Aa-Sz Aa-Kt
 098-0412 Aa-Gl Aa-Mg
+098-1213 Aa-Sz Aa-Kt
+098-1433 Aa-Lm-Ax-Mm-Sz
 ```
 
 ```
