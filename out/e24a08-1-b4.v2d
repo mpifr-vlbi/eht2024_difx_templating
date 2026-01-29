@@ -172,10 +172,4 @@ SETUP zoomSetup {
 
 RULE defaultRule {
   setup = zoomSetup
-
-  # Ref scans
-#  scan = 099-0355 # Aa-Gl Aa-Lm Aa-Mg Aa-Kt
-#  scan = 099-0507 # Aa-Mm Aa-Sz
-#  scan = 099-0111 # Aa-Nn
-#  scan = 098-2342, 099-1504, 099-1524, 099-1554  # Ax
 }
