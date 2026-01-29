@@ -4,6 +4,13 @@
 # Track e24g11 band 1
 # Notes:
 # - APEX antenna control unit failed before track, could not observe
+# - ALMA tuning turned out to be somewhat non standard
+#   - continuum scans followed the standard EHT 230G setup in all(?) bands,
+#       hence VLBI fringes to ALMA possible are on 3C279 etc
+#   - SiO/line targets were observed differently,
+#       b2 with the main line was probably in phased array VLBI mode, whereas
+#       b1 b3 b4 were reallocated to interferometric non-VLBI mode to get high-res spectra,
+#       hence no VLBI fringes to be expected on line sources (except perhaps in b2?)
 #==================================================================
 
 vex = e24g11-0-b1.vex.obs

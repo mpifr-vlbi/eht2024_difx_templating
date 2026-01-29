@@ -1,13 +1,10 @@
 # Track e24g11 band 1
 # Notes:
 # - APEX antenna control unit failed before track, could not observe
-# - ALMA tuning deviates from other stations EHT 230G setup,
-#   1) inadvertently off of the 15.625 kHz grid, almost uncorrelateable,
-#      had to shift ALMA VEX Freq definitions onto EHT 230G grid and counteract
-#      the shift using v2d LO offsets of [-125, -125, -6875, 6625] Hz in [rec1,rec2,rec3,rec4] data
-#   2) tuning produced overlapped bands and the data ended up on the wrong recorders
-#       recorder1 "b1" has b2 ~214714-216179 MHz but 7 channels outside of EHT 230G
-#       recorder2 "b2" has b2 ~214214-216030 MHz all channels inside EHT 230G b2
-#       recorder3 "b3" has b1 ~213211-214090 MHz as well as b2 ~214149-215028 MHz
-#       recorder4 "b4" has b1 ~213508-214153 MHz as well as b2 ~214211-215325 MHz
-#       no data in actual b3 b4
+# - ALMA tuning turned out to be somewhat non standard
+#   - continuum scans followed the standard EHT 230G setup in all(?) bands,
+#       hence VLBI fringes to ALMA possible are on 3C279 etc
+#   - SiO/line targets were observed differently,
+#       b2 with the main line was probably in phased array VLBI mode, whereas
+#       b1 b3 b4 were reallocated to interferometric non-VLBI mode to get high-res spectra,
+#       hence no VLBI fringes to be expected on line sources (except perhaps in b2?)
