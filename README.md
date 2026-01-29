@@ -23,9 +23,8 @@ The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+
 The ALMA tunings deviated from nominal EHT tunings in several tracks:
  - e24b04 260G they had a deliberate offset of +500 MHz
  - e24c09 345G band2 had a HW BB Center of 337.547650 GHz instead of 337.541406250 GHz, breaking compatibility with the N*15.625 kHz sky-freq grid
- - e24f11 line observations have unexpected and unclear tunings cf. priors/alma/e24f11-linesurvey-script.log
-   - apparently entirely non-EHT tunings of "HW BB Centers: [215591140500.0, 215091140500.0, 214088540000.0, 214385741000.0]"
-   - additionally non-EHT sideband choices of "useUSB=[false,false,false,false]" instead of false,false,true,true
+ - e24f11 'line observations' used VLBI mode for continuum sources, but for SiO targets used non-VLBI high-res mode in bands 1/3/4 (i.e. no valid VLBI data)
+ - e24f11 230G band2 data on SiO line sources was probably in VLBI mode and might have valid VLBI data, actual tuning and recorder holding the data still unclear
 
 In e24c09 the ALMA 345G band2 data produced fringes with DiFX VEX and v2d settings of
 ```
@@ -33,15 +32,7 @@ $ehtc/alma-vex-defs.py -f 337547.656250 -w58.0 -s L -r alma    # 345G b2, neares
 v2d Aa loOffsets = -6250.0,-6250.0,...,-6250.0                 # corrective LO offset to reproduce the actual ALMA (mis)tuning
 ```
 
-In e24f11 there are no ALMA fringes so far.
-
-Firstly, ALMA had tunings that did not match the N*15.625 kHz sky-freq grid. This might perhaps be solved with DiFX VEX and v2d settings derived
-for LOs of [215591140625.0, 215091140625.0, 214088546875.0, 214385734375.0] Hz paired with v2d LO offsets of [-125, -125, -6875, 6625] Hz.
-
-Secondly, with the (initial logfile-based guess at...) ALMA e24f11 tunings the Mark6 'band1' modules probably
-ended up with a shifted b2, 'band2' modules with a full b2, 'band3' modules with a mix of b2 and b1 (17 channels in b1 from ca 213.149 GHz to 214.087 GHz; no SiO lines),
-and 'band4' modules likewise with a mix of b2 and b1 (12 channels in b1 from ca 213.446 GHz to 214.091 GHz; no SiO lines). Need to inspect e24f11-linesurvey-script.log
-in more detail...
+In e24f11 there are ALMA b1 fringes on 3C279 using standard 230G EHT freq settings for ALMA.
 
 
 # TODO

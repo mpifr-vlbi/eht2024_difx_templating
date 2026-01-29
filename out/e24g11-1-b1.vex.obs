@@ -28,7 +28,7 @@ enddef;
 $CLOCK;
 *
 def Aa;
-  clock_early = 2024y094d22h00m00s: 2107.147 usec : 2024y094d22h00m00s : -10e-15;
+  clock_early = 2024y094d22h00m00s : +2107.6478 usec : 2024y094d22h00m00s : -10e-15;
 enddef;
 *
 def Ax;
@@ -36,7 +36,7 @@ def Ax;
 enddef;
 *
 def Gl;
-  clock_early = 2024y094d22h00m00s : -0.2808 usec : 2024y094d22h00m00s : -0.107e-12;
+  clock_early = 2024y094d22h00m00s : -0.2932 usec : 2024y094d22h00m00s : -0.107e-12;
 enddef;
 *
 def Kt;
@@ -48,15 +48,15 @@ def Ky;
 enddef;
 *
 def Lm;
-  clock_early = 2024y094d22h00m00s : -0.1365 usec : 2024y094d22h00m00s : +0.641e-12;
+  clock_early = 2024y094d22h00m00s : -0.1403 usec : 2024y094d22h00m00s : +0.641e-12;
 enddef;
 *
 def Mm; * JCMT
-  clock_early = 2024y094d22h00m00s : +0.7053 usec : 2024y094d22h00m00s : -0.208e-12;
+  clock_early = 2024y094d22h00m00s : +0.7868 usec : 2024y094d22h00m00s : -0.208e-12;
 enddef;
 *
 def Mg; * SMT
-  clock_early = 2024y094d22h00m00s : +0.4671 usec : 2024y094d22h00m00s : -1.735e-12;
+  clock_early = 2024y094d22h00m00s : +0.4802 usec : 2024y094d22h00m00s : -1.735e-12;
 enddef;
 *
 def Nn; * NOEMA
@@ -68,7 +68,7 @@ def Pv;
 enddef;
 *
 def Sz;
-  clock_early = 2024y094d22h00m00s : +0.9243 usec : 2024y094d22h00m00s : -0.498e-12;
+  clock_early = 2024y094d22h00m00s : +0.8346 usec : 2024y094d22h00m00s : -0.498e-12;
 enddef;
 *
 def Sw;
@@ -85,7 +85,8 @@ def band6;
      ref $BBC = BBC_COMMON:Sz:Kt:Lm:Mg:Sw:Mm:Nn:Pv;
      ref $BBC = BBC_POLSWAP:Gl:Ax;
      ref $BBC = BBC_ALMA:Aa;
-     ref $FREQ = FREQ_COMMON:Sz:Kt:Lm:Mg:Sw:Mm;
+     ref $FREQ = FREQ_COMMON:Sz:Kt:Lm:Mg:Mm;
+     ref $FREQ = FREQ_SMA:Sw;
      ref $FREQ = FREQ_DBBC3_AX:Ax;
      ref $FREQ = FREQ_DBBC3_PV:Pv;
      ref $FREQ = FREQ_AA:Aa;
@@ -744,167 +745,172 @@ $FREQ;
 *
 def FREQ_COMMON;
      sample_rate =  4096.000 Ms/sec;
-     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:214100.000 MHz : L :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:214100.000 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
 def FREQ_DBBC3_AX;
      sample_rate =  4096.000 Ms/sec;
-     chan_def = &B:230148.0 MHz : L :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:230148.0 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
 def FREQ_DBBC3_PV;
      sample_rate =  4096.000 Ms/sec;
-     chan_def = &B:230148.0 MHz : L :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:230148.0 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
 def FREQ_GLT;
      sample_rate =  4096.000 Ms/sec;
-     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:214100.000 MHz : L :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:214100.000 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
+def FREQ_SMA;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
+     chan_def = &B:212052.0 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+enddef;
 def FREQ_Nn; * derived for on lo1=221.100 lo2=7.744 GHz
    sample_rate = 128.0 Ms/sec;  * (2bits/sample)
-   * Recorder 3, slot 1, USB-Inner, LCP, subbands 0-11,44-47
-   chan_def = &B: 228876.00 MHz : L : 64.00 MHz : &CH01 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228812.00 MHz : L : 64.00 MHz : &CH02 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228748.00 MHz : L : 64.00 MHz : &CH03 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228684.00 MHz : L : 64.00 MHz : &CH04 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228620.00 MHz : L : 64.00 MHz : &CH05 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228556.00 MHz : L : 64.00 MHz : &CH06 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228492.00 MHz : L : 64.00 MHz : &CH07 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228428.00 MHz : L : 64.00 MHz : &CH08 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228364.00 MHz : L : 64.00 MHz : &CH09 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228300.00 MHz : L : 64.00 MHz : &CH10 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228236.00 MHz : L : 64.00 MHz : &CH11 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228172.00 MHz : L : 64.00 MHz : &CH12 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 226060.00 MHz : L : 64.00 MHz : &CH13 : &BBC01 : &NoCal; * b3_1.3mm
-   chan_def = &B: 225996.00 MHz : L : 64.00 MHz : &CH14 : &BBC01 : &NoCal;
-   chan_def = &B: 225932.00 MHz : L : 64.00 MHz : &CH15 : &BBC01 : &NoCal;
-   chan_def = &B: 225868.00 MHz : L : 64.00 MHz : &CH16 : &BBC01 : &NoCal;
-   * Recorder 3, slot 2, USB-Outer, LCP, subbands 0-15
-   chan_def = &B: 228812.00 MHz : U : 64.00 MHz : &CH17 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228876.00 MHz : U : 64.00 MHz : &CH18 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228940.00 MHz : U : 64.00 MHz : &CH19 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229004.00 MHz : U : 64.00 MHz : &CH20 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229068.00 MHz : U : 64.00 MHz : &CH21 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229132.00 MHz : U : 64.00 MHz : &CH22 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229196.00 MHz : U : 64.00 MHz : &CH23 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229260.00 MHz : U : 64.00 MHz : &CH24 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229324.00 MHz : U : 64.00 MHz : &CH25 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229388.00 MHz : U : 64.00 MHz : &CH26 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229452.00 MHz : U : 64.00 MHz : &CH27 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229516.00 MHz : U : 64.00 MHz : &CH28 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229580.00 MHz : U : 64.00 MHz : &CH29 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229644.00 MHz : U : 64.00 MHz : &CH30 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229708.00 MHz : U : 64.00 MHz : &CH31 : &BBC01 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229772.00 MHz : U : 64.00 MHz : &CH32 : &BBC01 : &NoCal; * b4_1.3mm
-   * Recorder 3, slot 3, USB-Outer, RCP, subbands 0-15
-   chan_def = &B: 228812.00 MHz : U : 64.00 MHz : &CH33 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228876.00 MHz : U : 64.00 MHz : &CH34 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228940.00 MHz : U : 64.00 MHz : &CH35 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229004.00 MHz : U : 64.00 MHz : &CH36 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229068.00 MHz : U : 64.00 MHz : &CH37 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229132.00 MHz : U : 64.00 MHz : &CH38 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229196.00 MHz : U : 64.00 MHz : &CH39 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229260.00 MHz : U : 64.00 MHz : &CH40 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229324.00 MHz : U : 64.00 MHz : &CH41 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229388.00 MHz : U : 64.00 MHz : &CH42 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229452.00 MHz : U : 64.00 MHz : &CH43 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229516.00 MHz : U : 64.00 MHz : &CH44 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229580.00 MHz : U : 64.00 MHz : &CH45 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229644.00 MHz : U : 64.00 MHz : &CH46 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229708.00 MHz : U : 64.00 MHz : &CH47 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 229772.00 MHz : U : 64.00 MHz : &CH48 : &BBC02 : &NoCal; * b4_1.3mm
-   * Recorder 3, slot 4, USB-Inner, RCP, subbands 0-11,44-47
-   chan_def = &B: 228876.00 MHz : L : 64.00 MHz : &CH49 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228812.00 MHz : L : 64.00 MHz : &CH50 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228748.00 MHz : L : 64.00 MHz : &CH51 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228684.00 MHz : L : 64.00 MHz : &CH52 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228620.00 MHz : L : 64.00 MHz : &CH53 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228556.00 MHz : L : 64.00 MHz : &CH54 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228492.00 MHz : L : 64.00 MHz : &CH55 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228428.00 MHz : L : 64.00 MHz : &CH56 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228364.00 MHz : L : 64.00 MHz : &CH57 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228300.00 MHz : L : 64.00 MHz : &CH58 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228236.00 MHz : L : 64.00 MHz : &CH59 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 228172.00 MHz : L : 64.00 MHz : &CH60 : &BBC02 : &NoCal; * b4_1.3mm
-   chan_def = &B: 226060.00 MHz : L : 64.00 MHz : &CH61 : &BBC02 : &NoCal; * b3_1.3mm
-   chan_def = &B: 225996.00 MHz : L : 64.00 MHz : &CH62 : &BBC02 : &NoCal;
-   chan_def = &B: 225932.00 MHz : L : 64.00 MHz : &CH63 : &BBC02 : &NoCal;
-   chan_def = &B: 225868.00 MHz : L : 64.00 MHz : &CH64 : &BBC02 : &NoCal;
+   * Recorder 1, slot 1, LSB-Inner, LCP, subbands 0-11,44-47
+   chan_def = &B: 213324.00 MHz : U : 64.00 MHz : &CH01 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213388.00 MHz : U : 64.00 MHz : &CH02 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213452.00 MHz : U : 64.00 MHz : &CH03 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213516.00 MHz : U : 64.00 MHz : &CH04 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213580.00 MHz : U : 64.00 MHz : &CH05 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213644.00 MHz : U : 64.00 MHz : &CH06 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213708.00 MHz : U : 64.00 MHz : &CH07 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213772.00 MHz : U : 64.00 MHz : &CH08 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213836.00 MHz : U : 64.00 MHz : &CH09 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213900.00 MHz : U : 64.00 MHz : &CH10 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213964.00 MHz : U : 64.00 MHz : &CH11 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 214028.00 MHz : U : 64.00 MHz : &CH12 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 216140.00 MHz : U : 64.00 MHz : &CH13 : &BBC01 : &NoCal; * b2_1.3mm
+   chan_def = &B: 216204.00 MHz : U : 64.00 MHz : &CH14 : &BBC01 : &NoCal;
+   chan_def = &B: 216268.00 MHz : U : 64.00 MHz : &CH15 : &BBC01 : &NoCal;
+   chan_def = &B: 216332.00 MHz : U : 64.00 MHz : &CH16 : &BBC01 : &NoCal;
+   * Recorder 1, slot 2, LSB-Outer, LCP, subbands 0-15
+   chan_def = &B: 213388.00 MHz : L : 64.00 MHz : &CH17 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213324.00 MHz : L : 64.00 MHz : &CH18 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213260.00 MHz : L : 64.00 MHz : &CH19 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213196.00 MHz : L : 64.00 MHz : &CH20 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213132.00 MHz : L : 64.00 MHz : &CH21 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213068.00 MHz : L : 64.00 MHz : &CH22 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213004.00 MHz : L : 64.00 MHz : &CH23 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212940.00 MHz : L : 64.00 MHz : &CH24 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212876.00 MHz : L : 64.00 MHz : &CH25 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212812.00 MHz : L : 64.00 MHz : &CH26 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212748.00 MHz : L : 64.00 MHz : &CH27 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212684.00 MHz : L : 64.00 MHz : &CH28 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212620.00 MHz : L : 64.00 MHz : &CH29 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212556.00 MHz : L : 64.00 MHz : &CH30 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212492.00 MHz : L : 64.00 MHz : &CH31 : &BBC01 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212428.00 MHz : L : 64.00 MHz : &CH32 : &BBC01 : &NoCal; * b1_1.3mm
+   * Recorder 1, slot 3, LSB-Outer, RCP, subbands 0-15
+   chan_def = &B: 213388.00 MHz : L : 64.00 MHz : &CH33 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213324.00 MHz : L : 64.00 MHz : &CH34 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213260.00 MHz : L : 64.00 MHz : &CH35 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213196.00 MHz : L : 64.00 MHz : &CH36 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213132.00 MHz : L : 64.00 MHz : &CH37 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213068.00 MHz : L : 64.00 MHz : &CH38 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213004.00 MHz : L : 64.00 MHz : &CH39 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212940.00 MHz : L : 64.00 MHz : &CH40 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212876.00 MHz : L : 64.00 MHz : &CH41 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212812.00 MHz : L : 64.00 MHz : &CH42 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212748.00 MHz : L : 64.00 MHz : &CH43 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212684.00 MHz : L : 64.00 MHz : &CH44 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212620.00 MHz : L : 64.00 MHz : &CH45 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212556.00 MHz : L : 64.00 MHz : &CH46 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212492.00 MHz : L : 64.00 MHz : &CH47 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 212428.00 MHz : L : 64.00 MHz : &CH48 : &BBC02 : &NoCal; * b1_1.3mm
+   * Recorder 1, slot 4, LSB-Inner, RCP, subbands 0-11,44-47
+   chan_def = &B: 213324.00 MHz : U : 64.00 MHz : &CH49 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213388.00 MHz : U : 64.00 MHz : &CH50 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213452.00 MHz : U : 64.00 MHz : &CH51 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213516.00 MHz : U : 64.00 MHz : &CH52 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213580.00 MHz : U : 64.00 MHz : &CH53 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213644.00 MHz : U : 64.00 MHz : &CH54 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213708.00 MHz : U : 64.00 MHz : &CH55 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213772.00 MHz : U : 64.00 MHz : &CH56 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213836.00 MHz : U : 64.00 MHz : &CH57 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213900.00 MHz : U : 64.00 MHz : &CH58 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 213964.00 MHz : U : 64.00 MHz : &CH59 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 214028.00 MHz : U : 64.00 MHz : &CH60 : &BBC02 : &NoCal; * b1_1.3mm
+   chan_def = &B: 216140.00 MHz : U : 64.00 MHz : &CH61 : &BBC02 : &NoCal; * b2_1.3mm
+   chan_def = &B: 216204.00 MHz : U : 64.00 MHz : &CH62 : &BBC02 : &NoCal;
+   chan_def = &B: 216268.00 MHz : U : 64.00 MHz : &CH63 : &BBC02 : &NoCal;
+   chan_def = &B: 216332.00 MHz : U : 64.00 MHz : &CH64 : &BBC02 : &NoCal;
 enddef;
 def FREQ_AA; * derived for on lo1=221.100 lo2=1.875 GHz
    sample_rate = 125.0 Ms/sec;  * (2bits/sample)
-   * Recorder 4, slots 1+2, USB around LO1 + 8 GHz, X-pol, subbands 0-31
-   chan_def = &B: 228160.546875 MHz : U : 62.50 MHz : &CH01 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228219.140625 MHz : U : 62.50 MHz : &CH02 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228277.734375 MHz : U : 62.50 MHz : &CH03 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228336.328125 MHz : U : 62.50 MHz : &CH04 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228394.921875 MHz : U : 62.50 MHz : &CH05 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228453.515625 MHz : U : 62.50 MHz : &CH06 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228512.109375 MHz : U : 62.50 MHz : &CH07 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228570.703125 MHz : U : 62.50 MHz : &CH08 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228629.296875 MHz : U : 62.50 MHz : &CH09 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228687.890625 MHz : U : 62.50 MHz : &CH10 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228746.484375 MHz : U : 62.50 MHz : &CH11 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228805.078125 MHz : U : 62.50 MHz : &CH12 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228863.671875 MHz : U : 62.50 MHz : &CH13 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228922.265625 MHz : U : 62.50 MHz : &CH14 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 228980.859375 MHz : U : 62.50 MHz : &CH15 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229039.453125 MHz : U : 62.50 MHz : &CH16 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229098.046875 MHz : U : 62.50 MHz : &CH17 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229156.640625 MHz : U : 62.50 MHz : &CH18 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229215.234375 MHz : U : 62.50 MHz : &CH19 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229273.828125 MHz : U : 62.50 MHz : &CH20 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229332.421875 MHz : U : 62.50 MHz : &CH21 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229391.015625 MHz : U : 62.50 MHz : &CH22 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229449.609375 MHz : U : 62.50 MHz : &CH23 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229508.203125 MHz : U : 62.50 MHz : &CH24 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229566.796875 MHz : U : 62.50 MHz : &CH25 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229625.390625 MHz : U : 62.50 MHz : &CH26 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229683.984375 MHz : U : 62.50 MHz : &CH27 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229742.578125 MHz : U : 62.50 MHz : &CH28 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229801.171875 MHz : U : 62.50 MHz : &CH29 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229859.765625 MHz : U : 62.50 MHz : &CH30 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229918.359375 MHz : U : 62.50 MHz : &CH31 : &BBC01 : &NoCal; * b4 X
-   chan_def = &B: 229976.953125 MHz : U : 62.50 MHz : &CH32 : &BBC01 : &NoCal; * b4 X
-   * Recorder 4, slots 3+4, USB around LO1 + 8 GHz, Y-pol, subbands 0-31
-   chan_def = &B: 228160.546875 MHz : U : 62.50 MHz : &CH33 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228219.140625 MHz : U : 62.50 MHz : &CH34 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228277.734375 MHz : U : 62.50 MHz : &CH35 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228336.328125 MHz : U : 62.50 MHz : &CH36 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228394.921875 MHz : U : 62.50 MHz : &CH37 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228453.515625 MHz : U : 62.50 MHz : &CH38 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228512.109375 MHz : U : 62.50 MHz : &CH39 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228570.703125 MHz : U : 62.50 MHz : &CH40 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228629.296875 MHz : U : 62.50 MHz : &CH41 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228687.890625 MHz : U : 62.50 MHz : &CH42 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228746.484375 MHz : U : 62.50 MHz : &CH43 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228805.078125 MHz : U : 62.50 MHz : &CH44 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228863.671875 MHz : U : 62.50 MHz : &CH45 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228922.265625 MHz : U : 62.50 MHz : &CH46 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 228980.859375 MHz : U : 62.50 MHz : &CH47 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229039.453125 MHz : U : 62.50 MHz : &CH48 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229098.046875 MHz : U : 62.50 MHz : &CH49 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229156.640625 MHz : U : 62.50 MHz : &CH50 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229215.234375 MHz : U : 62.50 MHz : &CH51 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229273.828125 MHz : U : 62.50 MHz : &CH52 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229332.421875 MHz : U : 62.50 MHz : &CH53 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229391.015625 MHz : U : 62.50 MHz : &CH54 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229449.609375 MHz : U : 62.50 MHz : &CH55 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229508.203125 MHz : U : 62.50 MHz : &CH56 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229566.796875 MHz : U : 62.50 MHz : &CH57 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229625.390625 MHz : U : 62.50 MHz : &CH58 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229683.984375 MHz : U : 62.50 MHz : &CH59 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229742.578125 MHz : U : 62.50 MHz : &CH60 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229801.171875 MHz : U : 62.50 MHz : &CH61 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229859.765625 MHz : U : 62.50 MHz : &CH62 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229918.359375 MHz : U : 62.50 MHz : &CH63 : &BBC02 : &NoCal; * b4 Y
-   chan_def = &B: 229976.953125 MHz : U : 62.50 MHz : &CH64 : &BBC02 : &NoCal; * b4 Y
+   * Recorder 1, slots 1+2, LSB around LO1-8 GHz, X-pol, subbands 0-31
+   chan_def = &B: 214039.453125 MHz : L : 62.50 MHz : &CH01 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213980.859375 MHz : L : 62.50 MHz : &CH02 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213922.265625 MHz : L : 62.50 MHz : &CH03 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213863.671875 MHz : L : 62.50 MHz : &CH04 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213805.078125 MHz : L : 62.50 MHz : &CH05 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213746.484375 MHz : L : 62.50 MHz : &CH06 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213687.890625 MHz : L : 62.50 MHz : &CH07 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213629.296875 MHz : L : 62.50 MHz : &CH08 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213570.703125 MHz : L : 62.50 MHz : &CH09 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213512.109375 MHz : L : 62.50 MHz : &CH10 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213453.515625 MHz : L : 62.50 MHz : &CH11 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213394.921875 MHz : L : 62.50 MHz : &CH12 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213336.328125 MHz : L : 62.50 MHz : &CH13 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213277.734375 MHz : L : 62.50 MHz : &CH14 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213219.140625 MHz : L : 62.50 MHz : &CH15 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213160.546875 MHz : L : 62.50 MHz : &CH16 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213101.953125 MHz : L : 62.50 MHz : &CH17 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 213043.359375 MHz : L : 62.50 MHz : &CH18 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212984.765625 MHz : L : 62.50 MHz : &CH19 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212926.171875 MHz : L : 62.50 MHz : &CH20 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212867.578125 MHz : L : 62.50 MHz : &CH21 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212808.984375 MHz : L : 62.50 MHz : &CH22 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212750.390625 MHz : L : 62.50 MHz : &CH23 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212691.796875 MHz : L : 62.50 MHz : &CH24 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212633.203125 MHz : L : 62.50 MHz : &CH25 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212574.609375 MHz : L : 62.50 MHz : &CH26 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212516.015625 MHz : L : 62.50 MHz : &CH27 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212457.421875 MHz : L : 62.50 MHz : &CH28 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212398.828125 MHz : L : 62.50 MHz : &CH29 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212340.234375 MHz : L : 62.50 MHz : &CH30 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212281.640625 MHz : L : 62.50 MHz : &CH31 : &BBC01 : &NoCal; * b1 X
+   chan_def = &B: 212223.046875 MHz : L : 62.50 MHz : &CH32 : &BBC01 : &NoCal; * b1 X
+   * Recorder 1, slots 3+4, LSB around LO1-8 GHz, Y-pol, subbands 0-31
+   chan_def = &B: 214039.453125 MHz : L : 62.50 MHz : &CH33 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213980.859375 MHz : L : 62.50 MHz : &CH34 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213922.265625 MHz : L : 62.50 MHz : &CH35 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213863.671875 MHz : L : 62.50 MHz : &CH36 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213805.078125 MHz : L : 62.50 MHz : &CH37 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213746.484375 MHz : L : 62.50 MHz : &CH38 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213687.890625 MHz : L : 62.50 MHz : &CH39 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213629.296875 MHz : L : 62.50 MHz : &CH40 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213570.703125 MHz : L : 62.50 MHz : &CH41 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213512.109375 MHz : L : 62.50 MHz : &CH42 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213453.515625 MHz : L : 62.50 MHz : &CH43 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213394.921875 MHz : L : 62.50 MHz : &CH44 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213336.328125 MHz : L : 62.50 MHz : &CH45 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213277.734375 MHz : L : 62.50 MHz : &CH46 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213219.140625 MHz : L : 62.50 MHz : &CH47 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213160.546875 MHz : L : 62.50 MHz : &CH48 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213101.953125 MHz : L : 62.50 MHz : &CH49 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 213043.359375 MHz : L : 62.50 MHz : &CH50 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212984.765625 MHz : L : 62.50 MHz : &CH51 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212926.171875 MHz : L : 62.50 MHz : &CH52 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212867.578125 MHz : L : 62.50 MHz : &CH53 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212808.984375 MHz : L : 62.50 MHz : &CH54 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212750.390625 MHz : L : 62.50 MHz : &CH55 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212691.796875 MHz : L : 62.50 MHz : &CH56 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212633.203125 MHz : L : 62.50 MHz : &CH57 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212574.609375 MHz : L : 62.50 MHz : &CH58 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212516.015625 MHz : L : 62.50 MHz : &CH59 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212457.421875 MHz : L : 62.50 MHz : &CH60 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212398.828125 MHz : L : 62.50 MHz : &CH61 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212340.234375 MHz : L : 62.50 MHz : &CH62 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212281.640625 MHz : L : 62.50 MHz : &CH63 : &BBC02 : &NoCal; * b1 Y
+   chan_def = &B: 212223.046875 MHz : L : 62.50 MHz : &CH64 : &BBC02 : &NoCal; * b1 Y
 enddef;
 *------------------------------------------------------------------------------
 $PHASE_CAL_DETECT;
