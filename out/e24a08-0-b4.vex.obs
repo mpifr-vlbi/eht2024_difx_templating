@@ -32,15 +32,15 @@ def Aa;
 enddef;
 *
 def Ax;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.7641e-12;
+  clock_early = 2024y094d22h00m00s : 0.1850 usec : 2024y094d22h00m00s : +0.7641e-12;
 enddef;
 *
 def Gl;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -0.107e-12;
+  clock_early = 2024y094d22h00m00s : -0.7488 usec : 2024y094d22h00m00s : -0.107e-12;
 enddef;
 *
 def Kt;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.679e-12;
+  clock_early = 2024y094d22h00m00s : +0.6580 usec : 2024y094d22h00m00s : +0.679e-12;
 enddef;
 *
 def Ky;
@@ -48,7 +48,7 @@ def Ky;
 enddef;
 *
 def Lm;
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : +0.641e-12;
+  clock_early = 2024y094d22h00m00s : -0.5990 usec : 2024y094d22h00m00s : +0.641e-12;
 enddef;
 *
 def Mm; * JCMT
@@ -56,7 +56,7 @@ def Mm; * JCMT
 enddef;
 *
 def Mg; * SMT
-  clock_early = 2024y094d22h00m00s: 0.0 usec: 2024y094d22h00m00s : -1.735e-12;
+  clock_early = 2024y094d22h00m00s : +0.0085 usec : 2024y094d22h00m00s : -1.735e-12;
 enddef;
 *
 def Nn; * NOEMA
