@@ -100,6 +100,11 @@ prerequisites:
 	# $ehtc/alma-vex-defs.py -f347600.00000 -w58.0 -sU -ralma # b3
 	# $ehtc/alma-vex-defs.py -f349600.00000 -w58.0 -sU -ralma # b4
 	#
+	# Dan Hoak, fringes in 345G b2 after nearest 15.625 kHz -aligned tuning as below
+	#   $ehtc/alma-vex-defs.py -f 337547.656250 -w58.0 -s L -r alma    # 345G b2, nearest 15.625 kHz -aligned tuning, off from actual
+	#   v2d Aa loOffsets = -6250.0,-6250.0,...,-6250.0                 # corrective LO offset to reproduce the actual ALMA (mis)tuning
+	./scripts/alma-vex-defs.py --lo1 343.54765625 -r 2 > templates/345G/band2/freqs_ALMA.vex
+	#
 	## 230G ALMA in Spectral Line track e24g11(/f11/d11)
 	#
 	# Logfile indicates all VLBI scans used these LO settings
