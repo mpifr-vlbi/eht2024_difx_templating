@@ -1,6 +1,11 @@
 ANTENNA Aa {
   # LO offsets 2024 should be zero, with the truncation bug of the tuning frequency string finally fixed
   datastreams = Aa_ds12,Aa_ds34
+
+  # Note, ALMA chose an EHT band2 tuning that did not align with the normal 15.625 kHz freq grid (off by 6250 Hz)
+  # There is no way to correlate the ALMA data in DiFX other than using a fake on-grid b2 VEX FREQ_AA definition
+  # and the below counteracting freq shift to move the recorded data to their original off-grid sky frequency:
+  loOffsets = -6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0,-6250.0
 }
 
 ANTENNA Ax {
