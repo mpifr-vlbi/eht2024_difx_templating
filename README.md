@@ -20,11 +20,16 @@ Channel definitions are sorted in numerically increasing order in the DiFX v2d f
 
 The SMT 345G receiver is not sideband reparating; LSB folds onto USB (b2+b3, b1+b4). Weather there was poor, though, and only one scan has a fringe.
 
+Track e24g11 is a combined track that repeats a missed part of track e24d10 (standard EHT 230G) on continuum sources,
+and adds track e24f11 (standard EHT 230G, but different at ALMA) on spectral line sources.
+
 The ALMA tunings deviated from nominal EHT tunings in several tracks:
- - e24b04 260G they had a deliberate offset of +500 MHz
- - e24c09 345G band2 had a HW BB Center of 337.547650 GHz instead of 337.541406250 GHz, breaking compatibility with the N*15.625 kHz sky-freq grid
- - e24f11 'line observations' used VLBI mode for continuum sources, but for SiO targets used non-VLBI high-res mode in bands 1/3/4 (i.e. no valid VLBI data)
- - e24f11 230G band2 data on SiO line sources was probably in VLBI mode and might have valid VLBI data, actual tuning and recorder holding the data still unclear
+ - e24b04 260G had a deliberate large offset of +500 MHz at ALMA
+ - e24c09 345G band2 had a 'HW BB Center' of 337.547650 GHz instead of 337.541406250 GHz, breaking compatibility with the N*15.625 kHz sky-freq grid
+ - e24f11 230G 'line observations' used VLBI mode for continuum sources, but for SiO targets used non-VLBI high-res mode for the bands 1/3/4 (i.e. no valid VLBI data)
+ - e24f11 230G band2 data on SiO line sources was probably in VLBI mode and might have valid VLBI data. Actual tuning and the recorder holding the data still unclear.
+ - The 2024 Draft Schedules page indicates 'Track F: SiO Masers at 215 GHz (Band-2 of the standard tuning for 221.1 GHz)' for which the ALMA script log
+  ought to show a 'StandardVLBI HW BB Centers' with b2 of 21510000000.0 Hz, however, e24f11-linesurvey-script.log.gz shows 215091140500.0 Hz for b2.
 
 In e24c09 the ALMA 345G band2 data produced fringes with DiFX VEX and v2d settings of
 ```
@@ -32,7 +37,7 @@ $ehtc/alma-vex-defs.py -f 337547.656250 -w58.0 -s L -r alma    # 345G b2, neares
 v2d Aa loOffsets = -6250.0,-6250.0,...,-6250.0                 # corrective LO offset to reproduce the actual ALMA (mis)tuning
 ```
 
-In e24f11 there are ALMA b1 fringes on 3C279 using standard 230G EHT freq settings for ALMA.
+In e24g11 there are ALMA b1 fringes on 3C279 using standard 230G EHT freq settings for ALMA.
 
 
 # TODO
@@ -52,7 +57,7 @@ e24e07  230G  3842  Aa Ax Gl Kt Lm Mg Mm Nn Sw Sz [Pv]
 e24a08  230G  3843  Aa Ax Gl Ky Kt Lm Mm Mg Nn Sw Sz [Pv]
 e24c09  345G  3844  Aa Ax Gl Mg Mm Nn Pv Sw
 e24d10  230G  3845  Ax Gl Kt Lm Mg Mm Pv Sw Sz [Aa Nn]
-e24f11  230G  3846  Aa Gl Kt Lm Mg Mm Pv Sw Sz  aka e24g11 [Ax]
+e24g11  230G  3846  Aa Gl Kt Lm Mg Mm Pv Sw Sz  aka e24f11 [Ax]
 
 Notes
 [] : did not observe this track
@@ -62,14 +67,15 @@ Aa : observed e24b04 offset by +500 MHz from rest of array,
 Ky : recorded b2 b3 (to be e-transferred), no data for b1 b4
 ```
 
-Spectral line track e24f11/e24g11 in principle ought to cover
+Spectral line track e24f11/e24g11 ought to cover
 ```
 28SiO v=1, J=5-4, rest freq. 215.596 GHz, band 1 - primary line of interest
 28SiO v=3, J=5-4, rest freq. 212.582 GHz, band 1 - other
 29SiO v=1. J=5-4, rest freq. 212.905 GHz, band 1 - other
 29SiO v=0, J=5-4, rest freq. 214.386 GHz, band 2 - other, perhaps strongest of the above three
 ```
-and the track should be correlated at higher spectral resolution of v2d outputSpecRes=0.0625 MHz.
+Band2 recordings are in Phased Array VLBI mode, others bands are non-VLBI Interferometer mode, discard in DiFX.
+Band2 should be correlated in DiFX using a higher spectral resolution of v2d outputSpecRes=0.0625 MHz.
 
 
 # Clock offsets
