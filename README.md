@@ -29,7 +29,7 @@ The ALMA tunings deviated from nominal EHT tunings in several tracks:
  - e24f11 230G 'line observations' used VLBI mode for continuum sources, but for SiO targets used non-VLBI high-res mode for the bands 1/3/4 (i.e. no valid VLBI data)
  - e24f11 230G band2 data on SiO line sources was probably in VLBI mode and might have valid VLBI data. Actual tuning and the recorder holding the data still unclear.
  - The 2024 Draft Schedules page indicates 'Track F: SiO Masers at 215 GHz (Band-2 of the standard tuning for 221.1 GHz)' for which the ALMA script log
-  ought to show a 'StandardVLBI HW BB Centers' with b2 of 21510000000.0 Hz, however, e24f11-linesurvey-script.log.gz shows 215091140500.0 Hz for b2.
+  ought to show a 'StandardVLBI HW BB Centers' with b2 of 21510000000.0 Hz, however, e24f11-linesurvey-script.log.gz shows a HW BB Center of 215091140500.0 Hz for b2.
 
 In e24c09 the ALMA 345G band2 data produced fringes with DiFX VEX and v2d settings of
 ```
@@ -42,10 +42,8 @@ In e24g11 there are ALMA b1 fringes on 3C279 using standard 230G EHT freq settin
 
 # TODO
 
-Choose SPT coordinates for a mid-session day from ./priors/SPT.txt - then figure out revised coordinates by geodetic fitting?
-
-Fix NOEMA VEX channel definitions: the 4 orphan channels of past expts are already getting re-routed to the correct Mark6s,
-so can be correlated. Updated 345G b2 b3 so far. Need to check 230G 260G.
+SPT coordinates from a mid-session day from ./priors/SPT.txt seem good enough, residual rate a big high, 100 milliHz,
+but can be removed during fringe fitting. Full-track A-lists with ALMA-SPT fringes shared mid 2025 but no feedback received.
 
 
 # Tracks
