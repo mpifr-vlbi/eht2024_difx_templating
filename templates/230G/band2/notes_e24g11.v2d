@@ -1,5 +1,7 @@
 # Track e24g11 band 2
 # Notes:
+# - Track starts with part D (continuum) and switches to part F (line),
+#   the first part F scan is 102-0252 VYCma
 # - APEX antenna control unit failed before track, could not observe
 # - ALMA tuning turned out to be somewhat non standard
 #   - continuum scans followed the standard EHT 230G setup in all(?) bands,
