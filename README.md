@@ -45,6 +45,12 @@ In e24g11 there are ALMA b1 fringes on 3C279 using standard 230G EHT freq settin
 SPT coordinates from a mid-session day from ./priors/SPT.txt seem good enough, residual rate a big high, 100 milliHz,
 but can be removed during fringe fitting. Full-track A-lists with ALMA-SPT fringes shared mid 2025 but no feedback received.
 
+Track e24g11 (D+F) most likely needs to be split up for correlation;
+part D as e24d11 with standard 230G settings in all bands, also at ALMA,
+part F as e24f11 with band-specific settings of b1 high res 0.0625 MHz/ch, b2 which has ALMA but with LO offsets, b3 b4 without ALMA with standard 0.5 MHz/ch.
+
+Channelization of Part F of track e24f11 needs to be checked: do the expected SiO lines land well in the middle of a 58 MHz outputband?
+
 
 # Tracks
 
