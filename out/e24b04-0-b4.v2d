@@ -115,9 +115,10 @@ DATASTREAM Pv_ds34 { filelist = Pico_b4.34.filelist }
 #==================================================================
 
 OUTPUTBAND outputbands {
-  # Additional outputbands preceding the 500 MHz shifted ALMA:
-  addOutputBand = freq@266535.453125/bw@58.0
-  addOutputBand = freq@266594.046875/bw@58.0
+  # Additional outputbands preceding the 500 MHz shifted ALMA, for 34 IFs total:
+  #addOutputBand = freq@266535.453125/bw@58.0
+  #addOutputBand = freq@266594.046875/bw@58.0
+  # Additional outputbands preceding the 500 MHz shifted ALMA, for 32 IFs total:
   addOutputBand = freq@266652.640625/bw@58.0
   addOutputBand = freq@266711.234375/bw@58.0
   addOutputBand = freq@266769.828125/bw@58.0
