@@ -174,7 +174,7 @@ SETUP zoomSetup {
   subintNS =  40000000   # by factor 2 zippier correlation at MPIfR
   FFTSpecRes = 0.015625
   # outputSpecRes = 0.5
-  outputSpecRes = 0.0625 # for Spectral Line part F of track
+  outputSpecRes = 0.0625 # just for band1 of Spectral Line part F of track
   xmacLength = 0
   strideLength = 0
   guardNS = 2000
