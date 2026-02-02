@@ -13,7 +13,7 @@ vex = vexfilename
 # ANTENNA DATA
 #==================================================================
 
-#include <antennas.v2d>
+#include <antennas_e24g11.v2d>
 #include <datastreams.v2d>
 
 

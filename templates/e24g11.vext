@@ -37,7 +37,7 @@ enddef;
 ** include <bbc.vex>
 ** include <freqs.vex>
 ** include <freqs_NOEMA.vex>
-** include <freqs_ALMA.vex>
+** include <freqs_ALMA_e24g11.vex>
 ** include <phasecal.vex>
 ** include <tape.vex>
 *------------------------------------------------------------------------------
