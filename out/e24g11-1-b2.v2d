@@ -32,8 +32,13 @@ singleSetup = True
 #==================================================================
 
 ANTENNA Aa {
-  # LO offsets 2024 should be zero, with the truncation bug of the tuning frequency string finally fixed
+  # e24g11 combined with D and F schedules,
+  # b1/2/3/4 recordings in D part with continuum settings
+  # b2 -only recordings in F part
+  # Fringes in b1 b3 b4 with standard setting lo1=221.100 and 0 Hz offset
+  # Fringes in b2 with lo1=223.0911406 and -125 Hz v2d offset
   datastreams = Aa_ds12,Aa_ds34
+  loOffsets = -125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125
 }
 
 ANTENNA Ax {
