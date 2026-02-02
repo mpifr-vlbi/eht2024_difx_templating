@@ -1,0 +1,12 @@
+# Track e24g11 band 4
+# Notes:
+# - Track starts with part D (continuum) and switches to part F (line),
+#   the first part F scan is 102-0252 VYCma
+# - APEX antenna control unit failed before track, could not observe
+# - ALMA tuning turned out to be somewhat non standard
+#   - continuum scans followed the standard EHT 230G setup in all(?) bands,
+#       hence VLBI fringes to ALMA possible are on 3C279 etc
+#   - SiO/line targets were observed differently,
+#       b2 with the main line was probably in phased array VLBI mode, whereas
+#       b1 b3 b4 were reallocated to interferometric non-VLBI mode to get high-res spectra,
+#       hence no VLBI fringes to be expected on line sources (except perhaps in b2?)

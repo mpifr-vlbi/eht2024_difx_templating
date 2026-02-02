@@ -38,19 +38,19 @@ enddef;
 ** include <stations.vex>
 ** include <antennas.vex>
 ** include <sites_consistent.vex>
-** include <sites_NOEMA_e24g11.vex>
+** include <sites_NOEMA_e24f11.vex>
 ** include <tracks.vex>
 ** include <if.vex>
 ** include <bbc.vex>
 ** include <freqs.vex>
 ** include <freqs_NOEMA.vex>
-** include <freqs_ALMA_e24g11.vex>
+** include <freqs_ALMA_e24f11.vex>
 ** include <phasecal.vex>
 ** include <tape.vex>
 *------------------------------------------------------------------------------
-** include <sources_e24g11.vex>
-** include <sched_e24g11.vex>
+** include <sources_e24f11.vex>
+** include <sched_e24f11.vex>
 *------------------------------------------------------------------------------
-** include <eop_e24g11.vex>
-** loaddata <clocks_e24g11.dat>
+** include <eop_e24f11.vex>
+** loaddata <clocks_e24f11.dat>
 *------------------------------------------------------------------------------

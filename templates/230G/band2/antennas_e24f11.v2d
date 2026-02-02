@@ -1,0 +1,52 @@
+ANTENNA Aa {
+  # e24g11 combined with D and F schedules,
+  # b1/2/3/4 recordings in D part with continuum settings
+  # b2 -only recordings in F part
+  # Fringes in b1 b3 b4 with standard setting lo1=221.100 and 0 Hz offset
+  # Fringes in b2 with lo1=223.0911406 and -125 Hz v2d offset
+  datastreams = Aa_ds12,Aa_ds34
+  loOffsets = -125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125,-125
+}
+
+ANTENNA Ax {
+  datastreams = Ax_ds12,Ax_ds34
+  loOffsets = +15.022,+15.022
+}
+
+ANTENNA Gl {
+  datastreams = Glt_ds12,Glt_ds34
+}
+
+ANTENNA Kt {
+  datastreams = Kt_ds12,Kt_ds34
+}
+
+ANTENNA Lm {
+  datastreams = Lmt_ds12,Lmt_ds34
+  deltaClock = 0 # LMT extra offsets
+}
+
+ANTENNA Mg { # SMT
+  datastreams = Smt_ds12,Smt_ds34
+}
+
+ANTENNA Mm { # JCMT
+  datastreams = Jcmt_ds12,Jcmt_ds34
+}
+
+ANTENNA Nn {
+  datastreams = Nn_ds1,Nn_ds2,Nn_ds3,Nn_ds4
+}
+
+ANTENNA Pv {
+  datastreams = Pv_ds12,Pv_ds34
+}
+
+ANTENNA Sw { # SMA APHIDS
+  datastreams = SmaAphids_ds12,SmaAphids_ds34
+  deltaClock = 0 # SMA extra offsets
+}
+
+ANTENNA Sz { # SPT
+  datastreams = Spt_ds12,Spt_ds34
+}

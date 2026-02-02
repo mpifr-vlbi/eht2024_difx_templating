@@ -1,7 +1,7 @@
 #==================================================================
 # DiFX version 2.9.1 as default
 #
-#include <notes_e24g11.v2d>
+#include <notes_e24d11.v2d>
 #==================================================================
 
 vex = vexfilename
@@ -13,7 +13,7 @@ vex = vexfilename
 # ANTENNA DATA
 #==================================================================
 
-#include <antennas_e24g11.v2d>
+#include <antennas_e24d11.v2d>
 #include <datastreams.v2d>
 
 
