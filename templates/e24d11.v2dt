@@ -7,7 +7,6 @@
 vex = vexfilename
 
 #include <globals.v2d>
-#include <timerange_e24d11.v2d>
 
 #==================================================================
 # ANTENNA DATA

@@ -2,7 +2,8 @@ VEX_rev = 1.5;
 *    SCHED vers: Development version 11.5. Started Apr. 2
 *    VEX/SCHED:  1.5.87
 *    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
-*    Combined track e24g11 consisting of Track D and Track F
+*
+*    Part of combined track e24g11 consisting of Track D and Track F
 *
 *    For correlation this was split out into "e24d11" and "e24f11".
 *    This is part F of the track and carried out in standard EHT 230G mode,
