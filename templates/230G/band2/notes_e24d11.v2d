@@ -1,9 +1,11 @@
-# Track e24g11 band 2
+# Track e24d11 band 2
 # Notes:
-# - Track starts with part D (continuum) and switches to part F (line),
+# - Track e24g11 starts with part D (continuum) and switches to part F (line),
 #   the first part F scan is 102-0252 VYCma
+# - ALMA observed track as part D followed by part F VYCMA 102-0252
 # - APEX antenna control unit failed before track, could not observe
-# - ALMA tuning turned out to be somewhat non standard
+# - ALMA track part D tuning is standard EHT
+# - ALMA track part F tuning turned out to be somewhat non standard
 #   - continuum scans followed the standard EHT 230G setup in all(?) bands,
 #       hence VLBI fringes to ALMA possible are on 3C279 etc
 #   - SiO/line targets were observed differently,
