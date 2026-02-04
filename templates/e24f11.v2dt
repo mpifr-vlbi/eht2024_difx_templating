@@ -22,4 +22,4 @@ vex = vexfilename
 
 #include <outputbands.v2d>
 
-#include <setup.v2d>
+#include <setup_e24f11.v2d>
