@@ -14,6 +14,10 @@
 #       b2 with the main line was probably in phased array VLBI mode, whereas
 #       b1 b3 b4 were reallocated to interferometric non-VLBI mode to get high-res spectra,
 #       hence no VLBI fringes to be expected on line sources (except perhaps in b2?)
+# - Three ALMA b1 recordings are between part D and F and outside any scheduled VLBI scans,
+#    /mark6-01_fuse/12/e24d11_Aa_No0051.vdif 60411.10833333 60411.10902778
+#    /mark6-01_fuse/12/e24d11_Aa_No0052.vdif 60411.11111111 60411.11250000
+#    /mark6-01_fuse/12/e24d11_Aa_No0054.vdif 60411.11458333 60411.11597222
 #==================================================================
 
 vex = e24g11-0-b1.vex.obs
