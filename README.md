@@ -101,6 +101,7 @@ Track e24e07 - Aa as reference
 098-0412 Aa-Gl Aa-Mg
 098-1213 Aa-Sz Aa-Kt
 098-1433 Aa-Lm-Ax-Mm-Sz
+Lm: needs clock break of -0.1 usec at 2024y098d05h00m00s
 ```
 
 ```
