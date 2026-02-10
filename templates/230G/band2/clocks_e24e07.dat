@@ -1,3 +1,9 @@
 CLOCK
 # Station ID    Delay (usec)    Rate (sec/sec)
 
+#
+# Breaks: manually..
+# Lm            <todo>    at 2024y098d05h10m00s
+#   clock_early = 2024y098d05h10m00s : <todo> usec : 2024y098d05h10m00s : +0.641e-12;
+#
+
