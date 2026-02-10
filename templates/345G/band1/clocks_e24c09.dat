@@ -5,4 +5,6 @@ Gl				-0.7537
 Mm				+0.3095
 Pv				+0.5417
 #
-# Mg todo
+# Mg no fringe, even b4 had only one scan with (weak) Aa-Mg fringe
+# Taking the b4 clock for b1 here just to have something
+Mg				+0.2189
