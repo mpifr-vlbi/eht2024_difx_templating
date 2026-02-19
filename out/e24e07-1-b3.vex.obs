@@ -52,7 +52,7 @@ enddef;
 def Lm;
  *clock_early = 2024y094d22h00m00s: -0.621 usec: 2024y094d22h00m00s : +0.641e-12;
   clock_early = 2024y098d00h00m00s: -0.349 usec: 2024y098d00h00m00s : +0.641e-12;
-  clock_early = 2024y098d05h00m00s: -0.444 usec: 2024y098d05h00m00s : +0.641e-12;
+  clock_early = 2024y098d05h10m00s: -0.444 usec: 2024y098d05h10m00s : +0.641e-12;
 enddef;
 *
 def Mm; * JCMT
@@ -90,8 +90,8 @@ def band6;
      ref $IF = IF_NOMINAL:Nn:Pv:Gl:Ax:Sz:Kt:Lm:Mg:Sw:Mm;
      ref $IF = IF_APEX:Ax;
      ref $IF = IF_ALMA:Aa;
-     ref $BBC = BBC_COMMON:Sz:Kt:Lm:Mg:Sw:Mm:Nn:Pv:Gl;
-     ref $BBC = BBC_POLSWAP:Ax;
+     ref $BBC = BBC_COMMON:Sz:Kt:Mg:Sw:Mm:Nn:Pv:Gl;
+     ref $BBC = BBC_POLSWAP:Ax:Lm;
      ref $BBC = BBC_ALMA:Aa;
      ref $FREQ = FREQ_COMMON:Sz:Kt:Lm:Mg:Sw:Mm:Gl;
      ref $FREQ = FREQ_DBBC3_AX:Ax;
