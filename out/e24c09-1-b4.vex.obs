@@ -759,9 +759,10 @@ def FREQ_DBBC3_AX;
 enddef;
 *
 def FREQ_DBBC3_PV;
+     * Pico observed LCP with nominal tuning, but RCP with a +1000 MHz shift
      sample_rate =  4096.000 Ms/sec;
      chan_def = &B:350648.000 MHz : L :2048.00 MHz : &CH01 : &BBC01 : &NoCal; * LCP
-     chan_def = &B:350648.000 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
+     chan_def = &B:351648.000 MHz : L :2048.00 MHz : &CH02 : &BBC02 : &NoCal; * RCP
 enddef;
 *
 def FREQ_GLT;
