@@ -91,12 +91,14 @@ prerequisites:
 	# - however b2 turned out different, after all, e24c09-sgra_345-script.log.gz has
 	#     HW BB Centers: [335600000000.0, 337547650000.0, 347600000000.0, 349600000000.0]
 	./scripts/alma-vex-defs.py --lo1 343.600      -r 1 > templates/345G/band1/freqs_ALMA.vex
-	./scripts/alma-vex-defs.py --lo1 343.547650   -r 2 > templates/345G/band2/freqs_ALMA.vex
+	# ./scripts/alma-vex-defs.py --lo1 343.547650   -r 2 > templates/345G/band2/freqs_ALMA.vex # not on 15625 Hz grid!
+	./scripts/alma-vex-defs.py --lo1 343.547656250 -r 2 > templates/345G/band2/freqs_ALMA.vex  # now on 15625 Hz grid, needs v2d loOffsets -6250.0; Dan H
 	./scripts/alma-vex-defs.py --lo1 341.600      -r 3 > templates/345G/band3/freqs_ALMA.vex
 	./scripts/alma-vex-defs.py --lo1 341.600      -r 4 > templates/345G/band4/freqs_ALMA.vex
 	# equivalent to the not so copy-pasteable output of
 	# $ehtc/alma-vex-defs.py -f335600.00000 -w58.0 -sL -ralma # b1 alt
 	# $ehtc/alma-vex-defs.py -f337547.65000 -w58.0 -sL -ralma # b2, shifted wrt 2021
+	# $ehtc/alma-vex-defs.py -f337547.65625 -w58.0 -sL -ralma # b2, shifted wrt 2021, added +6250.0 Hz to be on freq grid
 	# $ehtc/alma-vex-defs.py -f347600.00000 -w58.0 -sU -ralma # b3
 	# $ehtc/alma-vex-defs.py -f349600.00000 -w58.0 -sU -ralma # b4
 	#
