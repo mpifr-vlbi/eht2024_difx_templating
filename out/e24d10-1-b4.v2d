@@ -9,15 +9,19 @@
 
 vex = e24d10-1-b4.vex.obs
 
+# dataBufferFactor = 24
+# visBufferLength = 40
+
 dataBufferFactor = 24
-visBufferLength = 40
+visBufferLength = 80
+nDataSegments = 8
+
 startSeries = 1000
 exhaustiveAutocorrs = True
 minSubarray = 2
 singleScan = True
 singleSetup = True
 # maxReadSize = 67108864
-
 
 #==================================================================
 # ANTENNA DATA
@@ -156,8 +160,8 @@ OUTPUTBAND outputbands {
 SETUP zoomSetup {
   numBufferedFFTs = 20
   tInt = 0.400
-  # subintNS =  3200000  # terribly slow at MPIfR
-  subintNS =  40000000   # by factor 2 zippier correlation at MPIfR
+  subintNS =  3200000  # terribly slow at MPIfR
+  # subintNS =  40000000   # by factor 2 zippier correlation at MPIfR
   FFTSpecRes = 0.015625
   outputSpecRes = 0.5
   xmacLength = 0
